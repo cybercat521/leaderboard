@@ -7,14 +7,12 @@
 <p align="center">
   <a href="https://x.com/RoboChallengeAI"><img src="https://img.shields.io/badge/%F0%9D%95%8F%20X%20%28Twitter%29-181717?style=flat" alt="X (Twitter)"></a>
   <a href="https://huggingface.co/RoboChallenge"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat" alt="Hugging Face"></a>
-  <a href="https://github.com/RoboChallenge"><img src="https://img.shields.io/badge/%F0%9F%90%99%20GitHub-24292F?style=flat" alt="GitHub"></a>
 </p>
 
 <p align="center">
   <a href="https://robochallenge.cn/home"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20%E5%AE%98%E7%BD%91-2563EB?style=flat" alt="官网"></a>
   <a href="docs/table30-v2-submission-guide.md"><img src="https://img.shields.io/badge/%F0%9F%93%98%20%E6%8F%90%E6%B5%8B%E6%89%8B%E5%86%8C-475569?style=flat" alt="提测手册"></a>
   <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84%20%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A-475569?style=flat" alt="技术报告"></a>
-  <a href="#table30-v2-任务列表"><img src="https://img.shields.io/badge/%F0%9F%A7%A9%20%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8-475569?style=flat" alt="任务列表"></a>
 </p>
 
 <p align="center">
@@ -45,13 +43,11 @@
 | 9 | holobrain | HRL | 27.93 | 14.33 |
 | 10 | test_01 | VLA | 22.73 | 12.33 |
 
-_仅展示前 10 名，[查看完整榜单](https://robochallenge.cn/home)。_
+_仅展示前 10 名，[查看完整榜单](https://robochallenge.cn/leaderboard)。_
 
 <!-- LEADERBOARD_END -->
 
 ## Table30 V2 任务列表
-
-任务名已链接到 RoboChallenge 官网对应的任务详情页。
 
 <p align="center">
   <img src="assets/table30-v2-task-overview.png" alt="Table30 V2 任务场景总览" width="900">

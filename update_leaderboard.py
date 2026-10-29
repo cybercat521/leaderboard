@@ -110,10 +110,10 @@ def build_full_section(rows: list, updated_at: str, lang: str) -> str:
     table = build_table(rows, lang)
     if lang == "zh":
         timestamp = f"> 榜单数据更新时间: **{updated_at}**"
-        more_hint = f"_仅展示前 {TOP_N} 名，[查看完整榜单](https://robochallenge.cn/home)。_"
+        more_hint = f"_仅展示前 {TOP_N} 名，[查看完整榜单](https://robochallenge.cn/leaderboard)。_"
     else:
         timestamp = f"> Leaderboard data updated: **{updated_at}**"
-        more_hint = f"_Showing the top {TOP_N} only. [View the full leaderboard](https://robochallenge.cn/home)._"
+        more_hint = f"_Showing the top {TOP_N} only. [View the full leaderboard](https://robochallenge.cn/leaderboard)._"
     return f"{timestamp}\n\n### RoboChallenge Table30 V2\n\n{table}\n\n{more_hint}\n"
 
 
