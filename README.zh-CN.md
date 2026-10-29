@@ -2,8 +2,6 @@
   <a href="README.md">English</a> | 中文
 </p>
 
-# RoboChallenge 榜单
-
 <p align="center">
   <img src="assets/robochallenge-logo.png" alt="RoboChallenge" width="520">
 </p>

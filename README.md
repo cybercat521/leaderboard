@@ -2,8 +2,6 @@
   English | <a href="README.zh-CN.md">中文</a>
 </p>
 
-# RoboChallenge Leaderboard
-
 <p align="center">
   <img src="assets/robochallenge-logo.png" alt="RoboChallenge" width="520">
 </p>
