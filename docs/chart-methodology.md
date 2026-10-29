@@ -29,9 +29,9 @@ For a model and capability, the plotted value is the arithmetic mean of task suc
 
 ## Task heatmap
 
-All 30 tasks are grouped by robot in the same order as the README. Values use official per-task success rates, multiplied by 100. An evaluated task with no successes is the zero end of the blue scale; an unreported task is blank. These are deliberately different. Light and dark images use a single blue sequential ramp with two-decimal percentage labels in evaluated cells. Unreported cells remain blank. The image omits a title and color legend; exact values also remain available in the CSV.
+All 30 tasks are grouped by robot in the same order as the README. Values use official per-task success rates, multiplied by 100. An evaluated task with no successes is the zero end of the blue scale; an unreported task is blank. These are deliberately different. Light and dark images use a single blue sequential ramp with whole-number percentage labels in evaluated cells. Unreported cells remain blank. The image omits a title and color legend; exact values also remain available in the CSV.
 
-[Capability CSV](../data/table30-v2-capabilities.csv) contains the means. [Task CSV](../data/table30-v2-tasks.csv) contains the per-task values; a blank success-rate field means no result. CSV values retain four decimals; displayed success rates use two decimal places. [Task tags JSON](../data/table30-v2-task-tags.json) preserves all official tags, including the sparse tags omitted from the radar.
+[Capability CSV](../data/table30-v2-capabilities.csv) contains the means. [Task CSV](../data/table30-v2-tasks.csv) contains the per-task values; a blank success-rate field means no result. CSV values retain four decimals; leaderboard and radar success rates use two decimal places, while heatmap cell labels are rounded to integer percentages. [Task tags JSON](../data/table30-v2-task-tags.json) preserves all official tags, including the sparse tags omitted from the radar.
 
 ## Automatic updates
 

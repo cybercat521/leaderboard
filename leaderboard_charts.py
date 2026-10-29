@@ -183,7 +183,7 @@ def heatmap_svg(rows: list, lang: str, mode: str) -> str:
             parts.append(f'<g><title>{escape(task.name)} · {escape(str(models[col]["display_name"]))}: {"not evaluated" if value is None else f"{value:.2f}%"}</title>')
             parts.append(f'<rect x="{x + 1}" y="{y + 1}" width="{cell_w - 2}" height="{cell_h - 2}" rx="3" fill="{color}"/>')
             if value is not None:
-                parts.append(f'<text x="{x + cell_w / 2}" y="{y + 18}" font-size="12" text-anchor="middle" style="fill:{readable_ink(color)}">{value:.2f}%</text>')
+                parts.append(f'<text x="{x + cell_w / 2}" y="{y + 18}" font-size="12" text-anchor="middle" style="fill:{readable_ink(color)}">{value:.0f}%</text>')
             parts.append('</g>')
     return "\n".join(parts + ['</svg>']) + "\n"
 

@@ -5,18 +5,24 @@
 </p>
 
 <p align="center">
+  <a href="https://x.com/RoboChallengeAI"><img src="https://img.shields.io/badge/%F0%9D%95%8F%20X%20%28Twitter%29-181717?style=flat" alt="X (Twitter)"></a>
+  <a href="https://huggingface.co/RoboChallenge"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat" alt="Hugging Face"></a>
+  <a href="https://github.com/RoboChallenge"><img src="https://img.shields.io/badge/%F0%9F%90%99%20GitHub-24292F?style=flat" alt="GitHub"></a>
+</p>
+
+<p align="center">
+  <a href="https://robochallenge.cn/home"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Website-2563EB?style=flat" alt="Website"></a>
+  <a href="docs/table30-v2-submission-guide.md"><img src="https://img.shields.io/badge/%F0%9F%93%98%20Submission%20Guide-475569?style=flat" alt="Submission Guide (Chinese)"></a>
+  <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84%20Technical%20Report-475569?style=flat" alt="Technical Report"></a>
+  <a href="#table30-v2-task-list"><img src="https://img.shields.io/badge/%F0%9F%A7%A9%20Task%20List-475569?style=flat" alt="Task List"></a>
+</p>
+
+<p align="center">
   <strong>The first large-scale real-robot-based benchmarking of embodied intelligence</strong>
 </p>
 
 <p align="center">
   English | <a href="README.zh-CN.md">中文</a>
-</p>
-
-<p align="center">
-  <a href="https://robochallenge.cn/home"><img src="https://img.shields.io/badge/Website-2563EB?style=flat-square" alt="Website"></a>
-  <a href="docs/table30-v2-submission-guide.md"><img src="https://img.shields.io/badge/Submission_Guide-475569?style=flat-square" alt="Submission Guide (Chinese)"></a>
-  <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/Technical_Report-475569?style=flat-square" alt="Technical Report"></a>
-  <a href="#table30-v2-task-list"><img src="https://img.shields.io/badge/Task_List-475569?style=flat-square" alt="Task List"></a>
 </p>
 
 ## 🏆 Leaderboard
