@@ -24,22 +24,22 @@
 ## 🏆 榜单
 
 <!-- LEADERBOARD_START -->
-> 榜单数据更新时间: **2026-10-29 18:18 UTC+8**
+> 榜单数据更新时间: **2026-10-29 19:54 UTC+8**
 
 ### RoboChallenge Table30 V2
 
 | 排名 | 模型 | 用户 | 分数 | 成功率 (%) |
 |:----:|------|------|-----:|-----------:|
-| 🥇 | LoopWAM | LoopWAM | 56.80 | 43.3 |
-| 🥈 | VLA-DM0.5 | KDDI Research | 54.42 | 40.7 |
-| 🥉 | ambase | AVerse001 | 43.67 | 31.7 |
-| 4 | my16 | Tymtbo | 41.27 | 30.7 |
-| 5 | JV0 | JIIOV | 27.58 | 16.0 |
-| 6 | mc | mcBrains | 23.63 | 15.3 |
-| 7 | MagicBot | MagicBot | 20.82 | 14.7 |
-| 8 | Baseline Model | RoboChallenge | 31.48 | 14.3 |
-| 9 | holobrain | HRL | 27.93 | 14.3 |
-| 10 | test_01 | VLA | 22.73 | 12.3 |
+| 🥇 | VLA-DM0.5 | KDDI Research | 54.42 | 40.7 |
+| 🥈 | my16 | Tymtbo | 41.27 | 30.7 |
+| 🥉 | JV0 | JIIOV | 27.58 | 16.0 |
+| 4 | mc | mcBrains | 23.63 | 15.3 |
+| 5 | MagicBot | MagicBot | 20.82 | 14.7 |
+| 6 | Baseline Model | RoboChallenge | 31.48 | 14.3 |
+| 7 | holobrain | HRL | 27.93 | 14.3 |
+| 8 | test_01 | VLA | 22.73 | 12.3 |
+| 9 | W0 | WMA | 21.85 | 12.0 |
+| 10 | debuggers_vla | debuggers | 18.72 | 11.0 |
 
 _仅展示前 10 名，[查看完整榜单](https://robochallenge.cn/home)。_
 

@@ -2,9 +2,9 @@
 <title id="title">领先模型 · 能力成功率</title><desc id="desc">Six selected official capability tags; task mean success rate; missing tasks count as zero; identical 0–100% axes.</desc>
 <style>text{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans CJK SC",sans-serif;fill:#0b0b0b} .muted{fill:#52514e} .inverse{fill:#fcfcfb}</style>
 <rect width="100%" height="100%" rx="12" fill="#fcfcfb"/>
-<g><title>LoopWAM · LoopWAM</title>
-<text x="120.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#1  LoopWAM</text>
-<text x="120.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">LoopWAM</text>
+<g><title>VLA-DM0.5 · KDDI Research</title>
+<text x="120.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#1  VLA-DM0.5</text>
+<text x="120.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">KDDI Research</text>
 <polygon points="120.00,161.50 134.29,169.75 134.29,186.25 120.00,194.50 105.71,186.25 105.71,169.75" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="120.00,145.00 148.58,161.50 148.58,194.50 120.00,211.00 91.42,194.50 91.42,161.50" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="120.00,128.50 162.87,153.25 162.87,202.75 120.00,227.50 77.13,202.75 77.13,153.25" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -23,19 +23,19 @@
 <text x="42.00" y="137.50" font-size="11" text-anchor="middle" font-weight="400" class="muted">重复操作</text>
 <text x="124.00" y="149.00" font-size="9" text-anchor="start" font-weight="400" class="muted">50</text>
 <text x="124.00" y="116.00" font-size="9" text-anchor="start" font-weight="400" class="muted">100</text>
-<polygon points="120.00,160.74 142.05,165.27 136.74,187.66 120.00,203.30 106.94,185.54 89.04,160.12" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="120.00" cy="160.74" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 26.2%</title></circle>
-<circle cx="142.05" cy="165.27" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 38.6%</title></circle>
-<circle cx="136.74" cy="187.66" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 29.3%</title></circle>
-<circle cx="120.00" cy="203.30" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 38.3%</title></circle>
-<circle cx="106.94" cy="185.54" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 22.9%</title></circle>
-<circle cx="89.04" cy="160.12" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 54.2%</title></circle>
-<text x="120.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 43.3%</text>
-<text x="120.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 25/30 项</text>
+<polygon points="120.00,165.82 141.23,165.74 133.47,185.78 120.00,204.40 105.30,186.49 91.42,161.50" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="120.00" cy="165.82" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 18.5%</title></circle>
+<circle cx="141.23" cy="165.74" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 37.1%</title></circle>
+<circle cx="133.47" cy="185.78" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 23.6%</title></circle>
+<circle cx="120.00" cy="204.40" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 40.0%</title></circle>
+<circle cx="105.30" cy="186.49" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 25.7%</title></circle>
+<circle cx="91.42" cy="161.50" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 50.0%</title></circle>
+<text x="120.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 40.7%</text>
+<text x="120.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 30/30 项</text>
 </g>
-<g><title>VLA-DM0.5 · KDDI Research</title>
-<text x="360.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#2  VLA-DM0.5</text>
-<text x="360.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">KDDI Research</text>
+<g><title>my16 · Tymtbo</title>
+<text x="360.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#2  my16</text>
+<text x="360.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">Tymtbo</text>
 <polygon points="360.00,161.50 374.29,169.75 374.29,186.25 360.00,194.50 345.71,186.25 345.71,169.75" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="360.00,145.00 388.58,161.50 388.58,194.50 360.00,211.00 331.42,194.50 331.42,161.50" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="360.00,128.50 402.87,153.25 402.87,202.75 360.00,227.50 317.13,202.75 317.13,153.25" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -54,19 +54,19 @@
 <text x="282.00" y="137.50" font-size="11" text-anchor="middle" font-weight="400" class="muted">重复操作</text>
 <text x="364.00" y="149.00" font-size="9" text-anchor="start" font-weight="400" class="muted">50</text>
 <text x="364.00" y="116.00" font-size="9" text-anchor="start" font-weight="400" class="muted">100</text>
-<polygon points="360.00,165.82 381.23,165.74 373.47,185.78 360.00,204.40 345.30,186.49 331.42,161.50" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="360.00" cy="165.82" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 18.5%</title></circle>
-<circle cx="381.23" cy="165.74" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 37.1%</title></circle>
-<circle cx="373.47" cy="185.78" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 23.6%</title></circle>
-<circle cx="360.00" cy="204.40" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 40.0%</title></circle>
-<circle cx="345.30" cy="186.49" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 25.7%</title></circle>
-<circle cx="331.42" cy="161.50" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 50.0%</title></circle>
-<text x="360.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 40.7%</text>
-<text x="360.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 30/30 项</text>
+<polygon points="360.00,173.94 378.78,167.16 368.57,182.95 360.00,198.90 353.47,181.77 333.80,162.88" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="360.00" cy="173.94" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 6.2%</title></circle>
+<circle cx="378.78" cy="167.16" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 32.9%</title></circle>
+<circle cx="368.57" cy="182.95" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 15.0%</title></circle>
+<circle cx="360.00" cy="198.90" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 31.7%</title></circle>
+<circle cx="353.47" cy="181.77" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 11.4%</title></circle>
+<circle cx="333.80" cy="162.88" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 45.8%</title></circle>
+<text x="360.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 30.7%</text>
+<text x="360.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 20/30 项</text>
 </g>
-<g><title>ambase · AVerse001</title>
-<text x="600.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#3  ambase</text>
-<text x="600.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">AVerse001</text>
+<g><title>JV0 · JIIOV</title>
+<text x="600.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#3  JV0</text>
+<text x="600.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">JIIOV</text>
 <polygon points="600.00,161.50 614.29,169.75 614.29,186.25 600.00,194.50 585.71,186.25 585.71,169.75" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="600.00,145.00 628.58,161.50 628.58,194.50 600.00,211.00 571.42,194.50 571.42,161.50" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="600.00,128.50 642.87,153.25 642.87,202.75 600.00,227.50 557.13,202.75 557.13,153.25" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -85,19 +85,19 @@
 <text x="522.00" y="137.50" font-size="11" text-anchor="middle" font-weight="400" class="muted">重复操作</text>
 <text x="604.00" y="149.00" font-size="9" text-anchor="start" font-weight="400" class="muted">50</text>
 <text x="604.00" y="116.00" font-size="9" text-anchor="start" font-weight="400" class="muted">100</text>
-<polygon points="600.00,171.40 614.70,169.51 607.76,182.48 600.00,203.30 589.39,184.13 576.18,164.25" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="600.00" cy="171.40" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 10.0%</title></circle>
-<circle cx="614.70" cy="169.51" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 25.7%</title></circle>
-<circle cx="607.76" cy="182.48" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 13.6%</title></circle>
-<circle cx="600.00" cy="203.30" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 38.3%</title></circle>
-<circle cx="589.39" cy="184.13" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 18.6%</title></circle>
-<circle cx="576.18" cy="164.25" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 41.7%</title></circle>
-<text x="600.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 31.7%</text>
-<text x="600.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 29/30 项</text>
+<polygon points="600.00,175.46 610.21,172.11 605.72,181.30 600.00,184.60 599.18,178.47 585.23,169.47" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="600.00" cy="175.46" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 3.8%</title></circle>
+<circle cx="610.21" cy="172.11" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 17.9%</title></circle>
+<circle cx="605.72" cy="181.30" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 10.0%</title></circle>
+<circle cx="600.00" cy="184.60" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 10.0%</title></circle>
+<circle cx="599.18" cy="178.47" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 1.4%</title></circle>
+<circle cx="585.23" cy="169.47" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 25.8%</title></circle>
+<text x="600.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 16.0%</text>
+<text x="600.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 20/30 项</text>
 </g>
-<g><title>my16 · Tymtbo</title>
-<text x="840.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#4  my16</text>
-<text x="840.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">Tymtbo</text>
+<g><title>mc · mcBrains</title>
+<text x="840.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#4  mc</text>
+<text x="840.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">mcBrains</text>
 <polygon points="840.00,161.50 854.29,169.75 854.29,186.25 840.00,194.50 825.71,186.25 825.71,169.75" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="840.00,145.00 868.58,161.50 868.58,194.50 840.00,211.00 811.42,194.50 811.42,161.50" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="840.00,128.50 882.87,153.25 882.87,202.75 840.00,227.50 797.13,202.75 797.13,153.25" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -116,19 +116,19 @@
 <text x="762.00" y="137.50" font-size="11" text-anchor="middle" font-weight="400" class="muted">重复操作</text>
 <text x="844.00" y="149.00" font-size="9" text-anchor="start" font-weight="400" class="muted">50</text>
 <text x="844.00" y="116.00" font-size="9" text-anchor="start" font-weight="400" class="muted">100</text>
-<polygon points="840.00,173.94 858.78,167.16 848.57,182.95 840.00,198.90 833.47,181.77 813.80,162.88" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="840.00" cy="173.94" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 6.2%</title></circle>
-<circle cx="858.78" cy="167.16" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 32.9%</title></circle>
-<circle cx="848.57" cy="182.95" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 15.0%</title></circle>
-<circle cx="840.00" cy="198.90" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 31.7%</title></circle>
-<circle cx="833.47" cy="181.77" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 11.4%</title></circle>
-<circle cx="813.80" cy="162.88" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 45.8%</title></circle>
-<text x="840.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 30.7%</text>
-<text x="840.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 20/30 项</text>
+<polygon points="840.00,174.45 843.27,176.11 844.49,180.59 840.00,190.10 834.28,181.30 830.47,172.50" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="840.00" cy="174.45" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 5.4%</title></circle>
+<circle cx="843.27" cy="176.11" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 5.7%</title></circle>
+<circle cx="844.49" cy="180.59" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 7.9%</title></circle>
+<circle cx="840.00" cy="190.10" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 18.3%</title></circle>
+<circle cx="834.28" cy="181.30" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 10.0%</title></circle>
+<circle cx="830.47" cy="172.50" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 16.7%</title></circle>
+<text x="840.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 15.3%</text>
+<text x="840.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 18/30 项</text>
 </g>
-<g><title>JV0 · JIIOV</title>
-<text x="1080.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#5  JV0</text>
-<text x="1080.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">JIIOV</text>
+<g><title>MagicBot · MagicBot</title>
+<text x="1080.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#5  MagicBot</text>
+<text x="1080.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">MagicBot</text>
 <polygon points="1080.00,161.50 1094.29,169.75 1094.29,186.25 1080.00,194.50 1065.71,186.25 1065.71,169.75" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="1080.00,145.00 1108.58,161.50 1108.58,194.50 1080.00,211.00 1051.42,194.50 1051.42,161.50" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="1080.00,128.50 1122.87,153.25 1122.87,202.75 1080.00,227.50 1037.13,202.75 1037.13,153.25" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -147,19 +147,19 @@
 <text x="1002.00" y="137.50" font-size="11" text-anchor="middle" font-weight="400" class="muted">重复操作</text>
 <text x="1084.00" y="149.00" font-size="9" text-anchor="start" font-weight="400" class="muted">50</text>
 <text x="1084.00" y="116.00" font-size="9" text-anchor="start" font-weight="400" class="muted">100</text>
-<polygon points="1080.00,175.46 1090.21,172.11 1085.72,181.30 1080.00,184.60 1079.18,178.47 1065.23,169.47" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="1080.00" cy="175.46" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 3.8%</title></circle>
-<circle cx="1090.21" cy="172.11" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 17.9%</title></circle>
-<circle cx="1085.72" cy="181.30" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 10.0%</title></circle>
-<circle cx="1080.00" cy="184.60" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 10.0%</title></circle>
-<circle cx="1079.18" cy="178.47" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 1.4%</title></circle>
-<circle cx="1065.23" cy="169.47" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 25.8%</title></circle>
-<text x="1080.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 16.0%</text>
+<polygon points="1080.00,178.00 1083.67,175.88 1080.41,178.24 1080.00,179.10 1071.83,182.71 1066.19,170.03" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1080.00" cy="178.00" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 0.0%</title></circle>
+<circle cx="1083.67" cy="175.88" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 6.4%</title></circle>
+<circle cx="1080.41" cy="178.24" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 0.7%</title></circle>
+<circle cx="1080.00" cy="179.10" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 1.7%</title></circle>
+<circle cx="1071.83" cy="182.71" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 14.3%</title></circle>
+<circle cx="1066.19" cy="170.03" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 24.2%</title></circle>
+<text x="1080.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 14.7%</text>
 <text x="1080.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 20/30 项</text>
 </g>
-<g><title>mc · mcBrains</title>
-<text x="1320.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#6  mc</text>
-<text x="1320.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">mcBrains</text>
+<g><title>Baseline Model · RoboChallenge</title>
+<text x="1320.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#6  Baseline Model</text>
+<text x="1320.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">RoboChallenge</text>
 <polygon points="1320.00,161.50 1334.29,169.75 1334.29,186.25 1320.00,194.50 1305.71,186.25 1305.71,169.75" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="1320.00,145.00 1348.58,161.50 1348.58,194.50 1320.00,211.00 1291.42,194.50 1291.42,161.50" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="1320.00,128.50 1362.87,153.25 1362.87,202.75 1320.00,227.50 1277.13,202.75 1277.13,153.25" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -178,15 +178,15 @@
 <text x="1242.00" y="137.50" font-size="11" text-anchor="middle" font-weight="400" class="muted">重复操作</text>
 <text x="1324.00" y="149.00" font-size="9" text-anchor="start" font-weight="400" class="muted">50</text>
 <text x="1324.00" y="116.00" font-size="9" text-anchor="start" font-weight="400" class="muted">100</text>
-<polygon points="1320.00,174.45 1323.27,176.11 1324.49,180.59 1320.00,190.10 1314.28,181.30 1310.47,172.50" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="1320.00" cy="174.45" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 5.4%</title></circle>
-<circle cx="1323.27" cy="176.11" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 5.7%</title></circle>
-<circle cx="1324.49" cy="180.59" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 7.9%</title></circle>
-<circle cx="1320.00" cy="190.10" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 18.3%</title></circle>
-<circle cx="1314.28" cy="181.30" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 10.0%</title></circle>
-<circle cx="1310.47" cy="172.50" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 16.7%</title></circle>
-<text x="1320.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 15.3%</text>
-<text x="1320.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 18/30 项</text>
+<polygon points="1320.00,174.95 1327.35,173.76 1322.86,179.65 1320.00,179.10 1315.92,180.36 1307.14,170.57" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1320.00" cy="174.95" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>双手协作: 4.6%</title></circle>
+<circle cx="1327.35" cy="173.76" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>空间精度: 12.9%</title></circle>
+<circle cx="1322.86" cy="179.65" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>物体操作: 5.0%</title></circle>
+<circle cx="1320.00" cy="179.10" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>时序控制: 1.7%</title></circle>
+<circle cx="1315.92" cy="180.36" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>柔性物体: 7.1%</title></circle>
+<circle cx="1307.14" cy="170.57" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>重复操作: 22.5%</title></circle>
+<text x="1320.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 14.3%</text>
+<text x="1320.00" y="321.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">已评测 30/30 项</text>
 </g>
 <text x="720.00" y="345.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">统一量程 0–100% · 未评测任务计 0</text>
 </svg>
