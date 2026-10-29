@@ -1,3 +1,7 @@
+<p align="right">
+  English | <a href="README.zh-CN.md">中文</a>
+</p>
+
 # RoboChallenge Leaderboard
 
 <p align="center">
@@ -11,11 +15,7 @@
   <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84%20Technical%20Report-475569?style=flat" alt="Technical Report"></a>
 </p>
 
-RoboChallenge, jointly launched by Dexmal and Hugging Face, is the world's first large-scale real-robot evaluation platform for embodied intelligence. Its easy-to-use remote evaluation system helps researchers compare models through standardized, fair real-world tests. Experts, researchers, and engineers across embodied AI are welcome to submit their models for free evaluation—see the [submission guide (Chinese)](docs/table30-v2-submission-guide.md) to get started.
-
-<p align="center">
-  English | <a href="README.zh-CN.md">中文</a>
-</p>
+RoboChallenge, jointly launched by Dexmal and Hugging Face, is the world's first large-scale real-robot evaluation platform for embodied intelligence. Its easy-to-use remote evaluation system helps researchers compare models through standardized, fair real-world tests. Experts, researchers, and engineers across embodied AI are welcome to submit their models for free evaluation—see the [submission guide](docs/table30-v2-submission-guide.en.md) to get started.
 
 ## 🏆 Leaderboard
 
