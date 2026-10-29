@@ -9,6 +9,9 @@ on:
     branches: [main]
     paths:
       - update_leaderboard.py
+      - leaderboard_charts.py
+      - table30_v2.py
+      - test_update_leaderboard.py
       - .github/workflows/update_leaderboard.yml
 
 permissions:
@@ -21,25 +24,28 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Checkout default branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.repository.default_branch }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
-      - name: Fetch Table30 V2 and update localized READMEs
+      - name: Verify chart aggregation and updater behavior
+        run: python -m unittest -v test_update_leaderboard
+
+      - name: Fetch Table30 V2 and update READMEs and charts
         run: python update_leaderboard.py
 
-      - name: Commit and push if leaderboard changed
+      - name: Commit and push if leaderboard or charts changed
         run: |
-          git add README.md README.zh-CN.md
+          git add README.md README.zh-CN.md assets/table30-v2-*.svg data/table30-v2-*.csv data/table30-v2-task-tags.json
           if git diff --cached --quiet; then
             echo "No leaderboard changes to commit."
             exit 0

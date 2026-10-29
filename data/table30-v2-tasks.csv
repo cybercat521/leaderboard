@@ -1,0 +1,181 @@
+rank,model,user,task_id,task_name,robot,success_rate_percent
+1,LoopWAM,LoopWAM,6dcb,fold_the_clothes,W1,
+1,LoopWAM,LoopWAM,2b13,hold_the_tray_with_both_hands,W1,40.0000
+1,LoopWAM,LoopWAM,6ab4,place_objects_into_desk_drawer,W1,80.0000
+1,LoopWAM,LoopWAM,2945,put_in_pen_container,W1,40.0000
+1,LoopWAM,LoopWAM,0965,put_the_shoes_back,W1,60.0000
+1,LoopWAM,LoopWAM,8fc9,stack_bowls,W1,80.0000
+1,LoopWAM,LoopWAM,b2e8,sweep_the_trash,W1,60.0000
+1,LoopWAM,LoopWAM,3232,tidy_up_the_makeup_table,W1,40.0000
+1,LoopWAM,LoopWAM,c6b3,tie_a_knot,W1,20.0000
+1,LoopWAM,LoopWAM,1c7d,untie_the_shoelaces,W1,
+1,LoopWAM,LoopWAM,f31b,lint_roller_remove_dirt,ALOHA,30.0000
+1,LoopWAM,LoopWAM,671c,pack_the_items,ALOHA,
+1,LoopWAM,LoopWAM,6ccd,pack_the_toothbrush_holder,ALOHA,
+1,LoopWAM,LoopWAM,4bca,paint_jam,ALOHA,20.0000
+1,LoopWAM,LoopWAM,ae1f,put_the_books_back,ALOHA,40.0000
+1,LoopWAM,LoopWAM,fea0,put_the_pencil_case_into_the_schoolbag,ALOHA,
+1,LoopWAM,LoopWAM,e358,scoop_with_a_small_spoon,ALOHA,90.0000
+1,LoopWAM,LoopWAM,3809,stamp_positioning,ALOHA,20.0000
+1,LoopWAM,LoopWAM,43ea,wipe_the_blackboard,ALOHA,20.0000
+1,LoopWAM,LoopWAM,abc7,wrap_with_a_soft_cloth,ALOHA,40.0000
+1,LoopWAM,LoopWAM,9d9d,arrange_flowers,ARX5,10.0000
+1,LoopWAM,LoopWAM,3624,hang_the_cup,ARX5,60.0000
+1,LoopWAM,LoopWAM,2acf,pick_out_the_green_blocks,ARX5,100.0000
+1,LoopWAM,LoopWAM,bec8,press_the_button,ARX5,80.0000
+1,LoopWAM,LoopWAM,d96c,turn_on_the_light_switch,ARX5,30.0000
+1,LoopWAM,LoopWAM,f5b4,water_the_flowers,ARX5,70.0000
+1,LoopWAM,LoopWAM,90e1,wipe_the_table,ARX5,40.0000
+1,LoopWAM,LoopWAM,bf87,arrange_fruits,UR5,100.0000
+1,LoopWAM,LoopWAM,cb19,item_classification,UR5,100.0000
+1,LoopWAM,LoopWAM,44df,shred_paper,UR5,30.0000
+2,VLA-DM0.5,KDDI Research,6dcb,fold_the_clothes,W1,0.0000
+2,VLA-DM0.5,KDDI Research,2b13,hold_the_tray_with_both_hands,W1,20.0000
+2,VLA-DM0.5,KDDI Research,6ab4,place_objects_into_desk_drawer,W1,90.0000
+2,VLA-DM0.5,KDDI Research,2945,put_in_pen_container,W1,60.0000
+2,VLA-DM0.5,KDDI Research,0965,put_the_shoes_back,W1,50.0000
+2,VLA-DM0.5,KDDI Research,8fc9,stack_bowls,W1,90.0000
+2,VLA-DM0.5,KDDI Research,b2e8,sweep_the_trash,W1,40.0000
+2,VLA-DM0.5,KDDI Research,3232,tidy_up_the_makeup_table,W1,50.0000
+2,VLA-DM0.5,KDDI Research,c6b3,tie_a_knot,W1,20.0000
+2,VLA-DM0.5,KDDI Research,1c7d,untie_the_shoelaces,W1,0.0000
+2,VLA-DM0.5,KDDI Research,f31b,lint_roller_remove_dirt,ALOHA,20.0000
+2,VLA-DM0.5,KDDI Research,671c,pack_the_items,ALOHA,0.0000
+2,VLA-DM0.5,KDDI Research,6ccd,pack_the_toothbrush_holder,ALOHA,0.0000
+2,VLA-DM0.5,KDDI Research,4bca,paint_jam,ALOHA,0.0000
+2,VLA-DM0.5,KDDI Research,ae1f,put_the_books_back,ALOHA,20.0000
+2,VLA-DM0.5,KDDI Research,fea0,put_the_pencil_case_into_the_schoolbag,ALOHA,0.0000
+2,VLA-DM0.5,KDDI Research,e358,scoop_with_a_small_spoon,ALOHA,60.0000
+2,VLA-DM0.5,KDDI Research,3809,stamp_positioning,ALOHA,40.0000
+2,VLA-DM0.5,KDDI Research,43ea,wipe_the_blackboard,ALOHA,0.0000
+2,VLA-DM0.5,KDDI Research,abc7,wrap_with_a_soft_cloth,ALOHA,40.0000
+2,VLA-DM0.5,KDDI Research,9d9d,arrange_flowers,ARX5,0.0000
+2,VLA-DM0.5,KDDI Research,3624,hang_the_cup,ARX5,80.0000
+2,VLA-DM0.5,KDDI Research,2acf,pick_out_the_green_blocks,ARX5,100.0000
+2,VLA-DM0.5,KDDI Research,bec8,press_the_button,ARX5,60.0000
+2,VLA-DM0.5,KDDI Research,d96c,turn_on_the_light_switch,ARX5,20.0000
+2,VLA-DM0.5,KDDI Research,f5b4,water_the_flowers,ARX5,90.0000
+2,VLA-DM0.5,KDDI Research,90e1,wipe_the_table,ARX5,60.0000
+2,VLA-DM0.5,KDDI Research,bf87,arrange_fruits,UR5,90.0000
+2,VLA-DM0.5,KDDI Research,cb19,item_classification,UR5,80.0000
+2,VLA-DM0.5,KDDI Research,44df,shred_paper,UR5,40.0000
+3,ambase,AVerse001,6dcb,fold_the_clothes,W1,0.0000
+3,ambase,AVerse001,2b13,hold_the_tray_with_both_hands,W1,20.0000
+3,ambase,AVerse001,6ab4,place_objects_into_desk_drawer,W1,50.0000
+3,ambase,AVerse001,2945,put_in_pen_container,W1,30.0000
+3,ambase,AVerse001,0965,put_the_shoes_back,W1,60.0000
+3,ambase,AVerse001,8fc9,stack_bowls,W1,90.0000
+3,ambase,AVerse001,b2e8,sweep_the_trash,W1,30.0000
+3,ambase,AVerse001,3232,tidy_up_the_makeup_table,W1,0.0000
+3,ambase,AVerse001,c6b3,tie_a_knot,W1,20.0000
+3,ambase,AVerse001,1c7d,untie_the_shoelaces,W1,0.0000
+3,ambase,AVerse001,f31b,lint_roller_remove_dirt,ALOHA,40.0000
+3,ambase,AVerse001,671c,pack_the_items,ALOHA,0.0000
+3,ambase,AVerse001,6ccd,pack_the_toothbrush_holder,ALOHA,0.0000
+3,ambase,AVerse001,4bca,paint_jam,ALOHA,
+3,ambase,AVerse001,ae1f,put_the_books_back,ALOHA,0.0000
+3,ambase,AVerse001,fea0,put_the_pencil_case_into_the_schoolbag,ALOHA,0.0000
+3,ambase,AVerse001,e358,scoop_with_a_small_spoon,ALOHA,10.0000
+3,ambase,AVerse001,3809,stamp_positioning,ALOHA,0.0000
+3,ambase,AVerse001,43ea,wipe_the_blackboard,ALOHA,0.0000
+3,ambase,AVerse001,abc7,wrap_with_a_soft_cloth,ALOHA,10.0000
+3,ambase,AVerse001,9d9d,arrange_flowers,ARX5,30.0000
+3,ambase,AVerse001,3624,hang_the_cup,ARX5,90.0000
+3,ambase,AVerse001,2acf,pick_out_the_green_blocks,ARX5,70.0000
+3,ambase,AVerse001,bec8,press_the_button,ARX5,90.0000
+3,ambase,AVerse001,d96c,turn_on_the_light_switch,ARX5,30.0000
+3,ambase,AVerse001,f5b4,water_the_flowers,ARX5,90.0000
+3,ambase,AVerse001,90e1,wipe_the_table,ARX5,50.0000
+3,ambase,AVerse001,bf87,arrange_fruits,UR5,100.0000
+3,ambase,AVerse001,cb19,item_classification,UR5,30.0000
+3,ambase,AVerse001,44df,shred_paper,UR5,10.0000
+4,my16,Tymtbo,6dcb,fold_the_clothes,W1,0.0000
+4,my16,Tymtbo,2b13,hold_the_tray_with_both_hands,W1,10.0000
+4,my16,Tymtbo,6ab4,place_objects_into_desk_drawer,W1,90.0000
+4,my16,Tymtbo,2945,put_in_pen_container,W1,40.0000
+4,my16,Tymtbo,0965,put_the_shoes_back,W1,
+4,my16,Tymtbo,8fc9,stack_bowls,W1,100.0000
+4,my16,Tymtbo,b2e8,sweep_the_trash,W1,
+4,my16,Tymtbo,3232,tidy_up_the_makeup_table,W1,30.0000
+4,my16,Tymtbo,c6b3,tie_a_knot,W1,
+4,my16,Tymtbo,1c7d,untie_the_shoelaces,W1,
+4,my16,Tymtbo,f31b,lint_roller_remove_dirt,ALOHA,
+4,my16,Tymtbo,671c,pack_the_items,ALOHA,
+4,my16,Tymtbo,6ccd,pack_the_toothbrush_holder,ALOHA,
+4,my16,Tymtbo,4bca,paint_jam,ALOHA,
+4,my16,Tymtbo,ae1f,put_the_books_back,ALOHA,60.0000
+4,my16,Tymtbo,fea0,put_the_pencil_case_into_the_schoolbag,ALOHA,
+4,my16,Tymtbo,e358,scoop_with_a_small_spoon,ALOHA,40.0000
+4,my16,Tymtbo,3809,stamp_positioning,ALOHA,20.0000
+4,my16,Tymtbo,43ea,wipe_the_blackboard,ALOHA,10.0000
+4,my16,Tymtbo,abc7,wrap_with_a_soft_cloth,ALOHA,
+4,my16,Tymtbo,9d9d,arrange_flowers,ARX5,10.0000
+4,my16,Tymtbo,3624,hang_the_cup,ARX5,40.0000
+4,my16,Tymtbo,2acf,pick_out_the_green_blocks,ARX5,100.0000
+4,my16,Tymtbo,bec8,press_the_button,ARX5,70.0000
+4,my16,Tymtbo,d96c,turn_on_the_light_switch,ARX5,50.0000
+4,my16,Tymtbo,f5b4,water_the_flowers,ARX5,30.0000
+4,my16,Tymtbo,90e1,wipe_the_table,ARX5,80.0000
+4,my16,Tymtbo,bf87,arrange_fruits,UR5,80.0000
+4,my16,Tymtbo,cb19,item_classification,UR5,60.0000
+4,my16,Tymtbo,44df,shred_paper,UR5,0.0000
+5,JV0,JIIOV,6dcb,fold_the_clothes,W1,0.0000
+5,JV0,JIIOV,2b13,hold_the_tray_with_both_hands,W1,0.0000
+5,JV0,JIIOV,6ab4,place_objects_into_desk_drawer,W1,60.0000
+5,JV0,JIIOV,2945,put_in_pen_container,W1,0.0000
+5,JV0,JIIOV,0965,put_the_shoes_back,W1,
+5,JV0,JIIOV,8fc9,stack_bowls,W1,100.0000
+5,JV0,JIIOV,b2e8,sweep_the_trash,W1,
+5,JV0,JIIOV,3232,tidy_up_the_makeup_table,W1,0.0000
+5,JV0,JIIOV,c6b3,tie_a_knot,W1,
+5,JV0,JIIOV,1c7d,untie_the_shoelaces,W1,
+5,JV0,JIIOV,f31b,lint_roller_remove_dirt,ALOHA,
+5,JV0,JIIOV,671c,pack_the_items,ALOHA,
+5,JV0,JIIOV,6ccd,pack_the_toothbrush_holder,ALOHA,
+5,JV0,JIIOV,4bca,paint_jam,ALOHA,
+5,JV0,JIIOV,ae1f,put_the_books_back,ALOHA,0.0000
+5,JV0,JIIOV,fea0,put_the_pencil_case_into_the_schoolbag,ALOHA,
+5,JV0,JIIOV,e358,scoop_with_a_small_spoon,ALOHA,30.0000
+5,JV0,JIIOV,3809,stamp_positioning,ALOHA,10.0000
+5,JV0,JIIOV,43ea,wipe_the_blackboard,ALOHA,10.0000
+5,JV0,JIIOV,abc7,wrap_with_a_soft_cloth,ALOHA,
+5,JV0,JIIOV,9d9d,arrange_flowers,ARX5,0.0000
+5,JV0,JIIOV,3624,hang_the_cup,ARX5,20.0000
+5,JV0,JIIOV,2acf,pick_out_the_green_blocks,ARX5,80.0000
+5,JV0,JIIOV,bec8,press_the_button,ARX5,0.0000
+5,JV0,JIIOV,d96c,turn_on_the_light_switch,ARX5,30.0000
+5,JV0,JIIOV,f5b4,water_the_flowers,ARX5,0.0000
+5,JV0,JIIOV,90e1,wipe_the_table,ARX5,10.0000
+5,JV0,JIIOV,bf87,arrange_fruits,UR5,70.0000
+5,JV0,JIIOV,cb19,item_classification,UR5,60.0000
+5,JV0,JIIOV,44df,shred_paper,UR5,0.0000
+6,mc,mcBrains,6dcb,fold_the_clothes,W1,0.0000
+6,mc,mcBrains,2b13,hold_the_tray_with_both_hands,W1,0.0000
+6,mc,mcBrains,6ab4,place_objects_into_desk_drawer,W1,0.0000
+6,mc,mcBrains,2945,put_in_pen_container,W1,0.0000
+6,mc,mcBrains,0965,put_the_shoes_back,W1,
+6,mc,mcBrains,8fc9,stack_bowls,W1,0.0000
+6,mc,mcBrains,b2e8,sweep_the_trash,W1,
+6,mc,mcBrains,3232,tidy_up_the_makeup_table,W1,0.0000
+6,mc,mcBrains,c6b3,tie_a_knot,W1,
+6,mc,mcBrains,1c7d,untie_the_shoelaces,W1,
+6,mc,mcBrains,f31b,lint_roller_remove_dirt,ALOHA,
+6,mc,mcBrains,671c,pack_the_items,ALOHA,
+6,mc,mcBrains,6ccd,pack_the_toothbrush_holder,ALOHA,
+6,mc,mcBrains,4bca,paint_jam,ALOHA,
+6,mc,mcBrains,ae1f,put_the_books_back,ALOHA,
+6,mc,mcBrains,fea0,put_the_pencil_case_into_the_schoolbag,ALOHA,
+6,mc,mcBrains,e358,scoop_with_a_small_spoon,ALOHA,0.0000
+6,mc,mcBrains,3809,stamp_positioning,ALOHA,
+6,mc,mcBrains,43ea,wipe_the_blackboard,ALOHA,70.0000
+6,mc,mcBrains,abc7,wrap_with_a_soft_cloth,ALOHA,
+6,mc,mcBrains,9d9d,arrange_flowers,ARX5,10.0000
+6,mc,mcBrains,3624,hang_the_cup,ARX5,30.0000
+6,mc,mcBrains,2acf,pick_out_the_green_blocks,ARX5,70.0000
+6,mc,mcBrains,bec8,press_the_button,ARX5,60.0000
+6,mc,mcBrains,d96c,turn_on_the_light_switch,ARX5,40.0000
+6,mc,mcBrains,f5b4,water_the_flowers,ARX5,50.0000
+6,mc,mcBrains,90e1,wipe_the_table,ARX5,70.0000
+6,mc,mcBrains,bf87,arrange_fruits,UR5,60.0000
+6,mc,mcBrains,cb19,item_classification,UR5,0.0000
+6,mc,mcBrains,44df,shred_paper,UR5,0.0000

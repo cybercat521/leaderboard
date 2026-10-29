@@ -1,0 +1,342 @@
+[
+  {
+    "task_id": "6dcb",
+    "task_name": "fold_the_clothes",
+    "robot": "W1",
+    "task_tag": [
+      "softbody",
+      "bimanual",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "2b13",
+    "task_name": "hold_the_tray_with_both_hands",
+    "robot": "W1",
+    "task_tag": [
+      "bimanual",
+      "precise3d",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "6ab4",
+    "task_name": "place_objects_into_desk_drawer",
+    "robot": "W1",
+    "task_tag": [
+      "precise3d",
+      "manipulation",
+      "temporal",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "2945",
+    "task_name": "put_in_pen_container",
+    "robot": "W1",
+    "task_tag": [
+      "repeated",
+      "precise3d",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "0965",
+    "task_name": "put_the_shoes_back",
+    "robot": "W1",
+    "task_tag": [
+      "repeated",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "8fc9",
+    "task_name": "stack_bowls",
+    "robot": "W1",
+    "task_tag": [
+      "repeated",
+      "precise3d",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "b2e8",
+    "task_name": "sweep_the_trash",
+    "robot": "W1",
+    "task_tag": [
+      "bimanual",
+      "manipulation",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "3232",
+    "task_name": "tidy_up_the_makeup_table",
+    "robot": "W1",
+    "task_tag": [
+      "classification",
+      "repeated",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "c6b3",
+    "task_name": "tie_a_knot",
+    "robot": "W1",
+    "task_tag": [
+      "softbody",
+      "bimanual",
+      "manipulation",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "1c7d",
+    "task_name": "untie_the_shoelaces",
+    "robot": "W1",
+    "task_tag": [
+      "softbody",
+      "bimanual",
+      "manipulation",
+      "precise3d",
+      "dual-arm",
+      "DOS-W1"
+    ]
+  },
+  {
+    "task_id": "f31b",
+    "task_name": "lint_roller_remove_dirt",
+    "robot": "ALOHA",
+    "task_tag": [
+      "softbody",
+      "bimanual",
+      "manipulation",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "671c",
+    "task_name": "pack_the_items",
+    "robot": "ALOHA",
+    "task_tag": [
+      "repeated",
+      "manipulation",
+      "precise3d",
+      "temporal",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "6ccd",
+    "task_name": "pack_the_toothbrush_holder",
+    "robot": "ALOHA",
+    "task_tag": [
+      "repeated",
+      "bimanual",
+      "manipulation",
+      "temporal",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "4bca",
+    "task_name": "paint_jam",
+    "robot": "ALOHA",
+    "task_tag": [
+      "bimanual",
+      "manipulation",
+      "precise3d",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "ae1f",
+    "task_name": "put_the_books_back",
+    "robot": "ALOHA",
+    "task_tag": [
+      "repeated",
+      "precise3d",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "fea0",
+    "task_name": "put_the_pencil_case_into_the_schoolbag",
+    "robot": "ALOHA",
+    "task_tag": [
+      "bimanual",
+      "manipulation",
+      "temporal",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "e358",
+    "task_name": "scoop_with_a_small_spoon",
+    "robot": "ALOHA",
+    "task_tag": [
+      "bimanual",
+      "manipulation",
+      "precise3d",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "3809",
+    "task_name": "stamp_positioning",
+    "robot": "ALOHA",
+    "task_tag": [
+      "bimanual",
+      "manipulation",
+      "precise3d",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "43ea",
+    "task_name": "wipe_the_blackboard",
+    "robot": "ALOHA",
+    "task_tag": [
+      "bimanual",
+      "manipulation",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "abc7",
+    "task_name": "wrap_with_a_soft_cloth",
+    "robot": "ALOHA",
+    "task_tag": [
+      "softbody",
+      "bimanual",
+      "manipulation",
+      "dual-arm",
+      "ALOHA"
+    ]
+  },
+  {
+    "task_id": "9d9d",
+    "task_name": "arrange_flowers",
+    "robot": "ARX5",
+    "task_tag": [
+      "repeated",
+      "precise3d",
+      "single-arm",
+      "ARX5"
+    ]
+  },
+  {
+    "task_id": "3624",
+    "task_name": "hang_the_cup",
+    "robot": "ARX5",
+    "task_tag": [
+      "precise3d",
+      "single-arm",
+      "ARX5"
+    ]
+  },
+  {
+    "task_id": "2acf",
+    "task_name": "pick_out_the_green_blocks",
+    "robot": "ARX5",
+    "task_tag": [
+      "repeated",
+      "multiview",
+      "single-arm",
+      "ARX5"
+    ]
+  },
+  {
+    "task_id": "bec8",
+    "task_name": "press_the_button",
+    "robot": "ARX5",
+    "task_tag": [
+      "temporal",
+      "repeated",
+      "single-arm",
+      "ARX5"
+    ]
+  },
+  {
+    "task_id": "d96c",
+    "task_name": "turn_on_the_light_switch",
+    "robot": "ARX5",
+    "task_tag": [
+      "precise3d",
+      "manipulation",
+      "single-arm",
+      "ARX5"
+    ]
+  },
+  {
+    "task_id": "f5b4",
+    "task_name": "water_the_flowers",
+    "robot": "ARX5",
+    "task_tag": [
+      "temporal",
+      "single-arm",
+      "ARX5"
+    ]
+  },
+  {
+    "task_id": "90e1",
+    "task_name": "wipe_the_table",
+    "robot": "ARX5",
+    "task_tag": [
+      "softbody",
+      "single-arm",
+      "ARX5"
+    ]
+  },
+  {
+    "task_id": "bf87",
+    "task_name": "arrange_fruits",
+    "robot": "UR5",
+    "task_tag": [
+      "simple-pick",
+      "repeated",
+      "single-arm",
+      "UR5"
+    ]
+  },
+  {
+    "task_id": "cb19",
+    "task_name": "item_classification",
+    "robot": "UR5",
+    "task_tag": [
+      "classification",
+      "repeated",
+      "single-arm",
+      "UR5"
+    ]
+  },
+  {
+    "task_id": "44df",
+    "task_name": "shred_paper",
+    "robot": "UR5",
+    "task_tag": [
+      "softbody",
+      "precise3d",
+      "single-arm",
+      "UR5"
+    ]
+  }
+]

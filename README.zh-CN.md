@@ -59,13 +59,31 @@ _仅展示前 10 名，[查看完整榜单](https://robochallenge.cn/home)。_
 
 | W1 | ALOHA | ARX5 | UR5 |
 |----|-------|------|-----|
-| [叠衣服](https://robochallenge.cn/task_detail/table30_v2?task_id=6dcb) | [用粘毛滚筒除尘](https://robochallenge.cn/task_detail/table30_v2?task_id=f31b) | [整理花束](https://robochallenge.cn/task_detail/table30_v2?task_id=9d9d) | [摆放水果](https://robochallenge.cn/task_detail/table30_v2?task_id=bf87) |
-| [双手端托盘](https://robochallenge.cn/task_detail/table30_v2?task_id=2b13) | [打包物品](https://robochallenge.cn/task_detail/table30_v2?task_id=671c) | [挂杯子](https://robochallenge.cn/task_detail/table30_v2?task_id=3624) | [物品分类](https://robochallenge.cn/task_detail/table30_v2?task_id=cb19) |
-| [将物品放入书桌抽屉](https://robochallenge.cn/task_detail/table30_v2?task_id=6ab4) | [打包牙刷架](https://robochallenge.cn/task_detail/table30_v2?task_id=6ccd) | [挑出绿色积木](https://robochallenge.cn/task_detail/table30_v2?task_id=2acf) | [碎纸](https://robochallenge.cn/task_detail/table30_v2?task_id=44df) |
-| [放入笔筒](https://robochallenge.cn/task_detail/table30_v2?task_id=2945) | [涂抹果酱](https://robochallenge.cn/task_detail/table30_v2?task_id=4bca) | [按下按钮](https://robochallenge.cn/task_detail/table30_v2?task_id=bec8) |  |
-| [放回鞋子](https://robochallenge.cn/task_detail/table30_v2?task_id=0965) | [放回书本](https://robochallenge.cn/task_detail/table30_v2?task_id=ae1f) | [打开电灯开关](https://robochallenge.cn/task_detail/table30_v2?task_id=d96c) |  |
-| [叠碗](https://robochallenge.cn/task_detail/table30_v2?task_id=8fc9) | [将铅笔盒放入书包](https://robochallenge.cn/task_detail/table30_v2?task_id=fea0) | [给花浇水](https://robochallenge.cn/task_detail/table30_v2?task_id=f5b4) |  |
-| [清扫垃圾](https://robochallenge.cn/task_detail/table30_v2?task_id=b2e8) | [用小勺舀取](https://robochallenge.cn/task_detail/table30_v2?task_id=e358) | [擦桌子](https://robochallenge.cn/task_detail/table30_v2?task_id=90e1) |  |
-| [整理化妆台](https://robochallenge.cn/task_detail/table30_v2?task_id=3232) | [印章定位](https://robochallenge.cn/task_detail/table30_v2?task_id=3809) |  |  |
-| [打结](https://robochallenge.cn/task_detail/table30_v2?task_id=c6b3) | [擦黑板](https://robochallenge.cn/task_detail/table30_v2?task_id=43ea) |  |  |
-| [解开鞋带](https://robochallenge.cn/task_detail/table30_v2?task_id=1c7d) | [用软布包裹](https://robochallenge.cn/task_detail/table30_v2?task_id=abc7) |  |  |
+| [👕 叠衣服](https://robochallenge.cn/task_detail/table30_v2?task_id=6dcb) | [🧽 用粘毛滚筒除尘](https://robochallenge.cn/task_detail/table30_v2?task_id=f31b) | [💐 整理花束](https://robochallenge.cn/task_detail/table30_v2?task_id=9d9d) | [🍎 摆放水果](https://robochallenge.cn/task_detail/table30_v2?task_id=bf87) |
+| [🍽️ 双手端托盘](https://robochallenge.cn/task_detail/table30_v2?task_id=2b13) | [📦 打包物品](https://robochallenge.cn/task_detail/table30_v2?task_id=671c) | [☕ 挂杯子](https://robochallenge.cn/task_detail/table30_v2?task_id=3624) | [🗂️ 物品分类](https://robochallenge.cn/task_detail/table30_v2?task_id=cb19) |
+| [🗄️ 将物品放入书桌抽屉](https://robochallenge.cn/task_detail/table30_v2?task_id=6ab4) | [🪥 打包牙刷架](https://robochallenge.cn/task_detail/table30_v2?task_id=6ccd) | [🟩 挑出绿色积木](https://robochallenge.cn/task_detail/table30_v2?task_id=2acf) | [📄 碎纸](https://robochallenge.cn/task_detail/table30_v2?task_id=44df) |
+| [✏️ 放入笔筒](https://robochallenge.cn/task_detail/table30_v2?task_id=2945) | [🍓 涂抹果酱](https://robochallenge.cn/task_detail/table30_v2?task_id=4bca) | [🔘 按下按钮](https://robochallenge.cn/task_detail/table30_v2?task_id=bec8) |  |
+| [👟 放回鞋子](https://robochallenge.cn/task_detail/table30_v2?task_id=0965) | [📚 放回书本](https://robochallenge.cn/task_detail/table30_v2?task_id=ae1f) | [💡 打开电灯开关](https://robochallenge.cn/task_detail/table30_v2?task_id=d96c) |  |
+| [🥣 叠碗](https://robochallenge.cn/task_detail/table30_v2?task_id=8fc9) | [🎒 将铅笔盒放入书包](https://robochallenge.cn/task_detail/table30_v2?task_id=fea0) | [🪴 给花浇水](https://robochallenge.cn/task_detail/table30_v2?task_id=f5b4) |  |
+| [🧹 清扫垃圾](https://robochallenge.cn/task_detail/table30_v2?task_id=b2e8) | [🥄 用小勺舀取](https://robochallenge.cn/task_detail/table30_v2?task_id=e358) | [🧽 擦桌子](https://robochallenge.cn/task_detail/table30_v2?task_id=90e1) |  |
+| [💄 整理化妆台](https://robochallenge.cn/task_detail/table30_v2?task_id=3232) | [📍 印章定位](https://robochallenge.cn/task_detail/table30_v2?task_id=3809) |  |  |
+| [🪢 打结](https://robochallenge.cn/task_detail/table30_v2?task_id=c6b3) | [🧽 擦黑板](https://robochallenge.cn/task_detail/table30_v2?task_id=43ea) |  |  |
+| [👟 解开鞋带](https://robochallenge.cn/task_detail/table30_v2?task_id=1c7d) | [🧣 用软布包裹](https://robochallenge.cn/task_detail/table30_v2?task_id=abc7) |  |  |
+
+## 能力雷达图 · 前六名
+
+选取至少覆盖 3 个任务的六个官方能力标签。各轴为对应任务的平均成功率（0–100%），未评测任务计 0。[统计口径](docs/chart-methodology.md) · [查看数据](data/table30-v2-capabilities.csv)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/table30-v2-capabilities-zh-dark.svg">
+  <img src="assets/table30-v2-capabilities-zh.svg" alt="Table30 V2 前六名能力雷达图：六张同量程图表横向排列" width="1440">
+</picture>
+
+## 任务成功率热力图 · 前六名
+
+按机型分组展示全部 30 个任务。**—** 表示未评测，**0** 表示已评测但没有成功。[查看数据](data/table30-v2-tasks.csv)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/table30-v2-tasks-zh-dark.svg">
+  <img src="assets/table30-v2-tasks-zh.svg" alt="Table30 V2 前六名在全部 30 个任务上的成功率热力图" width="1000">
+</picture>

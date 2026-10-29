@@ -1,0 +1,709 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="943" height="1042" viewBox="0 0 943 1042" role="img" aria-labelledby="title desc">
+<title id="title">任务成功率</title><desc id="desc">30 official V2 tasks by top-ranked models. Dash indicates no reported evaluation; zero is an evaluated task with no successes.</desc>
+<style>text{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans CJK SC",sans-serif;fill:#f0efec} .muted{fill:#c3c2b7} .inverse{fill:#fcfcfb}</style>
+<rect width="100%" height="100%" rx="12" fill="#1a1a19"/>
+<text x="24.00" y="35.00" font-size="23" text-anchor="start" font-weight="650" class="">任务成功率</text>
+<text x="24.00" y="60.00" font-size="13" text-anchor="start" font-weight="400" class="muted">按官方榜单排名 · 单任务成功率 (%)</text>
+<g><title>LoopWAM · LoopWAM</title>
+<text x="324.00" y="96.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#1</text>
+<text x="324.00" y="118.00" font-size="12" text-anchor="middle" font-weight="600" class="">LoopWAM</text>
+</g>
+<g><title>VLA-DM0.5 · KDDI Research</title>
+<text x="432.00" y="96.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#2</text>
+<text x="432.00" y="118.00" font-size="12" text-anchor="middle" font-weight="600" class="">VLA-DM0.5</text>
+</g>
+<g><title>ambase · AVerse001</title>
+<text x="540.00" y="96.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#3</text>
+<text x="540.00" y="118.00" font-size="12" text-anchor="middle" font-weight="600" class="">ambase</text>
+</g>
+<g><title>my16 · Tymtbo</title>
+<text x="648.00" y="96.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#4</text>
+<text x="648.00" y="118.00" font-size="12" text-anchor="middle" font-weight="600" class="">my16</text>
+</g>
+<g><title>JV0 · JIIOV</title>
+<text x="756.00" y="96.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#5</text>
+<text x="756.00" y="118.00" font-size="12" text-anchor="middle" font-weight="600" class="">JV0</text>
+</g>
+<g><title>mc · mcBrains</title>
+<text x="864.00" y="96.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#6</text>
+<text x="864.00" y="118.00" font-size="12" text-anchor="middle" font-weight="600" class="">mc</text>
+</g>
+<path d="M 24 137 H 918" stroke="#383835"/>
+<text x="24.00" y="157.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  叠衣服</text>
+<g><title>fold_the_clothes · LoopWAM: not evaluated</title>
+<rect x="271" y="140" width="106" height="25" rx="3" fill="#383835"/>
+<text x="324.0" y="157" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>fold_the_clothes · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="140" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="157" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>fold_the_clothes · ambase: 0.0%</title>
+<rect x="487" y="140" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="157" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>fold_the_clothes · my16: 0.0%</title>
+<rect x="595" y="140" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="648.0" y="157" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>fold_the_clothes · JV0: 0.0%</title>
+<rect x="703" y="140" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="157" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>fold_the_clothes · mc: 0.0%</title>
+<rect x="811" y="140" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="157" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="184.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  双手端托盘</text>
+<g><title>hold_the_tray_with_both_hands · LoopWAM: 40.0%</title>
+<rect x="271" y="167" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="324.0" y="184" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>hold_the_tray_with_both_hands · VLA-DM0.5: 20.0%</title>
+<rect x="379" y="167" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="432.0" y="184" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>hold_the_tray_with_both_hands · ambase: 20.0%</title>
+<rect x="487" y="167" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="540.0" y="184" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>hold_the_tray_with_both_hands · my16: 10.0%</title>
+<rect x="595" y="167" width="106" height="25" rx="3" fill="#134585"/>
+<text x="648.0" y="184" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>hold_the_tray_with_both_hands · JV0: 0.0%</title>
+<rect x="703" y="167" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="184" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>hold_the_tray_with_both_hands · mc: 0.0%</title>
+<rect x="811" y="167" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="184" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="211.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  将物品放入书桌抽屉</text>
+<g><title>place_objects_into_desk_drawer · LoopWAM: 80.0%</title>
+<rect x="271" y="194" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="324.0" y="211" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>place_objects_into_desk_drawer · VLA-DM0.5: 90.0%</title>
+<rect x="379" y="194" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="432.0" y="211" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>place_objects_into_desk_drawer · ambase: 50.0%</title>
+<rect x="487" y="194" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="540.0" y="211" font-size="12" text-anchor="middle" style="fill:#000000">50</text></g>
+<g><title>place_objects_into_desk_drawer · my16: 90.0%</title>
+<rect x="595" y="194" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="648.0" y="211" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>place_objects_into_desk_drawer · JV0: 60.0%</title>
+<rect x="703" y="194" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="756.0" y="211" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>place_objects_into_desk_drawer · mc: 0.0%</title>
+<rect x="811" y="194" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="211" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="238.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  放入笔筒</text>
+<g><title>put_in_pen_container · LoopWAM: 40.0%</title>
+<rect x="271" y="221" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="324.0" y="238" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>put_in_pen_container · VLA-DM0.5: 60.0%</title>
+<rect x="379" y="221" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="432.0" y="238" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>put_in_pen_container · ambase: 30.0%</title>
+<rect x="487" y="221" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="540.0" y="238" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>put_in_pen_container · my16: 40.0%</title>
+<rect x="595" y="221" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="648.0" y="238" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>put_in_pen_container · JV0: 0.0%</title>
+<rect x="703" y="221" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="238" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>put_in_pen_container · mc: 0.0%</title>
+<rect x="811" y="221" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="238" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="265.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  放回鞋子</text>
+<g><title>put_the_shoes_back · LoopWAM: 60.0%</title>
+<rect x="271" y="248" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="324.0" y="265" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>put_the_shoes_back · VLA-DM0.5: 50.0%</title>
+<rect x="379" y="248" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="432.0" y="265" font-size="12" text-anchor="middle" style="fill:#000000">50</text></g>
+<g><title>put_the_shoes_back · ambase: 60.0%</title>
+<rect x="487" y="248" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="540.0" y="265" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>put_the_shoes_back · my16: not evaluated</title>
+<rect x="595" y="248" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="265" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>put_the_shoes_back · JV0: not evaluated</title>
+<rect x="703" y="248" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="265" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>put_the_shoes_back · mc: not evaluated</title>
+<rect x="811" y="248" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="265" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="292.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  叠碗</text>
+<g><title>stack_bowls · LoopWAM: 80.0%</title>
+<rect x="271" y="275" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="324.0" y="292" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>stack_bowls · VLA-DM0.5: 90.0%</title>
+<rect x="379" y="275" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="432.0" y="292" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>stack_bowls · ambase: 90.0%</title>
+<rect x="487" y="275" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="540.0" y="292" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>stack_bowls · my16: 100.0%</title>
+<rect x="595" y="275" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="648.0" y="292" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>stack_bowls · JV0: 100.0%</title>
+<rect x="703" y="275" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="756.0" y="292" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>stack_bowls · mc: 0.0%</title>
+<rect x="811" y="275" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="292" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="319.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  清扫垃圾</text>
+<g><title>sweep_the_trash · LoopWAM: 60.0%</title>
+<rect x="271" y="302" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="324.0" y="319" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>sweep_the_trash · VLA-DM0.5: 40.0%</title>
+<rect x="379" y="302" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="432.0" y="319" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>sweep_the_trash · ambase: 30.0%</title>
+<rect x="487" y="302" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="540.0" y="319" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>sweep_the_trash · my16: not evaluated</title>
+<rect x="595" y="302" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="319" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>sweep_the_trash · JV0: not evaluated</title>
+<rect x="703" y="302" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="319" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>sweep_the_trash · mc: not evaluated</title>
+<rect x="811" y="302" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="319" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="346.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  整理化妆台</text>
+<g><title>tidy_up_the_makeup_table · LoopWAM: 40.0%</title>
+<rect x="271" y="329" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="324.0" y="346" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>tidy_up_the_makeup_table · VLA-DM0.5: 50.0%</title>
+<rect x="379" y="329" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="432.0" y="346" font-size="12" text-anchor="middle" style="fill:#000000">50</text></g>
+<g><title>tidy_up_the_makeup_table · ambase: 0.0%</title>
+<rect x="487" y="329" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="346" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>tidy_up_the_makeup_table · my16: 30.0%</title>
+<rect x="595" y="329" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="648.0" y="346" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>tidy_up_the_makeup_table · JV0: 0.0%</title>
+<rect x="703" y="329" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="346" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>tidy_up_the_makeup_table · mc: 0.0%</title>
+<rect x="811" y="329" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="346" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="373.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  打结</text>
+<g><title>tie_a_knot · LoopWAM: 20.0%</title>
+<rect x="271" y="356" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="324.0" y="373" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>tie_a_knot · VLA-DM0.5: 20.0%</title>
+<rect x="379" y="356" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="432.0" y="373" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>tie_a_knot · ambase: 20.0%</title>
+<rect x="487" y="356" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="540.0" y="373" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>tie_a_knot · my16: not evaluated</title>
+<rect x="595" y="356" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="373" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>tie_a_knot · JV0: not evaluated</title>
+<rect x="703" y="356" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="373" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>tie_a_knot · mc: not evaluated</title>
+<rect x="811" y="356" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="373" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="400.00" font-size="12" text-anchor="start" font-weight="400" class="">W1  /  解开鞋带</text>
+<g><title>untie_the_shoelaces · LoopWAM: not evaluated</title>
+<rect x="271" y="383" width="106" height="25" rx="3" fill="#383835"/>
+<text x="324.0" y="400" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>untie_the_shoelaces · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="383" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="400" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>untie_the_shoelaces · ambase: 0.0%</title>
+<rect x="487" y="383" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="400" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>untie_the_shoelaces · my16: not evaluated</title>
+<rect x="595" y="383" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="400" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>untie_the_shoelaces · JV0: not evaluated</title>
+<rect x="703" y="383" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="400" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>untie_the_shoelaces · mc: not evaluated</title>
+<rect x="811" y="383" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="400" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<path d="M 24 407 H 918" stroke="#383835"/>
+<text x="24.00" y="427.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  用粘毛滚筒除尘</text>
+<g><title>lint_roller_remove_dirt · LoopWAM: 30.0%</title>
+<rect x="271" y="410" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="324.0" y="427" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>lint_roller_remove_dirt · VLA-DM0.5: 20.0%</title>
+<rect x="379" y="410" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="432.0" y="427" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>lint_roller_remove_dirt · ambase: 40.0%</title>
+<rect x="487" y="410" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="540.0" y="427" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>lint_roller_remove_dirt · my16: not evaluated</title>
+<rect x="595" y="410" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="427" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>lint_roller_remove_dirt · JV0: not evaluated</title>
+<rect x="703" y="410" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="427" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>lint_roller_remove_dirt · mc: not evaluated</title>
+<rect x="811" y="410" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="427" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="454.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  打包物品</text>
+<g><title>pack_the_items · LoopWAM: not evaluated</title>
+<rect x="271" y="437" width="106" height="25" rx="3" fill="#383835"/>
+<text x="324.0" y="454" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>pack_the_items · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="437" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="454" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>pack_the_items · ambase: 0.0%</title>
+<rect x="487" y="437" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="454" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>pack_the_items · my16: not evaluated</title>
+<rect x="595" y="437" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="454" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>pack_the_items · JV0: not evaluated</title>
+<rect x="703" y="437" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="454" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>pack_the_items · mc: not evaluated</title>
+<rect x="811" y="437" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="454" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="481.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  打包牙刷架</text>
+<g><title>pack_the_toothbrush_holder · LoopWAM: not evaluated</title>
+<rect x="271" y="464" width="106" height="25" rx="3" fill="#383835"/>
+<text x="324.0" y="481" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>pack_the_toothbrush_holder · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="464" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="481" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>pack_the_toothbrush_holder · ambase: 0.0%</title>
+<rect x="487" y="464" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="481" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>pack_the_toothbrush_holder · my16: not evaluated</title>
+<rect x="595" y="464" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="481" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>pack_the_toothbrush_holder · JV0: not evaluated</title>
+<rect x="703" y="464" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="481" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>pack_the_toothbrush_holder · mc: not evaluated</title>
+<rect x="811" y="464" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="481" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="508.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  涂抹果酱</text>
+<g><title>paint_jam · LoopWAM: 20.0%</title>
+<rect x="271" y="491" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="324.0" y="508" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>paint_jam · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="491" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="508" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>paint_jam · ambase: not evaluated</title>
+<rect x="487" y="491" width="106" height="25" rx="3" fill="#383835"/>
+<text x="540.0" y="508" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>paint_jam · my16: not evaluated</title>
+<rect x="595" y="491" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="508" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>paint_jam · JV0: not evaluated</title>
+<rect x="703" y="491" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="508" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>paint_jam · mc: not evaluated</title>
+<rect x="811" y="491" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="508" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="535.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  放回书本</text>
+<g><title>put_the_books_back · LoopWAM: 40.0%</title>
+<rect x="271" y="518" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="324.0" y="535" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>put_the_books_back · VLA-DM0.5: 20.0%</title>
+<rect x="379" y="518" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="432.0" y="535" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>put_the_books_back · ambase: 0.0%</title>
+<rect x="487" y="518" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="535" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>put_the_books_back · my16: 60.0%</title>
+<rect x="595" y="518" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="648.0" y="535" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>put_the_books_back · JV0: 0.0%</title>
+<rect x="703" y="518" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="535" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>put_the_books_back · mc: not evaluated</title>
+<rect x="811" y="518" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="535" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="562.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  将铅笔盒放入书包</text>
+<g><title>put_the_pencil_case_into_the_schoolbag · LoopWAM: not evaluated</title>
+<rect x="271" y="545" width="106" height="25" rx="3" fill="#383835"/>
+<text x="324.0" y="562" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>put_the_pencil_case_into_the_schoolbag · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="545" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="562" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>put_the_pencil_case_into_the_schoolbag · ambase: 0.0%</title>
+<rect x="487" y="545" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="562" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>put_the_pencil_case_into_the_schoolbag · my16: not evaluated</title>
+<rect x="595" y="545" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="562" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>put_the_pencil_case_into_the_schoolbag · JV0: not evaluated</title>
+<rect x="703" y="545" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="562" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>put_the_pencil_case_into_the_schoolbag · mc: not evaluated</title>
+<rect x="811" y="545" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="562" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="589.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  用小勺舀取</text>
+<g><title>scoop_with_a_small_spoon · LoopWAM: 90.0%</title>
+<rect x="271" y="572" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="324.0" y="589" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>scoop_with_a_small_spoon · VLA-DM0.5: 60.0%</title>
+<rect x="379" y="572" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="432.0" y="589" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>scoop_with_a_small_spoon · ambase: 10.0%</title>
+<rect x="487" y="572" width="106" height="25" rx="3" fill="#134585"/>
+<text x="540.0" y="589" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>scoop_with_a_small_spoon · my16: 40.0%</title>
+<rect x="595" y="572" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="648.0" y="589" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>scoop_with_a_small_spoon · JV0: 30.0%</title>
+<rect x="703" y="572" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="756.0" y="589" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>scoop_with_a_small_spoon · mc: 0.0%</title>
+<rect x="811" y="572" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="589" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="616.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  印章定位</text>
+<g><title>stamp_positioning · LoopWAM: 20.0%</title>
+<rect x="271" y="599" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="324.0" y="616" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>stamp_positioning · VLA-DM0.5: 40.0%</title>
+<rect x="379" y="599" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="432.0" y="616" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>stamp_positioning · ambase: 0.0%</title>
+<rect x="487" y="599" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="616" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>stamp_positioning · my16: 20.0%</title>
+<rect x="595" y="599" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="648.0" y="616" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>stamp_positioning · JV0: 10.0%</title>
+<rect x="703" y="599" width="106" height="25" rx="3" fill="#134585"/>
+<text x="756.0" y="616" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>stamp_positioning · mc: not evaluated</title>
+<rect x="811" y="599" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="616" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<text x="24.00" y="643.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  擦黑板</text>
+<g><title>wipe_the_blackboard · LoopWAM: 20.0%</title>
+<rect x="271" y="626" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="324.0" y="643" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>wipe_the_blackboard · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="626" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="643" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>wipe_the_blackboard · ambase: 0.0%</title>
+<rect x="487" y="626" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="540.0" y="643" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>wipe_the_blackboard · my16: 10.0%</title>
+<rect x="595" y="626" width="106" height="25" rx="3" fill="#134585"/>
+<text x="648.0" y="643" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>wipe_the_blackboard · JV0: 10.0%</title>
+<rect x="703" y="626" width="106" height="25" rx="3" fill="#134585"/>
+<text x="756.0" y="643" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>wipe_the_blackboard · mc: 70.0%</title>
+<rect x="811" y="626" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="864.0" y="643" font-size="12" text-anchor="middle" style="fill:#000000">70</text></g>
+<text x="24.00" y="670.00" font-size="12" text-anchor="start" font-weight="400" class="">ALOHA  /  用软布包裹</text>
+<g><title>wrap_with_a_soft_cloth · LoopWAM: 40.0%</title>
+<rect x="271" y="653" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="324.0" y="670" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>wrap_with_a_soft_cloth · VLA-DM0.5: 40.0%</title>
+<rect x="379" y="653" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="432.0" y="670" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>wrap_with_a_soft_cloth · ambase: 10.0%</title>
+<rect x="487" y="653" width="106" height="25" rx="3" fill="#134585"/>
+<text x="540.0" y="670" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>wrap_with_a_soft_cloth · my16: not evaluated</title>
+<rect x="595" y="653" width="106" height="25" rx="3" fill="#383835"/>
+<text x="648.0" y="670" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>wrap_with_a_soft_cloth · JV0: not evaluated</title>
+<rect x="703" y="653" width="106" height="25" rx="3" fill="#383835"/>
+<text x="756.0" y="670" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<g><title>wrap_with_a_soft_cloth · mc: not evaluated</title>
+<rect x="811" y="653" width="106" height="25" rx="3" fill="#383835"/>
+<text x="864.0" y="670" font-size="12" text-anchor="middle" style="fill:#ffffff">—</text></g>
+<path d="M 24 677 H 918" stroke="#383835"/>
+<text x="24.00" y="697.00" font-size="12" text-anchor="start" font-weight="400" class="">ARX5  /  整理花束</text>
+<g><title>arrange_flowers · LoopWAM: 10.0%</title>
+<rect x="271" y="680" width="106" height="25" rx="3" fill="#134585"/>
+<text x="324.0" y="697" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>arrange_flowers · VLA-DM0.5: 0.0%</title>
+<rect x="379" y="680" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="432.0" y="697" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>arrange_flowers · ambase: 30.0%</title>
+<rect x="487" y="680" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="540.0" y="697" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>arrange_flowers · my16: 10.0%</title>
+<rect x="595" y="680" width="106" height="25" rx="3" fill="#134585"/>
+<text x="648.0" y="697" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>arrange_flowers · JV0: 0.0%</title>
+<rect x="703" y="680" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="697" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>arrange_flowers · mc: 10.0%</title>
+<rect x="811" y="680" width="106" height="25" rx="3" fill="#134585"/>
+<text x="864.0" y="697" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<text x="24.00" y="724.00" font-size="12" text-anchor="start" font-weight="400" class="">ARX5  /  挂杯子</text>
+<g><title>hang_the_cup · LoopWAM: 60.0%</title>
+<rect x="271" y="707" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="324.0" y="724" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>hang_the_cup · VLA-DM0.5: 80.0%</title>
+<rect x="379" y="707" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="432.0" y="724" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>hang_the_cup · ambase: 90.0%</title>
+<rect x="487" y="707" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="540.0" y="724" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>hang_the_cup · my16: 40.0%</title>
+<rect x="595" y="707" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="648.0" y="724" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>hang_the_cup · JV0: 20.0%</title>
+<rect x="703" y="707" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="756.0" y="724" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>hang_the_cup · mc: 30.0%</title>
+<rect x="811" y="707" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="864.0" y="724" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<text x="24.00" y="751.00" font-size="12" text-anchor="start" font-weight="400" class="">ARX5  /  挑出绿色积木</text>
+<g><title>pick_out_the_green_blocks · LoopWAM: 100.0%</title>
+<rect x="271" y="734" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="324.0" y="751" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>pick_out_the_green_blocks · VLA-DM0.5: 100.0%</title>
+<rect x="379" y="734" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="432.0" y="751" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>pick_out_the_green_blocks · ambase: 70.0%</title>
+<rect x="487" y="734" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="540.0" y="751" font-size="12" text-anchor="middle" style="fill:#000000">70</text></g>
+<g><title>pick_out_the_green_blocks · my16: 100.0%</title>
+<rect x="595" y="734" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="648.0" y="751" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>pick_out_the_green_blocks · JV0: 80.0%</title>
+<rect x="703" y="734" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="756.0" y="751" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>pick_out_the_green_blocks · mc: 70.0%</title>
+<rect x="811" y="734" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="864.0" y="751" font-size="12" text-anchor="middle" style="fill:#000000">70</text></g>
+<text x="24.00" y="778.00" font-size="12" text-anchor="start" font-weight="400" class="">ARX5  /  按下按钮</text>
+<g><title>press_the_button · LoopWAM: 80.0%</title>
+<rect x="271" y="761" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="324.0" y="778" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>press_the_button · VLA-DM0.5: 60.0%</title>
+<rect x="379" y="761" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="432.0" y="778" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>press_the_button · ambase: 90.0%</title>
+<rect x="487" y="761" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="540.0" y="778" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>press_the_button · my16: 70.0%</title>
+<rect x="595" y="761" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="648.0" y="778" font-size="12" text-anchor="middle" style="fill:#000000">70</text></g>
+<g><title>press_the_button · JV0: 0.0%</title>
+<rect x="703" y="761" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="778" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>press_the_button · mc: 60.0%</title>
+<rect x="811" y="761" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="864.0" y="778" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<text x="24.00" y="805.00" font-size="12" text-anchor="start" font-weight="400" class="">ARX5  /  打开电灯开关</text>
+<g><title>turn_on_the_light_switch · LoopWAM: 30.0%</title>
+<rect x="271" y="788" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="324.0" y="805" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>turn_on_the_light_switch · VLA-DM0.5: 20.0%</title>
+<rect x="379" y="788" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="432.0" y="805" font-size="12" text-anchor="middle" style="fill:#ffffff">20</text></g>
+<g><title>turn_on_the_light_switch · ambase: 30.0%</title>
+<rect x="487" y="788" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="540.0" y="805" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>turn_on_the_light_switch · my16: 50.0%</title>
+<rect x="595" y="788" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="648.0" y="805" font-size="12" text-anchor="middle" style="fill:#000000">50</text></g>
+<g><title>turn_on_the_light_switch · JV0: 30.0%</title>
+<rect x="703" y="788" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="756.0" y="805" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>turn_on_the_light_switch · mc: 40.0%</title>
+<rect x="811" y="788" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="864.0" y="805" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<text x="24.00" y="832.00" font-size="12" text-anchor="start" font-weight="400" class="">ARX5  /  给花浇水</text>
+<g><title>water_the_flowers · LoopWAM: 70.0%</title>
+<rect x="271" y="815" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="324.0" y="832" font-size="12" text-anchor="middle" style="fill:#000000">70</text></g>
+<g><title>water_the_flowers · VLA-DM0.5: 90.0%</title>
+<rect x="379" y="815" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="432.0" y="832" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>water_the_flowers · ambase: 90.0%</title>
+<rect x="487" y="815" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="540.0" y="832" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>water_the_flowers · my16: 30.0%</title>
+<rect x="595" y="815" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="648.0" y="832" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>water_the_flowers · JV0: 0.0%</title>
+<rect x="703" y="815" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="832" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>water_the_flowers · mc: 50.0%</title>
+<rect x="811" y="815" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="864.0" y="832" font-size="12" text-anchor="middle" style="fill:#000000">50</text></g>
+<text x="24.00" y="859.00" font-size="12" text-anchor="start" font-weight="400" class="">ARX5  /  擦桌子</text>
+<g><title>wipe_the_table · LoopWAM: 40.0%</title>
+<rect x="271" y="842" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="324.0" y="859" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>wipe_the_table · VLA-DM0.5: 60.0%</title>
+<rect x="379" y="842" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="432.0" y="859" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>wipe_the_table · ambase: 50.0%</title>
+<rect x="487" y="842" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="540.0" y="859" font-size="12" text-anchor="middle" style="fill:#000000">50</text></g>
+<g><title>wipe_the_table · my16: 80.0%</title>
+<rect x="595" y="842" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="648.0" y="859" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>wipe_the_table · JV0: 10.0%</title>
+<rect x="703" y="842" width="106" height="25" rx="3" fill="#134585"/>
+<text x="756.0" y="859" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>wipe_the_table · mc: 70.0%</title>
+<rect x="811" y="842" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="864.0" y="859" font-size="12" text-anchor="middle" style="fill:#000000">70</text></g>
+<path d="M 24 866 H 918" stroke="#383835"/>
+<text x="24.00" y="886.00" font-size="12" text-anchor="start" font-weight="400" class="">UR5  /  摆放水果</text>
+<g><title>arrange_fruits · LoopWAM: 100.0%</title>
+<rect x="271" y="869" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="324.0" y="886" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>arrange_fruits · VLA-DM0.5: 90.0%</title>
+<rect x="379" y="869" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="432.0" y="886" font-size="12" text-anchor="middle" style="fill:#000000">90</text></g>
+<g><title>arrange_fruits · ambase: 100.0%</title>
+<rect x="487" y="869" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="540.0" y="886" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>arrange_fruits · my16: 80.0%</title>
+<rect x="595" y="869" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="648.0" y="886" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>arrange_fruits · JV0: 70.0%</title>
+<rect x="703" y="869" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="756.0" y="886" font-size="12" text-anchor="middle" style="fill:#000000">70</text></g>
+<g><title>arrange_fruits · mc: 60.0%</title>
+<rect x="811" y="869" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="864.0" y="886" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<text x="24.00" y="913.00" font-size="12" text-anchor="start" font-weight="400" class="">UR5  /  物品分类</text>
+<g><title>item_classification · LoopWAM: 100.0%</title>
+<rect x="271" y="896" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="324.0" y="913" font-size="12" text-anchor="middle" style="fill:#000000">100</text></g>
+<g><title>item_classification · VLA-DM0.5: 80.0%</title>
+<rect x="379" y="896" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="432.0" y="913" font-size="12" text-anchor="middle" style="fill:#000000">80</text></g>
+<g><title>item_classification · ambase: 30.0%</title>
+<rect x="487" y="896" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="540.0" y="913" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>item_classification · my16: 60.0%</title>
+<rect x="595" y="896" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="648.0" y="913" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>item_classification · JV0: 60.0%</title>
+<rect x="703" y="896" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="756.0" y="913" font-size="12" text-anchor="middle" style="fill:#000000">60</text></g>
+<g><title>item_classification · mc: 0.0%</title>
+<rect x="811" y="896" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="913" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="940.00" font-size="12" text-anchor="start" font-weight="400" class="">UR5  /  碎纸</text>
+<g><title>shred_paper · LoopWAM: 30.0%</title>
+<rect x="271" y="923" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="324.0" y="940" font-size="12" text-anchor="middle" style="fill:#ffffff">30</text></g>
+<g><title>shred_paper · VLA-DM0.5: 40.0%</title>
+<rect x="379" y="923" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="432.0" y="940" font-size="12" text-anchor="middle" style="fill:#000000">40</text></g>
+<g><title>shred_paper · ambase: 10.0%</title>
+<rect x="487" y="923" width="106" height="25" rx="3" fill="#134585"/>
+<text x="540.0" y="940" font-size="12" text-anchor="middle" style="fill:#ffffff">10</text></g>
+<g><title>shred_paper · my16: 0.0%</title>
+<rect x="595" y="923" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="648.0" y="940" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>shred_paper · JV0: 0.0%</title>
+<rect x="703" y="923" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="756.0" y="940" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<g><title>shred_paper · mc: 0.0%</title>
+<rect x="811" y="923" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="864.0" y="940" font-size="12" text-anchor="middle" style="fill:#ffffff">0</text></g>
+<text x="24.00" y="986.00" font-size="12" text-anchor="start" font-weight="600" class="">SR (%)</text>
+<rect x="100" y="974" width="2.1" height="12" fill="#0d366b"/>
+<rect x="102" y="974" width="2.1" height="12" fill="#0e386e"/>
+<rect x="104" y="974" width="2.1" height="12" fill="#0e3970"/>
+<rect x="106" y="974" width="2.1" height="12" fill="#0f3b73"/>
+<rect x="108" y="974" width="2.1" height="12" fill="#0f3c75"/>
+<rect x="110" y="974" width="2.1" height="12" fill="#103e78"/>
+<rect x="112" y="974" width="2.1" height="12" fill="#113f7b"/>
+<rect x="114" y="974" width="2.1" height="12" fill="#11417d"/>
+<rect x="116" y="974" width="2.1" height="12" fill="#124280"/>
+<rect x="118" y="974" width="2.1" height="12" fill="#124482"/>
+<rect x="120" y="974" width="2.1" height="12" fill="#134585"/>
+<rect x="122" y="974" width="2.1" height="12" fill="#144787"/>
+<rect x="124" y="974" width="2.1" height="12" fill="#14488a"/>
+<rect x="126" y="974" width="2.1" height="12" fill="#154a8d"/>
+<rect x="128" y="974" width="2.1" height="12" fill="#154b8f"/>
+<rect x="130" y="974" width="2.1" height="12" fill="#164d92"/>
+<rect x="132" y="974" width="2.1" height="12" fill="#174f94"/>
+<rect x="134" y="974" width="2.1" height="12" fill="#175097"/>
+<rect x="136" y="974" width="2.1" height="12" fill="#18529a"/>
+<rect x="138" y="974" width="2.1" height="12" fill="#19539c"/>
+<rect x="140" y="974" width="2.1" height="12" fill="#19559f"/>
+<rect x="142" y="974" width="2.1" height="12" fill="#1a56a1"/>
+<rect x="144" y="974" width="2.1" height="12" fill="#1a58a4"/>
+<rect x="146" y="974" width="2.1" height="12" fill="#1b59a6"/>
+<rect x="148" y="974" width="2.1" height="12" fill="#1c5ba9"/>
+<rect x="150" y="974" width="2.1" height="12" fill="#1c5cac"/>
+<rect x="152" y="974" width="2.1" height="12" fill="#1d5eae"/>
+<rect x="154" y="974" width="2.1" height="12" fill="#1f60b0"/>
+<rect x="156" y="974" width="2.1" height="12" fill="#2062b3"/>
+<rect x="158" y="974" width="2.1" height="12" fill="#2163b5"/>
+<rect x="160" y="974" width="2.1" height="12" fill="#2265b7"/>
+<rect x="162" y="974" width="2.1" height="12" fill="#2367ba"/>
+<rect x="164" y="974" width="2.1" height="12" fill="#2469bc"/>
+<rect x="166" y="974" width="2.1" height="12" fill="#266abe"/>
+<rect x="168" y="974" width="2.1" height="12" fill="#276cc1"/>
+<rect x="170" y="974" width="2.1" height="12" fill="#286ec3"/>
+<rect x="172" y="974" width="2.1" height="12" fill="#2970c5"/>
+<rect x="174" y="974" width="2.1" height="12" fill="#2a71c8"/>
+<rect x="176" y="974" width="2.1" height="12" fill="#2c73ca"/>
+<rect x="178" y="974" width="2.1" height="12" fill="#2d75cc"/>
+<rect x="180" y="974" width="2.1" height="12" fill="#2e76cf"/>
+<rect x="182" y="974" width="2.1" height="12" fill="#2f78d1"/>
+<rect x="184" y="974" width="2.1" height="12" fill="#307ad3"/>
+<rect x="186" y="974" width="2.1" height="12" fill="#317cd6"/>
+<rect x="188" y="974" width="2.1" height="12" fill="#337dd8"/>
+<rect x="190" y="974" width="2.1" height="12" fill="#347fda"/>
+<rect x="192" y="974" width="2.1" height="12" fill="#3581dd"/>
+<rect x="194" y="974" width="2.1" height="12" fill="#3683df"/>
+<rect x="196" y="974" width="2.1" height="12" fill="#3784e1"/>
+<rect x="198" y="974" width="2.1" height="12" fill="#3886e4"/>
+<rect x="200" y="974" width="2.1" height="12" fill="#3b88e5"/>
+<rect x="202" y="974" width="2.1" height="12" fill="#3e8ae6"/>
+<rect x="204" y="974" width="2.1" height="12" fill="#418ce6"/>
+<rect x="206" y="974" width="2.1" height="12" fill="#448ee6"/>
+<rect x="208" y="974" width="2.1" height="12" fill="#4790e7"/>
+<rect x="210" y="974" width="2.1" height="12" fill="#4a91e7"/>
+<rect x="212" y="974" width="2.1" height="12" fill="#4d93e8"/>
+<rect x="214" y="974" width="2.1" height="12" fill="#5095e8"/>
+<rect x="216" y="974" width="2.1" height="12" fill="#5397e8"/>
+<rect x="218" y="974" width="2.1" height="12" fill="#5799e9"/>
+<rect x="220" y="974" width="2.1" height="12" fill="#5a9be9"/>
+<rect x="222" y="974" width="2.1" height="12" fill="#5d9dea"/>
+<rect x="224" y="974" width="2.1" height="12" fill="#609fea"/>
+<rect x="226" y="974" width="2.1" height="12" fill="#63a1ea"/>
+<rect x="228" y="974" width="2.1" height="12" fill="#66a3eb"/>
+<rect x="230" y="974" width="2.1" height="12" fill="#69a4eb"/>
+<rect x="232" y="974" width="2.1" height="12" fill="#6ca6ec"/>
+<rect x="234" y="974" width="2.1" height="12" fill="#6fa8ec"/>
+<rect x="236" y="974" width="2.1" height="12" fill="#73aaec"/>
+<rect x="238" y="974" width="2.1" height="12" fill="#76aced"/>
+<rect x="240" y="974" width="2.1" height="12" fill="#79aeed"/>
+<rect x="242" y="974" width="2.1" height="12" fill="#7cb0ee"/>
+<rect x="244" y="974" width="2.1" height="12" fill="#7fb2ee"/>
+<rect x="246" y="974" width="2.1" height="12" fill="#82b4ee"/>
+<rect x="248" y="974" width="2.1" height="12" fill="#85b6ef"/>
+<rect x="250" y="974" width="2.1" height="12" fill="#88b7ef"/>
+<rect x="252" y="974" width="2.1" height="12" fill="#8bb9f0"/>
+<rect x="254" y="974" width="2.1" height="12" fill="#8ebbf0"/>
+<rect x="256" y="974" width="2.1" height="12" fill="#91bdf1"/>
+<rect x="258" y="974" width="2.1" height="12" fill="#94bef1"/>
+<rect x="260" y="974" width="2.1" height="12" fill="#96c0f2"/>
+<rect x="262" y="974" width="2.1" height="12" fill="#99c2f2"/>
+<rect x="264" y="974" width="2.1" height="12" fill="#9cc4f3"/>
+<rect x="266" y="974" width="2.1" height="12" fill="#9fc6f3"/>
+<rect x="268" y="974" width="2.1" height="12" fill="#a2c7f4"/>
+<rect x="270" y="974" width="2.1" height="12" fill="#a5c9f4"/>
+<rect x="272" y="974" width="2.1" height="12" fill="#a8cbf5"/>
+<rect x="274" y="974" width="2.1" height="12" fill="#abcdf5"/>
+<rect x="276" y="974" width="2.1" height="12" fill="#adcef6"/>
+<rect x="278" y="974" width="2.1" height="12" fill="#b0d0f6"/>
+<rect x="280" y="974" width="2.1" height="12" fill="#b3d2f7"/>
+<rect x="282" y="974" width="2.1" height="12" fill="#b6d4f7"/>
+<rect x="284" y="974" width="2.1" height="12" fill="#b9d6f8"/>
+<rect x="286" y="974" width="2.1" height="12" fill="#bcd7f8"/>
+<rect x="288" y="974" width="2.1" height="12" fill="#bfd9f9"/>
+<rect x="290" y="974" width="2.1" height="12" fill="#c2dbf9"/>
+<rect x="292" y="974" width="2.1" height="12" fill="#c4ddfa"/>
+<rect x="294" y="974" width="2.1" height="12" fill="#c7defa"/>
+<rect x="296" y="974" width="2.1" height="12" fill="#cae0fb"/>
+<rect x="298" y="974" width="2.1" height="12" fill="#cde2fb"/>
+<text x="100.00" y="1003.00" font-size="10" text-anchor="start" font-weight="400" class="muted">0</text>
+<text x="300.00" y="1003.00" font-size="10" text-anchor="end" font-weight="400" class="muted">100</text>
+<text x="345.00" y="986.00" font-size="12" text-anchor="start" font-weight="400" class="muted">— 未评测</text>
+</svg>

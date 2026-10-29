@@ -57,13 +57,31 @@ Each task name links to its RoboChallenge task detail page.
 
 | W1 | ALOHA | ARX5 | UR5 |
 |----|-------|------|-----|
-| [fold_the_clothes](https://robochallenge.cn/task_detail/table30_v2?task_id=6dcb) | [lint_roller_remove_dirt](https://robochallenge.cn/task_detail/table30_v2?task_id=f31b) | [arrange_flowers](https://robochallenge.cn/task_detail/table30_v2?task_id=9d9d) | [arrange_fruits](https://robochallenge.cn/task_detail/table30_v2?task_id=bf87) |
-| [hold_the_tray_with_both_hands](https://robochallenge.cn/task_detail/table30_v2?task_id=2b13) | [pack_the_items](https://robochallenge.cn/task_detail/table30_v2?task_id=671c) | [hang_the_cup](https://robochallenge.cn/task_detail/table30_v2?task_id=3624) | [item_classification](https://robochallenge.cn/task_detail/table30_v2?task_id=cb19) |
-| [place_objects_into_desk_drawer](https://robochallenge.cn/task_detail/table30_v2?task_id=6ab4) | [pack_the_toothbrush_holder](https://robochallenge.cn/task_detail/table30_v2?task_id=6ccd) | [pick_out_the_green_blocks](https://robochallenge.cn/task_detail/table30_v2?task_id=2acf) | [shred_paper](https://robochallenge.cn/task_detail/table30_v2?task_id=44df) |
-| [put_in_pen_container](https://robochallenge.cn/task_detail/table30_v2?task_id=2945) | [paint_jam](https://robochallenge.cn/task_detail/table30_v2?task_id=4bca) | [press_the_button](https://robochallenge.cn/task_detail/table30_v2?task_id=bec8) |  |
-| [put_the_shoes_back](https://robochallenge.cn/task_detail/table30_v2?task_id=0965) | [put_the_books_back](https://robochallenge.cn/task_detail/table30_v2?task_id=ae1f) | [turn_on_the_light_switch](https://robochallenge.cn/task_detail/table30_v2?task_id=d96c) |  |
-| [stack_bowls](https://robochallenge.cn/task_detail/table30_v2?task_id=8fc9) | [put_the_pencil_case_into_the_schoolbag](https://robochallenge.cn/task_detail/table30_v2?task_id=fea0) | [water_the_flowers](https://robochallenge.cn/task_detail/table30_v2?task_id=f5b4) |  |
-| [sweep_the_trash](https://robochallenge.cn/task_detail/table30_v2?task_id=b2e8) | [scoop_with_a_small_spoon](https://robochallenge.cn/task_detail/table30_v2?task_id=e358) | [wipe_the_table](https://robochallenge.cn/task_detail/table30_v2?task_id=90e1) |  |
-| [tidy_up_the_makeup_table](https://robochallenge.cn/task_detail/table30_v2?task_id=3232) | [stamp_positioning](https://robochallenge.cn/task_detail/table30_v2?task_id=3809) |  |  |
-| [tie_a_knot](https://robochallenge.cn/task_detail/table30_v2?task_id=c6b3) | [wipe_the_blackboard](https://robochallenge.cn/task_detail/table30_v2?task_id=43ea) |  |  |
-| [untie_the_shoelaces](https://robochallenge.cn/task_detail/table30_v2?task_id=1c7d) | [wrap_with_a_soft_cloth](https://robochallenge.cn/task_detail/table30_v2?task_id=abc7) |  |  |
+| [👕 fold_the_clothes](https://robochallenge.cn/task_detail/table30_v2?task_id=6dcb) | [🧽 lint_roller_remove_dirt](https://robochallenge.cn/task_detail/table30_v2?task_id=f31b) | [💐 arrange_flowers](https://robochallenge.cn/task_detail/table30_v2?task_id=9d9d) | [🍎 arrange_fruits](https://robochallenge.cn/task_detail/table30_v2?task_id=bf87) |
+| [🍽️ hold_the_tray_with_both_hands](https://robochallenge.cn/task_detail/table30_v2?task_id=2b13) | [📦 pack_the_items](https://robochallenge.cn/task_detail/table30_v2?task_id=671c) | [☕ hang_the_cup](https://robochallenge.cn/task_detail/table30_v2?task_id=3624) | [🗂️ item_classification](https://robochallenge.cn/task_detail/table30_v2?task_id=cb19) |
+| [🗄️ place_objects_into_desk_drawer](https://robochallenge.cn/task_detail/table30_v2?task_id=6ab4) | [🪥 pack_the_toothbrush_holder](https://robochallenge.cn/task_detail/table30_v2?task_id=6ccd) | [🟩 pick_out_the_green_blocks](https://robochallenge.cn/task_detail/table30_v2?task_id=2acf) | [📄 shred_paper](https://robochallenge.cn/task_detail/table30_v2?task_id=44df) |
+| [✏️ put_in_pen_container](https://robochallenge.cn/task_detail/table30_v2?task_id=2945) | [🍓 paint_jam](https://robochallenge.cn/task_detail/table30_v2?task_id=4bca) | [🔘 press_the_button](https://robochallenge.cn/task_detail/table30_v2?task_id=bec8) |  |
+| [👟 put_the_shoes_back](https://robochallenge.cn/task_detail/table30_v2?task_id=0965) | [📚 put_the_books_back](https://robochallenge.cn/task_detail/table30_v2?task_id=ae1f) | [💡 turn_on_the_light_switch](https://robochallenge.cn/task_detail/table30_v2?task_id=d96c) |  |
+| [🥣 stack_bowls](https://robochallenge.cn/task_detail/table30_v2?task_id=8fc9) | [🎒 put_the_pencil_case_into_the_schoolbag](https://robochallenge.cn/task_detail/table30_v2?task_id=fea0) | [🪴 water_the_flowers](https://robochallenge.cn/task_detail/table30_v2?task_id=f5b4) |  |
+| [🧹 sweep_the_trash](https://robochallenge.cn/task_detail/table30_v2?task_id=b2e8) | [🥄 scoop_with_a_small_spoon](https://robochallenge.cn/task_detail/table30_v2?task_id=e358) | [🧽 wipe_the_table](https://robochallenge.cn/task_detail/table30_v2?task_id=90e1) |  |
+| [💄 tidy_up_the_makeup_table](https://robochallenge.cn/task_detail/table30_v2?task_id=3232) | [📍 stamp_positioning](https://robochallenge.cn/task_detail/table30_v2?task_id=3809) |  |  |
+| [🪢 tie_a_knot](https://robochallenge.cn/task_detail/table30_v2?task_id=c6b3) | [🧽 wipe_the_blackboard](https://robochallenge.cn/task_detail/table30_v2?task_id=43ea) |  |  |
+| [👟 untie_the_shoelaces](https://robochallenge.cn/task_detail/table30_v2?task_id=1c7d) | [🧣 wrap_with_a_soft_cloth](https://robochallenge.cn/task_detail/table30_v2?task_id=abc7) |  |  |
+
+## Capability Profiles · Top 6
+
+Six selected official capability tags, each covering at least three tasks. Each axis is the mean task success rate (0–100%); unreported tasks count as zero. [Methodology](docs/chart-methodology.md) · [Data](data/table30-v2-capabilities.csv)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/table30-v2-capabilities-en-dark.svg">
+  <img src="assets/table30-v2-capabilities-en.svg" alt="Top six Table30 V2 models: capability radars in one row, with the same 0–100% axes" width="1440">
+</picture>
+
+## Task Success Rates · Top 6
+
+All 30 tasks, grouped by robot. **—** means no reported evaluation; **0** means an evaluated task with no successes. [Data](data/table30-v2-tasks.csv)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/table30-v2-tasks-en-dark.svg">
+  <img src="assets/table30-v2-tasks-en.svg" alt="Top six Table30 V2 models: success-rate heatmap across all 30 tasks" width="1000">
+</picture>

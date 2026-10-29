@@ -1,11 +1,17 @@
-"""每天北京时间 15:00 拉取 Table30 V2 前 10 名，更新中英文 README。"""
+"""每天北京时间 15:00 同步 Table30 V2 榜单、前六名图表及中英文 README。"""
 
 import json
 import math
+import ssl
+import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.error import URLError
 from urllib.request import Request, urlopen
+
+from leaderboard_charts import generate_assets, validate_metadata
+from table30_v2 import METADATA_URL
 
 BASE_DIR = Path(__file__).resolve().parent
 README_TARGETS = [
@@ -22,9 +28,31 @@ MEDAL = {1: "🥇", 2: "🥈", 3: "🥉"}
 
 
 def fetch_json(url: str):
-    req = Request(url, headers={"User-Agent": "RoboChallengeLeaderboardBot/1.0"})
-    with urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read())
+    """保留证书校验；兼容官方 CDN 在部分 CI 节点的 TLS 握手差异。"""
+    errors = []
+    for candidate in (url, url.replace("https://robochallenge.cn/", "https://www.robochallenge.cn/")):
+        req = Request(candidate, headers={"User-Agent": "RoboChallengeLeaderboardBot/1.0"})
+        for tls12 in (False, True):
+            context = ssl.create_default_context()
+            if tls12:
+                context.minimum_version = ssl.TLSVersion.TLSv1_2
+                context.maximum_version = ssl.TLSVersion.TLSv1_2
+            try:
+                with urlopen(req, timeout=20, context=context) as resp:
+                    return json.loads(resp.read())
+            except (URLError, OSError) as exc:
+                errors.append(str(exc))
+        try:
+            # 系统 curl 使用独立的 TLS 实现；不使用 -k 或关闭证书验证。
+            result = subprocess.run(
+                ["curl", "--fail", "--silent", "--show-error", "--location", "--retry", "2",
+                 "--connect-timeout", "10", "--max-time", "30", "--user-agent", "RoboChallengeLeaderboardBot/1.0", candidate],
+                check=True, capture_output=True, timeout=100,
+            )
+            return json.loads(result.stdout)
+        except (OSError, subprocess.SubprocessError) as exc:
+            errors.append(str(exc))
+    raise OSError("官方接口 HTTPS 请求失败: " + "; ".join(errors))
 
 
 def extract_rows(raw) -> list:
@@ -106,13 +134,22 @@ def update_readme(section_body: str, readme_path: str) -> None:
 
 
 def main():
-    print("📡 拉取 Table30 V2 榜单 …", flush=True)
+    print("📡 拉取 Table30 V2 榜单与官方任务标签 …", flush=True)
     rows = extract_rows(fetch_json(LEADERBOARD_URL))
-    print(f"共 {len(rows)} 条，展示前 {TOP_N} 名")
+    tags = validate_metadata(fetch_json(METADATA_URL))
+    # 先完成验证和全部渲染，失败时保留已有榜单及图片。
+    assets = generate_assets(rows, tags)
+    print(f"共 {len(rows)} 条，榜单展示前 {TOP_N} 名；图表展示前 6 名")
     updated_at = datetime.now(UTC_PLUS_8).strftime("%Y-%m-%d %H:%M UTC+8")
     for target in README_TARGETS:
         section = build_full_section(rows, updated_at, target["lang"])
         update_readme(section, target["path"])
+    for relative, content in assets.items():
+        path = BASE_DIR / relative
+        if not path.exists() or path.read_text(encoding="utf-8") != content:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(content, encoding="utf-8")
+            print(f"✅ {relative} 已更新")
 
 
 if __name__ == "__main__":
