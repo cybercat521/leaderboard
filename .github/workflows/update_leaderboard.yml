@@ -8,11 +8,8 @@ on:
   push:
     branches: [main]
     paths:
-      - update_leaderboard.py
-      - leaderboard_charts.py
-      - table30_v2.py
+      - scripts/**
       - data/table30-v2-task-tags.json
-      - test_update_leaderboard.py
       - .github/workflows/update_leaderboard.yml
 
 permissions:
@@ -39,10 +36,10 @@ jobs:
           python-version: "3.11"
 
       - name: Verify chart aggregation and updater behavior
-        run: python -m unittest -v test_update_leaderboard
+        run: python -m unittest discover -s scripts -p 'test_*.py' -v
 
       - name: Fetch Table30 V2 and update READMEs and charts
-        run: python update_leaderboard.py
+        run: python scripts/update_leaderboard.py
 
       - name: Commit and push if leaderboard or charts changed
         run: |

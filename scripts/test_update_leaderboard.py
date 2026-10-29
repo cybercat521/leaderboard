@@ -16,7 +16,7 @@ import update_leaderboard as updater
 from table30_v2 import CAPABILITIES, OFFICIAL_TAGS, TASKS
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 
 
 def sample_rows():

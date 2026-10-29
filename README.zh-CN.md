@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://x.com/RoboChallengeAI"><img src="https://img.shields.io/badge/%F0%9D%95%8F%20X%20%28Twitter%29-181717?style=flat" alt="X (Twitter)"></a>
-  <a href="https://huggingface.co/RoboChallenge"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat" alt="Hugging Face"></a>
   <a href="https://robochallenge.cn/home"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20%E5%AE%98%E7%BD%91-2563EB?style=flat" alt="官网"></a>
   <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84%20%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A-475569?style=flat" alt="技术报告"></a>
+  <a href="https://huggingface.co/RoboChallenge"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat" alt="Hugging Face"></a>
+  <a href="https://x.com/RoboChallengeAI"><img src="https://img.shields.io/badge/%F0%9D%95%8F%20X%20%28Twitter%29-181717?style=flat" alt="X (Twitter)"></a>
 </p>
 
 RoboChallenge 是原力灵机 Dexmal 与 Hugging Face 联合推出的全球首个具身智能大规模真机评测平台，通过简单易用的远程真机评测体系，为模型横向对比提供标准化、公平的评测环境。平台面向所有具身智能领域的专家、学者和工程师免费开放提测，欢迎按照[提测手册](docs/table30-v2-submission-guide.md)提交模型。

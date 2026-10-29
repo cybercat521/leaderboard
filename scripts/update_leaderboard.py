@@ -14,7 +14,7 @@ from urllib.request import Request, urlopen
 from leaderboard_charts import generate_assets, validate_task_tags
 from table30_v2 import CHART_TOP_N
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 README_TARGETS = [
     {"path": "README.zh-CN.md", "lang": "zh"},
     {"path": "README.md", "lang": "en"},
