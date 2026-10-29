@@ -57,5 +57,5 @@ CAPABILITIES = (
     ("repeated", "Repetition", "重复操作"),
 )
 
-CHART_TOP_N = 6
+CHART_TOP_N = 5
 METADATA_URL = "https://robochallenge.cn/api/v2/benchmark/benchmark_list.json"

@@ -94,7 +94,7 @@ def polygon_points(points):
 def radar_svg(rows: list, tags: dict, lang: str, mode: str) -> str:
     theme = THEMES[mode]
     models = rows[:CHART_TOP_N]
-    width, height = 240 * len(models), 355
+    width, height = 240 * len(models), 320
     title = "Top models · capability success rate" if lang == "en" else "领先模型 · 能力成功率"
     desc = "Six selected official capability tags; task mean success rate; missing tasks count as zero; identical 0–100% axes."
     parts = svg_start(width, height, title, desc, theme)
@@ -125,14 +125,10 @@ def radar_svg(rows: list, tags: dict, lang: str, mode: str) -> str:
         parts.append(f'<polygon points="{polygon_points(points)}" fill="{theme["accent"]}" fill-opacity="0.10" stroke="{theme["accent"]}" stroke-width="2" stroke-linejoin="round"/>')
         for i, ((x, y), value) in enumerate(zip(points, values)):
             label = CAPABILITIES[i][1 if lang == "en" else 2]
-            parts.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="4" fill="{theme["accent"]}" stroke="{theme["surface"]}" stroke-width="2"><title>{escape(label)}: {value:.1f}%</title></circle>')
-        overall = f"SR {row['success_ratio'] * 100:.1f}%"
+            parts.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2" fill="{theme["accent"]}" stroke="{theme["surface"]}" stroke-width="0.8"><title>{escape(label)}: {value:.2f}%</title></circle>')
+        overall = f"SR {row['success_ratio'] * 100:.2f}%"
         parts.append(text(cx, 300, overall, anchor="middle", size=15, weight=600))
-        coverage = f"{len(results)}/30 tasks" if lang == "en" else f"已评测 {len(results)}/30 项"
-        parts.append(text(cx, 321, coverage, anchor="middle", size=12, css="muted"))
         parts.append('</g>')
-    footer = "Same axes · 0–100% · missing tasks = 0" if lang == "en" else "统一量程 0–100% · 未评测任务计 0"
-    parts.append(text(width / 2, 345, footer, size=12, anchor="middle", css="muted"))
     return "\n".join(parts + ['</svg>']) + "\n"
 
 
@@ -156,13 +152,13 @@ def readable_ink(background: str) -> str:
 def heatmap_svg(rows: list, lang: str, mode: str) -> str:
     theme = THEMES[mode]
     models = rows[:CHART_TOP_N]
-    left, top, cell_w, cell_h = 270, 139, 108, 27
+    left, top, cell_w, cell_h = 310, 139, 108, 27
     width, height = left + len(models) * cell_w + 25, top + len(TASKS) * cell_h + 93
     title = "Task success rate" if lang == "en" else "任务成功率"
-    parts = svg_start(width, height, title, "30 official V2 tasks by top-ranked models. Dash indicates no reported evaluation; zero is an evaluated task with no successes.", theme)
+    parts = svg_start(width, height, title, "30 official V2 tasks by top-ranked models. Blank cells indicate no reported evaluation; pale blue represents evaluated zero success.", theme)
     parts.append(text(24, 35, title, size=23, weight=650))
-    subtitle = "Official rank order · per-task SR (%)" if lang == "en" else "按官方榜单排名 · 单任务成功率 (%)"
-    parts.append(text(24, 60, subtitle, size=13, css="muted"))
+    parts.append(text(24, 118, "Robot" if lang == "en" else "机型", size=12, css="muted"))
+    parts.append(text(94, 118, "Task" if lang == "en" else "任务", size=12, css="muted"))
     for col, row in enumerate(models):
         x = left + (col + 0.5) * cell_w
         name = str(row['display_name'])
@@ -176,25 +172,26 @@ def heatmap_svg(rows: list, lang: str, mode: str) -> str:
         y = top + row_index * cell_h
         if task.robot != previous_robot:
             parts.append(f'<path d="M 24 {y - 2} H {width - 25}" stroke="{theme["grid"]}"/>')
+            group_size = sum(item.robot == task.robot for item in TASKS)
+            parts.append(text(24, y + group_size * cell_h / 2 + 4, task.robot, size=12, weight=600))
             previous_robot = task.robot
         label = task.en if lang == "en" else task.zh
-        parts.append(text(24, y + 18, f"{task.robot}  /  {label}", size=12))
+        parts.append(text(94, y + 18, label, size=12))
         for col, results in enumerate(task_maps):
             x = left + col * cell_w
             value = results.get(task.id)
-            color = theme["missing"] if value is None else heat_color(value, mode)
-            parts.append(f'<g><title>{escape(task.name)} · {escape(str(models[col]["display_name"]))}: {"not evaluated" if value is None else f"{value:.1f}%"}</title>')
-            parts.append(f'<rect x="{x + 1}" y="{y + 1}" width="{cell_w - 2}" height="{cell_h - 2}" rx="3" fill="{color}"/>')
-            label = "—" if value is None else f"{value:.0f}"
-            parts.append(f'<text x="{x + cell_w / 2}" y="{y + 18}" font-size="12" text-anchor="middle" style="fill:{readable_ink(color)}">{label}</text></g>')
+            color = theme["surface"] if value is None else heat_color(value, mode)
+            parts.append(f'<g><title>{escape(task.name)} · {escape(str(models[col]["display_name"]))}: {"not evaluated" if value is None else f"{value:.2f}%"}</title>')
+            parts.append(f'<rect x="{x + 1}" y="{y + 1}" width="{cell_w - 2}" height="{cell_h - 2}" rx="3" fill="{color}"/></g>')
     legend_y = top + len(TASKS) * cell_h + 25
-    parts.append(text(24, legend_y + 12, "SR (%)", size=12, weight=600))
+    parts.append(text(24, legend_y + 12, "%", size=12, weight=600))
     for index in range(100):
         parts.append(f'<rect x="{100 + index * 2}" y="{legend_y}" width="2.1" height="12" fill="{heat_color(index * 100 / 99, mode)}"/>')
     parts.append(text(100, legend_y + 29, "0", size=10, css="muted"))
     parts.append(text(300, legend_y + 29, "100", size=10, anchor="end", css="muted"))
-    missing = "— Not evaluated" if lang == "en" else "— 未评测"
-    parts.append(text(345, legend_y + 12, missing, size=12, css="muted"))
+    missing = "Not evaluated" if lang == "en" else "未评测"
+    parts.append(f'<rect x="345" y="{legend_y}" width="18" height="12" fill="{theme["surface"]}" stroke="{theme["grid"]}"/>')
+    parts.append(text(372, legend_y + 12, missing, size=12, css="muted"))
     return "\n".join(parts + ['</svg>']) + "\n"
 
 

@@ -55,11 +55,11 @@ class ChartTests(unittest.TestCase):
         self.assertNotIn(TASKS[2].id, results)
         files = charts.generate_assets(sample_rows(), official_tags())
         records = list(csv.DictReader(io.StringIO(files["data/table30-v2-tasks.csv"])))
-        self.assertEqual(len(records), 6 * 30)
+        self.assertEqual(len(records), 5 * 30)
         self.assertEqual(records[0]["success_rate_percent"], "0.0000")
         self.assertEqual(records[1]["success_rate_percent"], "100.0000")
         self.assertEqual(records[2]["success_rate_percent"], "")
-        self.assertNotIn("model-6", files["assets/table30-v2-tasks-en.svg"])
+        self.assertNotIn("model-5", files["assets/table30-v2-tasks-en.svg"])
 
     def test_svg_escape_and_determinism(self):
         rows = sample_rows()
@@ -122,7 +122,12 @@ class UpdateTests(unittest.TestCase):
             with patch.object(updater.subprocess, "run", return_value=completed) as run:
                 self.assertEqual(updater.fetch_json(updater.LEADERBOARD_URL), [1])
         self.assertEqual(urlopen.call_count, 2)
+        requested_url = urlopen.call_args.args[0].full_url
+        self.assertIn("?_refresh=", requested_url)
+        self.assertEqual(run.call_args.args[0][-1], requested_url)
+        self.assertIn("Cache-Control: no-cache", run.call_args.args[0])
         for call in urlopen.call_args_list:
+            self.assertEqual(call.args[0].get_header("Cache-control"), "no-cache")
             context = call.kwargs["context"]
             self.assertTrue(context.check_hostname)
             self.assertEqual(context.verify_mode, ssl.CERT_REQUIRED)
@@ -137,6 +142,12 @@ class UpdateTests(unittest.TestCase):
             with patch.object(updater.subprocess, "run", side_effect=OSError("curl unavailable")):
                 self.assertEqual(updater.fetch_json(updater.LEADERBOARD_URL), [2])
         self.assertTrue(urlopen.call_args.args[0].full_url.startswith("https://www.robochallenge.cn/"))
+        self.assertEqual(urlopen.call_args_list[0].args[0].full_url.split("?", 1)[1], urlopen.call_args.args[0].full_url.split("?", 1)[1])
+
+    def test_success_rate_uses_two_decimals(self):
+        row = dict(sample_rows()[0], success_ratio=0.4333)
+        self.assertIn("| 43.33 |", updater.build_table([row], "en"))
+        self.assertIn("SR 43.33%", charts.radar_svg([row], official_tags(), "en", "light"))
 
     def test_unchanged_output_and_fetch_failure_preserve_files(self):
         rows = sample_rows()

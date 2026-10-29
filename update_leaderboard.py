@@ -1,17 +1,18 @@
-"""每天北京时间 15:00 同步 Table30 V2 榜单、前六名图表及中英文 README。"""
+"""每天北京时间 15:00 同步 Table30 V2 榜单、前五名图表及中英文 README。"""
 
 import json
 import math
 import ssl
 import subprocess
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 from leaderboard_charts import generate_assets, validate_metadata
-from table30_v2 import METADATA_URL
+from table30_v2 import CHART_TOP_N, METADATA_URL
 
 BASE_DIR = Path(__file__).resolve().parent
 README_TARGETS = [
@@ -30,8 +31,10 @@ MEDAL = {1: "🥇", 2: "🥈", 3: "🥉"}
 def fetch_json(url: str):
     """保留证书校验；兼容官方 CDN 在部分 CI 节点的 TLS 握手差异。"""
     errors = []
-    for candidate in (url, url.replace("https://robochallenge.cn/", "https://www.robochallenge.cn/")):
-        req = Request(candidate, headers={"User-Agent": "RoboChallengeLeaderboardBot/1.0"})
+    # CDN 的 www 节点曾返回数周前的缓存；主备地址使用同一个唯一查询参数。
+    fresh_url = f"{url}{'&' if '?' in url else '?'}_refresh={time.time_ns()}"
+    for candidate in (fresh_url, fresh_url.replace("https://robochallenge.cn/", "https://www.robochallenge.cn/")):
+        req = Request(candidate, headers={"User-Agent": "RoboChallengeLeaderboardBot/1.0", "Cache-Control": "no-cache"})
         for tls12 in (False, True):
             context = ssl.create_default_context()
             if tls12:
@@ -46,7 +49,8 @@ def fetch_json(url: str):
             # 系统 curl 使用独立的 TLS 实现；不使用 -k 或关闭证书验证。
             result = subprocess.run(
                 ["curl", "--fail", "--silent", "--show-error", "--location", "--retry", "2",
-                 "--connect-timeout", "10", "--max-time", "30", "--user-agent", "RoboChallengeLeaderboardBot/1.0", candidate],
+                 "--connect-timeout", "10", "--max-time", "30", "--header", "Cache-Control: no-cache",
+                 "--user-agent", "RoboChallengeLeaderboardBot/1.0", candidate],
                 check=True, capture_output=True, timeout=100,
             )
             return json.loads(result.stdout)
@@ -96,7 +100,7 @@ def build_table(rows: list, lang: str, top_n: int = TOP_N) -> str:
         model = markdown_cell(row["display_name"])
         user = markdown_cell(row["user_name"])
         score = f"{row['score']:.2f}"
-        sr_pct = f"{row['success_ratio'] * 100:.1f}"
+        sr_pct = f"{row['success_ratio'] * 100:.2f}"
         lines.append(f"| {medal} | {model} | {user} | {score} | {sr_pct} |")
 
     return "\n".join(lines)
@@ -139,7 +143,7 @@ def main():
     tags = validate_metadata(fetch_json(METADATA_URL))
     # 先完成验证和全部渲染，失败时保留已有榜单及图片。
     assets = generate_assets(rows, tags)
-    print(f"共 {len(rows)} 条，榜单展示前 {TOP_N} 名；图表展示前 6 名")
+    print(f"共 {len(rows)} 条，榜单展示前 {TOP_N} 名；图表展示前 {CHART_TOP_N} 名")
     updated_at = datetime.now(UTC_PLUS_8).strftime("%Y-%m-%d %H:%M UTC+8")
     for target in README_TARGETS:
         section = build_full_section(rows, updated_at, target["lang"])
