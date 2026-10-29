@@ -1,0 +1,51 @@
+name: Update Table30 V2 Leaderboard
+
+on:
+  schedule:
+    # 每天北京时间 15:00 (UTC+8) = UTC 07:00
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - update_leaderboard.py
+      - .github/workflows/update_leaderboard.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-table30-v2-leaderboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch Table30 V2 and update localized READMEs
+        run: python update_leaderboard.py
+
+      - name: Commit and push if leaderboard changed
+        run: |
+          git add README.md README.zh-CN.md
+          if git diff --cached --quiet; then
+            echo "No leaderboard changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update Table30 V2 leaderboard" \
+            -m "Co-Authored-By: Claude Code <noreply@anthropic.com>"
+          git push
