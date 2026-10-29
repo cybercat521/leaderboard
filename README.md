@@ -12,12 +12,12 @@
   English | <a href="README.zh-CN.md">中文</a>
 </p>
 
-## Quick Links
-
-- [RoboChallenge Home](https://robochallenge.cn/home)
-- [RoboChallenge Table30 V2 Submission Guide](docs/table30-v2-submission-guide.md) (Chinese)
-- [Table30 V2 Technical Report](https://robochallenge.cn/robochallenge_techreport_V2.pdf)
-- [Table30 V2 Task List](#table30-v2-task-list)
+<p align="center">
+  <a href="https://robochallenge.cn/home"><img src="https://img.shields.io/badge/Website-2563EB?style=flat-square" alt="Website"></a>
+  <a href="docs/table30-v2-submission-guide.md"><img src="https://img.shields.io/badge/Submission_Guide-475569?style=flat-square" alt="Submission Guide (Chinese)"></a>
+  <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/Technical_Report-475569?style=flat-square" alt="Technical Report"></a>
+  <a href="#table30-v2-task-list"><img src="https://img.shields.io/badge/Task_List-475569?style=flat-square" alt="Task List"></a>
+</p>
 
 ## 🏆 Leaderboard
 
@@ -63,10 +63,6 @@ Each task name links to its RoboChallenge task detail page.
 | [tidy_up_the_makeup_table](https://robochallenge.cn/task_detail/table30_v2?task_id=3232) | [stamp_positioning](https://robochallenge.cn/task_detail/table30_v2?task_id=3809) |  |  |
 | [tie_a_knot](https://robochallenge.cn/task_detail/table30_v2?task_id=c6b3) | [wipe_the_blackboard](https://robochallenge.cn/task_detail/table30_v2?task_id=43ea) |  |  |
 | [untie_the_shoelaces](https://robochallenge.cn/task_detail/table30_v2?task_id=1c7d) | [wrap_with_a_soft_cloth](https://robochallenge.cn/task_detail/table30_v2?task_id=abc7) |  |  |
-
-<p align="center">
-  <img src="assets/table30-v2-task-demonstrations.gif" alt="Table30 V2 task demonstrations" width="900">
-</p>
 
 ## Capability Profiles · Top 5
 

@@ -152,19 +152,18 @@ def readable_ink(background: str) -> str:
 def heatmap_svg(rows: list, lang: str, mode: str) -> str:
     theme = THEMES[mode]
     models = rows[:CHART_TOP_N]
-    left, top, cell_w, cell_h = 310, 139, 108, 27
-    width, height = left + len(models) * cell_w + 25, top + len(TASKS) * cell_h + 93
+    left, top, cell_w, cell_h = 310, 69, 108, 27
+    width, height = left + len(models) * cell_w + 25, top + len(TASKS) * cell_h + 20
     title = "Task success rate" if lang == "en" else "任务成功率"
     parts = svg_start(width, height, title, "30 official V2 tasks by top-ranked models. Blank cells indicate no reported evaluation; pale blue represents evaluated zero success.", theme)
-    parts.append(text(24, 35, title, size=23, weight=650))
-    parts.append(text(24, 118, "Robot" if lang == "en" else "机型", size=12, css="muted"))
-    parts.append(text(94, 118, "Task" if lang == "en" else "任务", size=12, css="muted"))
+    parts.append(text(24, top - 21, "Robot" if lang == "en" else "机型", size=12, css="muted"))
+    parts.append(text(94, top - 21, "Task" if lang == "en" else "任务", size=12, css="muted"))
     for col, row in enumerate(models):
         x = left + (col + 0.5) * cell_w
         name = str(row['display_name'])
         parts.append(f'<g><title>{escape(name)} · {escape(str(row["user_name"]))}</title>')
-        parts.append(text(x, 96, f"#{row.get('rank', col + 1)}", size=11, anchor="middle", css="muted"))
-        parts.append(text(x, 118, name if len(name) <= 14 else name[:13] + "…", size=12, anchor="middle", weight=600))
+        parts.append(text(x, top - 43, f"#{row.get('rank', col + 1)}", size=11, anchor="middle", css="muted"))
+        parts.append(text(x, top - 21, name if len(name) <= 14 else name[:13] + "…", size=12, anchor="middle", weight=600))
         parts.append('</g>')
     task_maps = [model_tasks(row) for row in models]
     previous_robot = None
@@ -182,16 +181,10 @@ def heatmap_svg(rows: list, lang: str, mode: str) -> str:
             value = results.get(task.id)
             color = theme["surface"] if value is None else heat_color(value, mode)
             parts.append(f'<g><title>{escape(task.name)} · {escape(str(models[col]["display_name"]))}: {"not evaluated" if value is None else f"{value:.2f}%"}</title>')
-            parts.append(f'<rect x="{x + 1}" y="{y + 1}" width="{cell_w - 2}" height="{cell_h - 2}" rx="3" fill="{color}"/></g>')
-    legend_y = top + len(TASKS) * cell_h + 25
-    parts.append(text(24, legend_y + 12, "%", size=12, weight=600))
-    for index in range(100):
-        parts.append(f'<rect x="{100 + index * 2}" y="{legend_y}" width="2.1" height="12" fill="{heat_color(index * 100 / 99, mode)}"/>')
-    parts.append(text(100, legend_y + 29, "0", size=10, css="muted"))
-    parts.append(text(300, legend_y + 29, "100", size=10, anchor="end", css="muted"))
-    missing = "Not evaluated" if lang == "en" else "未评测"
-    parts.append(f'<rect x="345" y="{legend_y}" width="18" height="12" fill="{theme["surface"]}" stroke="{theme["grid"]}"/>')
-    parts.append(text(372, legend_y + 12, missing, size=12, css="muted"))
+            parts.append(f'<rect x="{x + 1}" y="{y + 1}" width="{cell_w - 2}" height="{cell_h - 2}" rx="3" fill="{color}"/>')
+            if value is not None:
+                parts.append(f'<text x="{x + cell_w / 2}" y="{y + 18}" font-size="12" text-anchor="middle" style="fill:{readable_ink(color)}">{value:.2f}%</text>')
+            parts.append('</g>')
     return "\n".join(parts + ['</svg>']) + "\n"
 
 

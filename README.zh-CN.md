@@ -5,19 +5,19 @@
 </p>
 
 <p align="center">
+  <strong>The first large-scale real-robot-based benchmarking of embodied intelligence</strong>
+</p>
+
+<p align="center">
   <a href="README.md">English</a> | 中文
 </p>
 
 <p align="center">
-  <strong>The first large-scale real-robot-based benchmarking of embodied intelligence</strong>
+  <a href="https://robochallenge.cn/home"><img src="https://img.shields.io/badge/官网-2563EB?style=flat-square" alt="官网"></a>
+  <a href="docs/table30-v2-submission-guide.md"><img src="https://img.shields.io/badge/提测手册-475569?style=flat-square" alt="提测手册"></a>
+  <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/技术报告-475569?style=flat-square" alt="技术报告"></a>
+  <a href="#table30-v2-任务列表"><img src="https://img.shields.io/badge/任务列表-475569?style=flat-square" alt="任务列表"></a>
 </p>
-
-## 快速入口
-
-- [RoboChallenge 官网](https://robochallenge.cn/home)
-- [RoboChallenge Table30 V2 提测手册](docs/table30-v2-submission-guide.md)
-- [Table30 V2 技术报告](https://robochallenge.cn/robochallenge_techreport_V2.pdf)
-- [Table30 V2 任务列表](#table30-v2-任务列表)
 
 ## 🏆 榜单
 
@@ -63,10 +63,6 @@ _仅展示前 10 名，[查看完整榜单](https://robochallenge.cn/home)。_
 | [整理化妆台](https://robochallenge.cn/task_detail/table30_v2?task_id=3232) | [印章定位](https://robochallenge.cn/task_detail/table30_v2?task_id=3809) |  |  |
 | [打结](https://robochallenge.cn/task_detail/table30_v2?task_id=c6b3) | [擦黑板](https://robochallenge.cn/task_detail/table30_v2?task_id=43ea) |  |  |
 | [解开鞋带](https://robochallenge.cn/task_detail/table30_v2?task_id=1c7d) | [用软布包裹](https://robochallenge.cn/task_detail/table30_v2?task_id=abc7) |  |  |
-
-<p align="center">
-  <img src="assets/table30-v2-task-demonstrations.gif" alt="Table30 V2 任务演示" width="900">
-</p>
 
 ## 能力雷达图 · 前五名
 
