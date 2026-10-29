@@ -41,7 +41,7 @@ _Showing the top 10 only. [View the full leaderboard](https://robochallenge.cn/l
 
 ## Table30 V2 Task List
 
-[Table30 V2](https://robochallenge.cn/challenges) focuses on large-scale real-robot evaluation of native generalization for next-generation models. It rebuilds V1 across three areas: tasks, evaluation, and the underlying system. Its 30 tasks span four robot platforms: W1, ALOHA, ARX5, and UR5.
+[Table30 V2](https://robochallenge.cn/benchmark_detail/table30_v2) focuses on large-scale real-robot evaluation of native generalization for next-generation models. It rebuilds V1 across three areas: tasks, evaluation, and the underlying system. Its 30 tasks span four robot platforms: W1, ALOHA, ARX5, and UR5.
 
 <p align="center">
   <img src="assets/table30-v2-task-overview.png" alt="Table30 V2 task overview" width="900">

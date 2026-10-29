@@ -41,7 +41,7 @@ _仅展示前 10 名，[查看完整榜单](https://robochallenge.cn/leaderboard
 
 ## Table30 V2 任务列表
 
-[Table30 V2](https://robochallenge.cn/challenges) 以“面向下一代模型的大规模真机原生泛化评测”为目标，相较 V1，从任务升级、评测升级和系统升级三个维度进行了深度重构。30 个任务覆盖 W1、ALOHA、ARX5 和 UR5 四种机器人平台。
+[Table30 V2](https://robochallenge.cn/benchmark_detail/table30_v2) 以“面向下一代模型的大规模真机原生泛化评测”为目标，相较 V1，从任务升级、评测升级和系统升级三个维度进行了深度重构。30 个任务覆盖 W1、ALOHA、ARX5 和 UR5 四种机器人平台。
 
 <p align="center">
   <img src="assets/table30-v2-task-overview.png" alt="Table30 V2 任务场景总览" width="900">
