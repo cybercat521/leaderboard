@@ -11,8 +11,8 @@ from pathlib import Path
 from urllib.error import URLError
 from urllib.request import Request, urlopen
 
-from leaderboard_charts import generate_assets, validate_metadata
-from table30_v2 import CHART_TOP_N, METADATA_URL
+from leaderboard_charts import generate_assets, validate_task_tags
+from table30_v2 import CHART_TOP_N
 
 BASE_DIR = Path(__file__).resolve().parent
 README_TARGETS = [
@@ -138,9 +138,9 @@ def update_readme(section_body: str, readme_path: str) -> None:
 
 
 def main():
-    print("📡 拉取 Table30 V2 榜单与官方任务标签 …", flush=True)
+    tags = validate_task_tags(json.loads((BASE_DIR / "data/table30-v2-task-tags.json").read_text(encoding="utf-8")))
+    print("📡 拉取 Table30 V2 榜单，使用本地固定任务标签 …", flush=True)
     rows = extract_rows(fetch_json(LEADERBOARD_URL))
-    tags = validate_metadata(fetch_json(METADATA_URL))
     # 先完成验证和全部渲染，失败时保留已有榜单及图片。
     assets = generate_assets(rows, tags)
     print(f"共 {len(rows)} 条，榜单展示前 {TOP_N} 名；图表展示前 {CHART_TOP_N} 名")

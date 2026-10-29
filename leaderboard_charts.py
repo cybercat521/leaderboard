@@ -2,11 +2,10 @@
 
 import csv
 import io
-import json
 import math
 from html import escape
 
-from table30_v2 import CAPABILITIES, CHART_TOP_N, TASKS
+from table30_v2 import ARM_TAGS, CAPABILITIES, CHART_TOP_N, OFFICIAL_TAGS, ROBOT_TAGS, TASKS
 
 THEMES = {
     "light": {"surface": "#fcfcfb", "ink": "#0b0b0b", "muted": "#52514e", "grid": "#e1e0d9", "accent": "#2a78d6", "missing": "#e1e0d9"},
@@ -16,27 +15,32 @@ THEMES = {
 RAMP = ("#cde2fb", "#86b6ef", "#3987e5", "#1c5cab", "#0d366b")
 
 
-def validate_metadata(raw) -> dict:
-    if not isinstance(raw, list):
-        raise ValueError("V2 任务元数据必须为列表")
-    benchmarks = [item for item in raw if isinstance(item, dict) and item.get("benchmark_id") == "table30v2"]
-    if len(benchmarks) != 1 or not isinstance(benchmarks[0].get("tasks"), list):
-        raise ValueError("未找到唯一的 Table30 V2 任务元数据")
-    entries = benchmarks[0]["tasks"]
-    if not all(isinstance(item, dict) and isinstance(item.get("task_name"), str) for item in entries):
-        raise ValueError("V2 任务元数据记录格式无效")
-    by_name = {item["task_name"]: item for item in entries}
-    if len(entries) != len(TASKS) or len(by_name) != len(TASKS) or set(by_name) != {task.name for task in TASKS}:
-        raise ValueError("官方 V2 任务集合发生变化，请核对任务 ID 映射")
+def validate_task_tags(entries) -> dict:
+    if not isinstance(entries, list) or not all(
+        isinstance(item, dict) and isinstance(item.get("task_id"), str) for item in entries
+    ):
+        raise ValueError("V2 静态任务标签必须为有效记录列表")
+    by_id = {item["task_id"]: item for item in entries}
+    if len(entries) != len(TASKS) or set(by_id) != {task.id for task in TASKS}:
+        raise ValueError("V2 静态任务标签必须包含全部 30 个任务且无重复")
     tags = {}
     for task in TASKS:
-        values = by_name[task.name].get("task_tag")
+        entry = by_id[task.id]
+        if entry.get("task_name") != task.name or entry.get("robot") != task.robot:
+            raise ValueError(f"任务 {task.id} 名称或机型与固定映射不一致")
+        values = entry.get("task_tag")
         if not isinstance(values, list) or not values or not all(isinstance(value, str) for value in values):
-            raise ValueError(f"任务 {task.name} 缺少有效能力标签")
+            raise ValueError(f"任务 {task.name} 缺少有效标签")
+        unique = set(values)
+        if len(unique) != len(values) or not unique <= OFFICIAL_TAGS:
+            raise ValueError(f"任务 {task.name} 包含重复或未知标签")
+        robot = "DOS-W1" if task.robot == "W1" else task.robot
+        arm = "dual-arm" if task.robot in ("W1", "ALOHA") else "single-arm"
+        if unique & ROBOT_TAGS != {robot} or unique & ARM_TAGS != {arm} or not unique & set(CAPABILITIES):
+            raise ValueError(f"任务 {task.name} 的能力、机型或单双臂标签不完整")
         tags[task.id] = values
-    for tag, _, _ in CAPABILITIES:
-        if sum(tag in values for values in tags.values()) < 3:
-            raise ValueError(f"能力维度 {tag} 覆盖不足三个任务，请重新核对")
+    if set().union(*map(set, tags.values())) != OFFICIAL_TAGS:
+        raise ValueError("V2 静态任务标签未覆盖完整的官方标签有限集")
     return tags
 
 
@@ -63,7 +67,7 @@ def capability_values(results: dict, tags: dict) -> list:
     return [
         sum(results.get(task.id, 0) for task in TASKS if tag in tags[task.id])
         / sum(tag in values for values in tags.values())
-        for tag, _, _ in CAPABILITIES
+        for tag in CAPABILITIES
     ]
 
 
@@ -82,7 +86,7 @@ def svg_start(width: int, height: int, title: str, description: str, theme: dict
     ]
 
 
-def point(cx, cy, radius, index, count=6):
+def point(cx, cy, radius, index, count):
     angle = -math.pi / 2 + index * 2 * math.pi / count
     return cx + radius * math.cos(angle), cy + radius * math.sin(angle)
 
@@ -96,7 +100,8 @@ def radar_svg(rows: list, tags: dict, lang: str, mode: str) -> str:
     models = rows[:CHART_TOP_N]
     width, height = 240 * len(models), 320
     title = "Top models · capability success rate" if lang == "en" else "领先模型 · 能力成功率"
-    desc = "Six selected official capability tags; task mean success rate; missing tasks count as zero; identical 0–100% axes."
+    count = len(CAPABILITIES)
+    desc = "All nine official capability tags; task mean success rate; missing tasks count as zero; identical 0–100% axes."
     parts = svg_start(width, height, title, desc, theme)
     for index, row in enumerate(models):
         cx, cy, radius = index * 240 + 120, 178, 66
@@ -107,24 +112,23 @@ def radar_svg(rows: list, tags: dict, lang: str, mode: str) -> str:
         user = str(row["user_name"])
         parts.append(text(cx, 52, user if len(user) <= 27 else user[:26] + "…", size=12, anchor="middle", css="muted"))
         for level in (25, 50, 75, 100):
-            points = [point(cx, cy, radius * level / 100, i) for i in range(6)]
+            points = [point(cx, cy, radius * level / 100, i, count) for i in range(count)]
             parts.append(f'<polygon points="{polygon_points(points)}" fill="none" stroke="{theme["grid"]}" stroke-width="1"/>')
-        for i, (tag, en, zh) in enumerate(CAPABILITIES):
-            x, y = point(cx, cy, radius, i)
+        for i, tag in enumerate(CAPABILITIES):
+            x, y = point(cx, cy, radius, i, count)
             parts.append(f'<path d="M {cx} {cy} L {x:.2f} {y:.2f}" stroke="{theme["grid"]}" fill="none"/>')
-            x, y = point(cx, cy, radius + 25, i)
-            # 标签居中放在每个面板内，避免相邻面板的长英文词重叠。
-            if i not in (0, 3):
-                x = cx + 78 * (1 if i < 3 else -1)
-            parts.append(text(x, y + 5, en if lang == "en" else zh, size=11, anchor="middle", css="muted"))
+            x, y = point(cx, cy, radius + 25, i, count)
+            # 将长标签限制在各自面板内，避免相邻模型标签重叠。
+            x = max(cx - 76, min(cx + 76, x))
+            parts.append(text(x, y + 5, tag, size=10, anchor="middle", css="muted"))
         for level in (50, 100):
             parts.append(text(cx + 4, cy - radius * level / 100 + 4, level, size=9, css="muted"))
         results = model_tasks(row)
         values = capability_values(results, tags)
-        points = [point(cx, cy, radius * value / 100, i) for i, value in enumerate(values)]
+        points = [point(cx, cy, radius * value / 100, i, count) for i, value in enumerate(values)]
         parts.append(f'<polygon points="{polygon_points(points)}" fill="{theme["accent"]}" fill-opacity="0.10" stroke="{theme["accent"]}" stroke-width="2" stroke-linejoin="round"/>')
         for i, ((x, y), value) in enumerate(zip(points, values)):
-            label = CAPABILITIES[i][1 if lang == "en" else 2]
+            label = CAPABILITIES[i]
             parts.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2" fill="{theme["accent"]}" stroke="{theme["surface"]}" stroke-width="0.8"><title>{escape(label)}: {value:.2f}%</title></circle>')
         overall = f"SR {row['success_ratio'] * 100:.2f}%"
         parts.append(text(cx, 300, overall, anchor="middle", size=15, weight=600))
@@ -206,7 +210,7 @@ def generate_assets(rows: list, tags: dict) -> dict:
             suffix = "" if mode == "light" else "-dark"
             files[f"assets/table30-v2-capabilities-{lang}{suffix}.svg"] = radar_svg(models, tags, lang, mode)
             files[f"assets/table30-v2-tasks-{lang}{suffix}.svg"] = heatmap_svg(models, lang, mode)
-    capability_rows = [["rank", "model", "user", *[tag for tag, _, _ in CAPABILITIES]]]
+    capability_rows = [["rank", "model", "user", *CAPABILITIES]]
     task_rows = [["rank", "model", "user", "task_id", "task_name", "robot", "success_rate_percent"]]
     for i, row in enumerate(models, 1):
         prefix = [row.get("rank", i), row["display_name"], row["user_name"]]
@@ -217,8 +221,4 @@ def generate_assets(rows: list, tags: dict) -> dict:
             task_rows.append(prefix + [task.id, task.name, task.robot, "" if value is None else f"{value:.4f}"])
     files["data/table30-v2-capabilities.csv"] = csv_text(capability_rows)
     files["data/table30-v2-tasks.csv"] = csv_text(task_rows)
-    files["data/table30-v2-task-tags.json"] = json.dumps(
-        [{"task_id": task.id, "task_name": task.name, "robot": task.robot, "task_tag": tags[task.id]} for task in TASKS],
-        ensure_ascii=False, indent=2,
-    ) + "\n"
     return files

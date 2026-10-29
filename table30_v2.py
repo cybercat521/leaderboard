@@ -1,4 +1,4 @@
-"""Table30 V2 的固定任务 ID、名称及展示标签；能力标签从官方 V2 元数据读取。"""
+"""Table30 V2 的固定任务映射及官方标签有限集。"""
 
 from dataclasses import dataclass
 
@@ -47,15 +47,15 @@ TASKS = (
     Task("44df", "shred_paper", "UR5", "Shred paper", "碎纸", "📄"),
 )
 
-# 选择至少覆盖三个任务的官方能力标签；这六个展示名称并非官方能力定义。
+# 2026-10-29 核对官方页面全部 30 个任务；两种语言均保留官方标签原名。
+# https://robochallenge.cn/benchmark_detail/table30_v2
+# 每个任务的完整标签固定在 data/table30-v2-task-tags.json，不随榜单更新。
 CAPABILITIES = (
-    ("bimanual", "Two-hand", "双手协作"),
-    ("precise3d", "Precision", "空间精度"),
-    ("manipulation", "Manipulation", "物体操作"),
-    ("temporal", "Timing", "时序控制"),
-    ("softbody", "Soft-body", "柔性物体"),
-    ("repeated", "Repetition", "重复操作"),
+    "bimanual", "precise3d", "manipulation", "temporal", "softbody",
+    "repeated", "simple-pick", "classification", "multiview",
 )
+ROBOT_TAGS = frozenset(("ALOHA", "ARX5", "DOS-W1", "UR5"))
+ARM_TAGS = frozenset(("single-arm", "dual-arm"))
+OFFICIAL_TAGS = frozenset(CAPABILITIES) | ROBOT_TAGS | ARM_TAGS
 
 CHART_TOP_N = 5
-METADATA_URL = "https://robochallenge.cn/api/v2/benchmark/benchmark_list.json"

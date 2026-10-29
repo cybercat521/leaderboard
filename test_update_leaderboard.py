@@ -13,7 +13,7 @@ from urllib.error import URLError
 
 import leaderboard_charts as charts
 import update_leaderboard as updater
-from table30_v2 import CAPABILITIES, TASKS
+from table30_v2 import CAPABILITIES, OFFICIAL_TAGS, TASKS
 
 
 ROOT = Path(__file__).resolve().parent
@@ -46,8 +46,8 @@ class ChartTests(unittest.TestCase):
         tags[TASKS[0].id] = ["bimanual", "precise3d"]
         tags[TASKS[1].id] = ["bimanual"]
         # One evaluated 100% task plus one unreported task = 50%, not 100%.
-        values = charts.capability_values({TASKS[0].id: 100}, tags | {TASKS[2].id: ["manipulation", "temporal", "softbody", "repeated"]})
-        self.assertEqual(values, [50, 100, 0, 0, 0, 0])
+        values = charts.capability_values({TASKS[0].id: 100}, tags | {TASKS[2].id: list(CAPABILITIES[2:])})
+        self.assertEqual(values, [50, 100, 0, 0, 0, 0, 0, 0, 0])
 
     def test_missing_is_distinct_from_measured_zero(self):
         results = charts.model_tasks(sample_rows()[0])
@@ -82,16 +82,38 @@ class ChartTests(unittest.TestCase):
             with self.subTest(results=results), self.assertRaises(ValueError):
                 charts.model_tasks(dict(sample_rows()[0], task_results=results))
 
-    def test_metadata_mapping_and_task_changes(self):
-        tags = official_tags()
-        entries = [{"task_name": task.name, "task_tag": tags[task.id]} for task in TASKS]
-        raw = [{"benchmark_id": "table30v2", "tasks": entries}]
-        self.assertEqual(charts.validate_metadata(raw), tags)
-        self.assertTrue(all(sum(tag in value for value in tags.values()) >= 3 for tag, _, _ in CAPABILITIES))
-        for bad in (None, {}, [], [{"benchmark_id": "table30v2", "tasks": entries[:-1]}],
-                    [{"benchmark_id": "table30v2", "tasks": entries[:-1] + entries[:1]}]):
+    def test_static_tags_cover_official_finite_set(self):
+        entries = json.loads((ROOT / "data/table30-v2-task-tags.json").read_text())
+        tags = charts.validate_task_tags(entries)
+        self.assertEqual(tags, official_tags())
+        self.assertEqual(len(OFFICIAL_TAGS), 15)
+        self.assertEqual(set().union(*map(set, tags.values())), OFFICIAL_TAGS)
+        counts = {tag: sum(tag in values for values in tags.values()) for tag in CAPABILITIES}
+        self.assertEqual(counts, {"bimanual": 13, "precise3d": 14, "manipulation": 14,
+                                 "temporal": 6, "softbody": 7, "repeated": 12,
+                                 "simple-pick": 1, "classification": 2, "multiview": 1})
+        invalid = [None, {}, [], entries[:-1], entries[:-1] + entries[:1]]
+        for field, value in (("task_name", "wrong"), ("robot", "ARX5"),
+                             ("task_tag", ["unknown"]), ("task_tag", ["softbody"]),
+                             ("task_tag", entries[0]["task_tag"] * 2)):
+            bad = copy.deepcopy(entries)
+            bad[0][field] = value
+            invalid.append(bad)
+        for bad in invalid:
             with self.subTest(raw=bad), self.assertRaises(ValueError):
-                charts.validate_metadata(bad)
+                charts.validate_task_tags(bad)
+
+    def test_radar_uses_all_nine_official_tag_names(self):
+        for lang in ("en", "zh"):
+            root = ET.fromstring(charts.radar_svg(sample_rows(), official_tags(), lang, "light"))
+            ns = {"svg": "http://www.w3.org/2000/svg"}
+            labels = [node.text for node in root.findall(".//svg:text", ns)]
+            for tag in CAPABILITIES:
+                self.assertEqual(labels.count(tag), 5)
+            self.assertEqual(len(root.findall(".//svg:circle", ns)), 45)
+            for polygon in root.findall(".//svg:polygon", ns):
+                self.assertEqual(len(polygon.attrib["points"].split()), 9)
+        self.assertNotIn("data/table30-v2-task-tags.json", charts.generate_assets(sample_rows(), official_tags()))
 
     def test_heat_ramp_is_monotonic_and_text_has_contrast(self):
         def luminance(color):
@@ -151,25 +173,26 @@ class UpdateTests(unittest.TestCase):
 
     def test_unchanged_output_and_fetch_failure_preserve_files(self):
         rows = sample_rows()
-        tags = official_tags()
-        metadata = [{"benchmark_id": "table30v2", "tasks": [{"task_name": task.name, "task_tag": tags[task.id]} for task in TASKS]}]
+        tags_content = (ROOT / "data/table30-v2-task-tags.json").read_text()
         original = "# Keep intro\n" + updater.SECTION_START + "\nold\n" + updater.SECTION_END + "\n# Keep tasks\n"
         with tempfile.TemporaryDirectory() as folder, patch.object(updater, "BASE_DIR", Path(folder)), contextlib.redirect_stdout(io.StringIO()):
             root = Path(folder)
+            (root / "data").mkdir()
+            (root / "data/table30-v2-task-tags.json").write_text(tags_content)
             for target in updater.README_TARGETS:
                 (root / target["path"]).write_text(original)
-            with patch.object(updater, "fetch_json", side_effect=[rows, metadata]) as fetch:
+            with patch.object(updater, "fetch_json", return_value=rows) as fetch:
                 updater.main()
-                self.assertEqual(fetch.call_count, 2)
+                fetch.assert_called_once_with(updater.LEADERBOARD_URL)
             first = {path: (path.read_bytes(), path.stat().st_mtime_ns) for path in root.rglob("*") if path.is_file()}
-            with patch.object(updater, "fetch_json", side_effect=[rows, metadata]):
+            with patch.object(updater, "fetch_json", return_value=rows):
                 updater.main()
             self.assertEqual(first, {path: (path.read_bytes(), path.stat().st_mtime_ns) for path in first})
-            with patch.object(updater, "fetch_json", side_effect=[rows, {}]), self.assertRaises(ValueError):
+            with patch.object(updater, "fetch_json", side_effect=OSError("network unavailable")), self.assertRaises(OSError):
                 updater.main()
             broken = copy.deepcopy(rows)
             broken[0]["task_results"] = []
-            with patch.object(updater, "fetch_json", side_effect=[broken, metadata]), self.assertRaises(ValueError):
+            with patch.object(updater, "fetch_json", return_value=broken), self.assertRaises(ValueError):
                 updater.main()
             self.assertEqual(first, {path: (path.read_bytes(), path.stat().st_mtime_ns) for path in first})
             for target in updater.README_TARGETS:

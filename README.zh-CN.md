@@ -7,17 +7,11 @@
 <p align="center">
   <a href="https://x.com/RoboChallengeAI"><img src="https://img.shields.io/badge/%F0%9D%95%8F%20X%20%28Twitter%29-181717?style=flat" alt="X (Twitter)"></a>
   <a href="https://huggingface.co/RoboChallenge"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat" alt="Hugging Face"></a>
-</p>
-
-<p align="center">
   <a href="https://robochallenge.cn/home"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20%E5%AE%98%E7%BD%91-2563EB?style=flat" alt="官网"></a>
-  <a href="docs/table30-v2-submission-guide.md"><img src="https://img.shields.io/badge/%F0%9F%93%98%20%E6%8F%90%E6%B5%8B%E6%89%8B%E5%86%8C-475569?style=flat" alt="提测手册"></a>
   <a href="https://robochallenge.cn/robochallenge_techreport_V2.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84%20%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A-475569?style=flat" alt="技术报告"></a>
 </p>
 
-<p align="center">
-  <strong>The first large-scale real-robot-based benchmarking of embodied intelligence</strong>
-</p>
+RoboChallenge 是原力灵机 Dexmal 与 Hugging Face 联合推出的全球首个具身智能大规模真机评测平台，通过简单易用的远程真机评测体系，为模型横向对比提供标准化、公平的评测环境。平台面向所有具身智能领域的专家、学者和工程师免费开放提测，欢迎按照[提测手册](docs/table30-v2-submission-guide.md)提交模型。
 
 <p align="center">
   <a href="README.md">English</a> | 中文
@@ -48,6 +42,8 @@ _仅展示前 10 名，[查看完整榜单](https://robochallenge.cn/leaderboard
 <!-- LEADERBOARD_END -->
 
 ## Table30 V2 任务列表
+
+[Table30 V2](https://robochallenge.cn/challenges) 以“面向下一代模型的大规模真机原生泛化评测”为目标，相较 V1，从任务升级、评测升级和系统升级三个维度进行了深度重构。30 个任务覆盖 W1、ALOHA、ARX5 和 UR5 四种机器人平台。
 
 <p align="center">
   <img src="assets/table30-v2-task-overview.png" alt="Table30 V2 任务场景总览" width="900">

@@ -11,6 +11,7 @@ on:
       - update_leaderboard.py
       - leaderboard_charts.py
       - table30_v2.py
+      - data/table30-v2-task-tags.json
       - test_update_leaderboard.py
       - .github/workflows/update_leaderboard.yml
 
@@ -45,7 +46,7 @@ jobs:
 
       - name: Commit and push if leaderboard or charts changed
         run: |
-          git add README.md README.zh-CN.md assets/table30-v2-*.svg data/table30-v2-*.csv data/table30-v2-task-tags.json
+          git add README.md README.zh-CN.md assets/table30-v2-*.svg data/table30-v2-*.csv
           if git diff --cached --quiet; then
             echo "No leaderboard changes to commit."
             exit 0
