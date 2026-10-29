@@ -137,7 +137,7 @@ def radar_svg(rows: list, tags: dict, lang: str, mode: str) -> str:
                 anchor = "middle"
                 if i in (4, 5):
                     x = cx + (45 if i == 4 else -45)
-                    y = cy + radius + 34
+                    y = cy + radius + 12
             else:
                 anchor = "start" if x > cx else "end"
             parts.append(text(x, y + 4, tag, size=10, anchor=anchor, css="muted"))
@@ -176,7 +176,10 @@ def heatmap_svg(rows: list, lang: str, mode: str) -> str:
     theme = THEMES[mode]
     models = rows[:CHART_TOP_N]
     left, top, cell_w, cell_h = 310, 69, 108, 27
-    width, height = left + len(models) * cell_w + 25, top + len(TASKS) * cell_h + 20
+    group_gap = 14
+    group_count = len({task.robot for task in TASKS})
+    width = left + len(models) * cell_w + 25
+    height = top + len(TASKS) * cell_h + (group_count - 1) * group_gap + 20
     title = "Task success rate" if lang == "en" else "任务成功率"
     parts = svg_start(width, height, title, "30 official V2 tasks by top-ranked models. Blank cells indicate no reported evaluation; pale blue represents evaluated zero success.", theme)
     parts.append(text(24, top - 21, "Robot" if lang == "en" else "机型", size=12, css="muted"))
@@ -190,10 +193,13 @@ def heatmap_svg(rows: list, lang: str, mode: str) -> str:
         parts.append('</g>')
     task_maps = [model_tasks(row) for row in models]
     previous_robot = None
+    group_offset = 0
     for row_index, task in enumerate(TASKS):
-        y = top + row_index * cell_h
+        if previous_robot is not None and task.robot != previous_robot:
+            group_offset += group_gap
+        y = top + row_index * cell_h + group_offset
         if task.robot != previous_robot:
-            parts.append(f'<path d="M 24 {y - 2} H {width - 25}" stroke="{theme["grid"]}"/>')
+            parts.append(f'<path d="M 24 {y - group_gap / 2} H {width - 25}" stroke="{theme["grid"]}"/>')
             group_size = sum(item.robot == task.robot for item in TASKS)
             parts.append(text(24, y + group_size * cell_h / 2 + 4, task.robot, size=12, weight=600))
             previous_robot = task.robot
