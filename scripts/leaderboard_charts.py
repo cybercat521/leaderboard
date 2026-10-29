@@ -95,40 +95,59 @@ def polygon_points(points):
     return " ".join(f"{x:.2f},{y:.2f}" for x, y in points)
 
 
+def rank_label(row: dict, fallback: int) -> str:
+    rank = row.get("rank") or fallback
+    return {1: "1st", 2: "2nd", 3: "3rd"}.get(rank, f"#{rank}")
+
+
 def radar_svg(rows: list, tags: dict, lang: str, mode: str) -> str:
     theme = THEMES[mode]
     models = rows[:CHART_TOP_N]
     width, height = 240 * len(models), 320
     title = "Top models · capability success rate" if lang == "en" else "领先模型 · 能力成功率"
-    count = len(CAPABILITIES)
+    capabilities = ("classification", "bimanual", "temporal", "softbody", "manipulation",
+                    "simple-pick", "repeated", "precise3d", "multiview")
+    count = len(capabilities)
     desc = "All nine official capability tags; task mean success rate; missing tasks count as zero; identical 0–100% axes."
     parts = svg_start(width, height, title, desc, theme)
     for index, row in enumerate(models):
-        cx, cy, radius = index * 240 + 120, 178, 66
+        cx, cy, radius = index * 240 + 120, 178, 55
         name = str(row["display_name"])
         short_name = name if len(name) <= 22 else name[:21] + "…"
         parts.append(f'<g><title>{escape(name)} · {escape(str(row["user_name"]))}</title>')
-        parts.append(text(cx, 30, f"#{row.get('rank', index + 1)}  {short_name}", size=18, anchor="middle", weight=650))
+        parts.append(text(cx, 30, f"{rank_label(row, index + 1)}  {short_name}", size=18, anchor="middle", weight=650))
         user = str(row["user_name"])
         parts.append(text(cx, 52, user if len(user) <= 27 else user[:26] + "…", size=12, anchor="middle", css="muted"))
         for level in (25, 50, 75, 100):
             points = [point(cx, cy, radius * level / 100, i, count) for i in range(count)]
-            parts.append(f'<polygon points="{polygon_points(points)}" fill="none" stroke="{theme["grid"]}" stroke-width="1"/>')
-        for i, tag in enumerate(CAPABILITIES):
+            color = theme["grid"]
+            dash = ""
+            if level == 50:
+                color = "#8b6caf" if mode == "light" else "#b69bd5"
+                dash = ' stroke-dasharray="3 3"'
+            elif level == 100:
+                color = "#82827b" if mode == "light" else "#a3a39a"
+            parts.append(f'<polygon points="{polygon_points(points)}" fill="none" stroke="{color}" stroke-width="1"{dash}/>')
+        for i, tag in enumerate(capabilities):
             x, y = point(cx, cy, radius, i, count)
             parts.append(f'<path d="M {cx} {cy} L {x:.2f} {y:.2f}" stroke="{theme["grid"]}" fill="none"/>')
-            x, y = point(cx, cy, radius + 25, i, count)
-            # 将长标签限制在各自面板内，避免相邻模型标签重叠。
-            x = max(cx - 76, min(cx + 76, x))
-            parts.append(text(x, y + 5, tag, size=10, anchor="middle", css="muted"))
-        for level in (50, 100):
-            parts.append(text(cx + 4, cy - radius * level / 100 + 4, level, size=9, css="muted"))
+            x, y = point(cx, cy, radius + 14, i, count)
+            # 长标签放在上下方；侧面标签向外对齐，留出完整绘图区。
+            if i in (0, 4, 5):
+                anchor = "middle"
+                if i in (4, 5):
+                    x = cx + (45 if i == 4 else -45)
+                    y = cy + radius + 34
+            else:
+                anchor = "start" if x > cx else "end"
+            parts.append(text(x, y + 4, tag, size=10, anchor=anchor, css="muted"))
         results = model_tasks(row)
-        values = capability_values(results, tags)
+        by_tag = dict(zip(CAPABILITIES, capability_values(results, tags)))
+        values = [by_tag[tag] for tag in capabilities]
         points = [point(cx, cy, radius * value / 100, i, count) for i, value in enumerate(values)]
         parts.append(f'<polygon points="{polygon_points(points)}" fill="{theme["accent"]}" fill-opacity="0.10" stroke="{theme["accent"]}" stroke-width="2" stroke-linejoin="round"/>')
         for i, ((x, y), value) in enumerate(zip(points, values)):
-            label = CAPABILITIES[i]
+            label = capabilities[i]
             parts.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2" fill="{theme["accent"]}" stroke="{theme["surface"]}" stroke-width="0.8"><title>{escape(label)}: {value:.2f}%</title></circle>')
         overall = f"SR {row['success_ratio'] * 100:.2f}%"
         parts.append(text(cx, 300, overall, anchor="middle", size=15, weight=600))
@@ -166,7 +185,7 @@ def heatmap_svg(rows: list, lang: str, mode: str) -> str:
         x = left + (col + 0.5) * cell_w
         name = str(row['display_name'])
         parts.append(f'<g><title>{escape(name)} · {escape(str(row["user_name"]))}</title>')
-        parts.append(text(x, top - 43, f"#{row.get('rank', col + 1)}", size=11, anchor="middle", css="muted"))
+        parts.append(text(x, top - 43, rank_label(row, col + 1), size=11, anchor="middle", css="muted"))
         parts.append(text(x, top - 21, name if len(name) <= 14 else name[:13] + "…", size=12, anchor="middle", weight=600))
         parts.append('</g>')
     task_maps = [model_tasks(row) for row in models]
