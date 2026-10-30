@@ -109,10 +109,10 @@ def build_table(rows: list, lang: str, top_n: int = TOP_N) -> str:
 def build_full_section(rows: list, updated_at: str, lang: str) -> str:
     table = build_table(rows, lang)
     if lang == "zh":
-        timestamp = f"> 榜单数据更新时间: **{updated_at}**"
+        timestamp = f"> 更新时间: **{updated_at}**"
         more_hint = f"_仅展示前 {TOP_N} 名，[查看完整榜单](https://robochallenge.cn/leaderboard)。_"
     else:
-        timestamp = f"> Leaderboard data updated: **{updated_at}**"
+        timestamp = f"> Last updated: **{updated_at}**"
         more_hint = f"_Showing the top {TOP_N} only. [View the full leaderboard](https://robochallenge.cn/leaderboard)._"
     return f"{timestamp}\n\n### RoboChallenge Table30 V2\n\n{table}\n\n{more_hint}\n"
 
@@ -126,9 +126,9 @@ def update_readme(section_body: str, readme_path: str) -> None:
         raise RuntimeError(f"{readme_path} 缺少唯一且有序的榜单区域标记")
 
     current_body = content[start_idx + len(SECTION_START):end_idx].strip()
-    # 仅更新时间变化时保留原内容，避免定时任务产生无数据变化的提交。
-    if current_body.partition("\n")[2] == section_body.strip().partition("\n")[2]:
-        print(f"⏭️ {readme_path} 榜单无变化")
+    # 成功同步后刷新时间；同一时刻重复运行且内容完全一致时才跳过写入。
+    if current_body == section_body.strip():
+        print(f"⏭️ {readme_path} 内容和更新时间无变化")
         return
 
     new_block = f"{SECTION_START}\n{section_body}\n{SECTION_END}"
@@ -144,7 +144,7 @@ def main():
     # 先完成验证和全部渲染，失败时保留已有榜单及图片。
     assets = generate_assets(rows, tags)
     print(f"共 {len(rows)} 条，榜单展示前 {TOP_N} 名；图表展示前 {CHART_TOP_N} 名")
-    updated_at = datetime.now(UTC_PLUS_8).strftime("%Y-%m-%d %H:%M UTC+8")
+    updated_at = datetime.now(UTC_PLUS_8).strftime("%Y-%m-%d %H:%M:%S UTC+8")
     for target in README_TARGETS:
         section = build_full_section(rows, updated_at, target["lang"])
         update_readme(section, target["path"])

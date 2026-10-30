@@ -2,6 +2,15 @@
 
 RoboChallenge currently supports the **Table30 V2** benchmark. The original **Table30 has been retired** and is no longer the recommended submission option. Table30 V2 updates task coverage, robot organization, evaluation procedures, and result presentation. Its tasks reflect everyday manipulation scenarios, with submission requirements organized by robot platform—W1, ALOHA, ARX5, and UR5—and clearer steps for submitting models, booking robots, running remote inference, and viewing leaderboard results.
 
+## Before you submit
+
+Submit your model and request evaluation on the [RoboChallenge website](https://robochallenge.cn/evalyourpolicy). This repository does not accept evaluation submissions. **Platform evaluation is free; you must provide your own model inference compute.**
+
+- Prepare your model weights and the hardware needed for inference, including GPUs where required.
+- Set up the official `table30_v2` client, adapt your model, and complete local mock testing.
+- Apply for a RoboChallenge account and user token, then create an evaluation submission on the website to obtain a `SubmissionId`.
+- Book a robot evaluation slot with the official operations team and run your inference service during the confirmed slot.
+
 ## 1. About RoboChallenge
 
 ### 1.1 Model deployment and evaluation
@@ -232,7 +241,7 @@ Before real-robot evaluation, **test your inference logic and connectivity with 
 # Check available tags in the training data or on the official website.
 ROBOT_TAG = 'aloha'  # Options: aloha / arx5 / ur5 / w1
 # Example local recording path; replace it with a matching recording on your machine.
-RECORD_DATA_DIR = '../20250919/pour_fries_into_plate/data/episode_001533'
+RECORD_DATA_DIR = '/path/to/your/recording/data/episode_000001'
 ```
 
 **Step 2: Start the mock robot service.** Open another terminal and start the local data service:

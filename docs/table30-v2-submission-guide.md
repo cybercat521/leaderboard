@@ -2,6 +2,15 @@
 
 RoboChallenge 平台当前支持 **Table30 V2** 评测集；历史版本 **Table30 已下线**，不再作为推荐提测入口。相比 Table30，Table30 V2 在任务覆盖、机型组织、评测流程和结果展示上做了更新：任务集合更贴近日常操作场景，按 W1、ALOHA、ARX5、UR5 等机型组织提测要求，并在提交、预约、远程推理和榜单展示链路上提供更清晰的操作入口。
 
+## 提测前准备
+
+请前往 [RoboChallenge 官网](https://robochallenge.cn/evalyourpolicy)提交模型和申请评测，本仓库不受理提测。**平台评测免费，模型推理算力需自行准备。**
+
+- 准备模型权重及运行推理所需的 GPU 等硬件。
+- 部署官方 `table30_v2` 客户端，适配模型并完成本地 Mock 测试。
+- 申请 RoboChallenge 账号和用户 Token，在官网创建评测提交并取得 `SubmissionId`。
+- 联系官方运营团队预约真机，在确认的时间段内运行推理服务。
+
 ## 一、RoboChallenge 介绍
 
 ### 1.1 模型部署与评测介绍
@@ -257,7 +266,7 @@ class DummyPolicy:
 # 示例：激活 Aloha 机器人配置（需从训练数据或赛事官网查询可用标签）
 ROBOT_TAG = 'aloha'  # 可选值：aloha / arx5 / ur5 / w1
 # 匹配机器人的本地测试数据路径（请确保路径与数据文件夹结构一致）
-RECORD_DATA_DIR = '../20250919/pour_fries_into_plate/data/episode_001533'
+RECORD_DATA_DIR = '/path/to/your/recording/data/episode_000001'
 ```
 
 **步骤二：启动 Mock 机器人服务** 新开一个终端窗口，启动本地数据服务：

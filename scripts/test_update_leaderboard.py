@@ -7,6 +7,7 @@ import ssl
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
+from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
 from urllib.error import URLError
@@ -171,7 +172,7 @@ class UpdateTests(unittest.TestCase):
         self.assertIn("| 43.33 |", updater.build_table([row], "en"))
         self.assertIn("SR 43.33%", charts.radar_svg([row], official_tags(), "en", "light"))
 
-    def test_unchanged_output_and_fetch_failure_preserve_files(self):
+    def test_successful_sync_refreshes_time_and_failure_preserves_files(self):
         rows = sample_rows()
         tags_content = (ROOT / "data/table30-v2-task-tags.json").read_text()
         original = "# Keep intro\n" + updater.SECTION_START + "\nold\n" + updater.SECTION_END + "\n# Keep tasks\n"
@@ -181,13 +182,21 @@ class UpdateTests(unittest.TestCase):
             (root / "data/table30-v2-task-tags.json").write_text(tags_content)
             for target in updater.README_TARGETS:
                 (root / target["path"]).write_text(original)
-            with patch.object(updater, "fetch_json", return_value=rows) as fetch:
+            with patch.object(updater, "fetch_json", return_value=rows) as fetch, patch.object(updater, "datetime") as clock:
+                clock.now.return_value = datetime(2026, 10, 30, 10, 15, 1, tzinfo=updater.UTC_PLUS_8)
                 updater.main()
                 fetch.assert_called_once_with(updater.LEADERBOARD_URL)
             first = {path: (path.read_bytes(), path.stat().st_mtime_ns) for path in root.rglob("*") if path.is_file()}
-            with patch.object(updater, "fetch_json", return_value=rows):
+            with patch.object(updater, "fetch_json", return_value=rows), patch.object(updater, "datetime") as clock:
+                clock.now.return_value = datetime(2026, 10, 30, 11, 15, 2, tzinfo=updater.UTC_PLUS_8)
                 updater.main()
-            self.assertEqual(first, {path: (path.read_bytes(), path.stat().st_mtime_ns) for path in first})
+            for path, (content, mtime) in first.items():
+                if path.name in {target["path"] for target in updater.README_TARGETS}:
+                    self.assertIn(b"2026-10-30 11:15:02 UTC+8", path.read_bytes())
+                    self.assertEqual(content.replace(b"10:15:01", b"11:15:02"), path.read_bytes())
+                else:
+                    self.assertEqual((content, mtime), (path.read_bytes(), path.stat().st_mtime_ns))
+            first = {path: (path.read_bytes(), path.stat().st_mtime_ns) for path in first}
             with patch.object(updater, "fetch_json", side_effect=OSError("network unavailable")), self.assertRaises(OSError):
                 updater.main()
             broken = copy.deepcopy(rows)
