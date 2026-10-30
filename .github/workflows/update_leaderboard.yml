@@ -2,8 +2,8 @@ name: Update Table30 V2 Leaderboard
 
 on:
   schedule:
-    # 每天北京时间 15:00 (UTC+8) = UTC 07:00
-    - cron: "0 7 * * *"
+    # 每两小时整点运行（UTC 和北京时间均为偶数小时）
+    - cron: "0 */2 * * *"
   workflow_dispatch:
   push:
     branches: [main]

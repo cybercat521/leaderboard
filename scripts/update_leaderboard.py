@@ -1,4 +1,4 @@
-"""每天北京时间 15:00 同步 Table30 V2 榜单、前五名图表及中英文 README。"""
+"""每两小时同步 Table30 V2 榜单、前五名图表及中英文 README。"""
 
 import json
 import math
