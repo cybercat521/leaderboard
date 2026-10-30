@@ -13,7 +13,7 @@
   <a href="https://x.com/RoboChallengeAI"><img src="https://img.shields.io/badge/%F0%9D%95%8F%20X%20%28Twitter%29-181717?style=flat" alt="X (Twitter)"></a>
 </p>
 
-RoboChallenge 是原力灵机 Dexmal 与 Hugging Face 联合推出的全球首个具身智能大规模真机评测平台，通过远程真机评测体系，为模型横向对比提供标准化、公平的评测环境。本仓库由社区维护，同步展示官方 Table30 V2 榜单。具身智能领域的专家、学者和工程师如需提测模型，请前往 [RoboChallenge 官网](https://robochallenge.cn/evalyourpolicy)，并参考配套的[提测手册](docs/table30-v2-submission-guide.md)。平台评测免费，模型推理算力需自行准备。
+RoboChallenge 是原力灵机 Dexmal 与 Hugging Face 联合推出的全球首个具身智能大规模真机评测平台，通过远程真机评测体系，为模型横向对比提供标准化、公平的评测环境。本仓库同步展示官方 Table30 V2 榜单。具身智能领域的专家、学者和工程师如需提测模型，请前往 [RoboChallenge 官网](https://robochallenge.cn/evalyourpolicy)，并参考配套的[提测手册](docs/table30-v2-submission-guide.md)。平台评测免费，模型推理算力需自行准备。
 
 ## 🏆 榜单
 
