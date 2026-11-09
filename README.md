@@ -18,7 +18,7 @@ RoboChallenge, jointly launched by Dexmal and Hugging Face, is the world's first
 ## 🏆 Leaderboard
 
 <!-- LEADERBOARD_START -->
-> Last updated: **2026-11-09 08:56:46 UTC+8**
+> Last updated: **2026-11-09 16:00:25 UTC+8**
 
 ### RoboChallenge Table30 V2
 
