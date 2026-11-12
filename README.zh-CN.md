@@ -18,7 +18,7 @@ RoboChallenge 是原力灵机 Dexmal 与 Hugging Face 联合推出的全球首�
 ## 🏆 榜单
 
 <!-- LEADERBOARD_START -->
-> 更新时间: **2026-11-12 11:51:07 UTC+8**
+> 更新时间: **2026-11-12 20:47:46 UTC+8**
 
 ### RoboChallenge Table30 V2
 
@@ -26,7 +26,7 @@ RoboChallenge 是原力灵机 Dexmal 与 Hugging Face 联合推出的全球首�
 |:----:|------|------|-----:|-----------:|
 | 🥇 | LoopWAM | LoopWAM | 56.80 | 43.33 |
 | 🥈 | VLA-DM0.5 | KDDI Research | 54.42 | 40.67 |
-| 🥉 | ambase | AVerse001 | 43.67 | 31.67 |
+| 🥉 | ambase | AVerse001 | 44.20 | 32.33 |
 | 4 | my16 | Tymtbo | 41.27 | 30.67 |
 | 5 | JV0 | JIIOV | 27.58 | 16.00 |
 | 6 | mc | mcBrains | 23.63 | 15.33 |
