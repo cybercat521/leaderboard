@@ -582,9 +582,9 @@
 <rect x="419" y="841" width="106" height="25" rx="3" fill="#b1d0f6"/>
 <text x="472.0" y="858" font-size="12" text-anchor="middle" style="fill:#000000">90%</text>
 </g>
-<g><title>arrange_fruits · ambase: 100.00%</title>
-<rect x="527" y="841" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="580.0" y="858" font-size="12" text-anchor="middle" style="fill:#000000">100%</text>
+<g><title>arrange_fruits · ambase: 70.00%</title>
+<rect x="527" y="841" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="580.0" y="858" font-size="12" text-anchor="middle" style="fill:#000000">70%</text>
 </g>
 <g><title>arrange_fruits · my16: 80.00%</title>
 <rect x="635" y="841" width="106" height="25" rx="3" fill="#94bff1"/>
@@ -603,9 +603,9 @@
 <rect x="419" y="868" width="106" height="25" rx="3" fill="#94bff1"/>
 <text x="472.0" y="885" font-size="12" text-anchor="middle" style="fill:#000000">80%</text>
 </g>
-<g><title>item_classification · ambase: 30.00%</title>
-<rect x="527" y="868" width="106" height="25" rx="3" fill="#2265b7"/>
-<text x="580.0" y="885" font-size="12" text-anchor="middle" style="fill:#ffffff">30%</text>
+<g><title>item_classification · ambase: 80.00%</title>
+<rect x="527" y="868" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="580.0" y="885" font-size="12" text-anchor="middle" style="fill:#000000">80%</text>
 </g>
 <g><title>item_classification · my16: 60.00%</title>
 <rect x="635" y="868" width="106" height="25" rx="3" fill="#589ae9"/>

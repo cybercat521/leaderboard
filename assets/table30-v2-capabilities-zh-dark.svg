@@ -101,17 +101,17 @@
 <text x="532.05" y="170.02" font-size="10" text-anchor="end" font-weight="400" class="muted">precise3d</text>
 <path d="M 600 178 L 564.65 135.87" stroke="#383835" fill="none"/>
 <text x="555.65" y="129.14" font-size="10" text-anchor="end" font-weight="400" class="muted">multiview</text>
-<polygon points="600.00,169.75 603.54,173.79 620.76,174.34 610.21,183.89 602.55,185.01 581.19,229.68 580.15,189.46 585.30,175.41 575.25,148.51" fill="#3987e5" fill-opacity="0.10" stroke="#3987e5" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="600.00" cy="169.75" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>classification: 15.00%</title></circle>
+<polygon points="600.00,156.00 603.54,173.79 620.76,174.34 610.21,183.89 602.55,185.01 586.83,214.18 579.36,189.92 585.30,175.41 575.25,148.51" fill="#3987e5" fill-opacity="0.10" stroke="#3987e5" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="600.00" cy="156.00" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>classification: 40.00%</title></circle>
 <circle cx="603.54" cy="173.79" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>bimanual: 10.00%</title></circle>
 <circle cx="620.76" cy="174.34" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>temporal: 38.33%</title></circle>
 <circle cx="610.21" cy="183.89" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>softbody: 21.43%</title></circle>
 <circle cx="602.55" cy="185.01" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>manipulation: 13.57%</title></circle>
-<circle cx="581.19" cy="229.68" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>simple-pick: 100.00%</title></circle>
-<circle cx="580.15" cy="189.46" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>repeated: 41.67%</title></circle>
+<circle cx="586.83" cy="214.18" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>simple-pick: 70.00%</title></circle>
+<circle cx="579.36" cy="189.92" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>repeated: 43.33%</title></circle>
 <circle cx="585.30" cy="175.41" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>precise3d: 27.14%</title></circle>
 <circle cx="575.25" cy="148.51" r="2" fill="#3987e5" stroke="#1a1a19" stroke-width="0.8"><title>multiview: 70.00%</title></circle>
-<text x="600.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 32.33%</text>
+<text x="600.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 33.00%</text>
 </g>
 <g><title>my16 · Tymtbo</title>
 <text x="840.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#4  my16</text>

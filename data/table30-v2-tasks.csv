@@ -86,8 +86,8 @@ rank,model,user,task_id,task_name,robot,success_rate_percent
 3,ambase,AVerse001,d96c,turn_on_the_light_switch,ARX5,30.0000
 3,ambase,AVerse001,f5b4,water_the_flowers,ARX5,90.0000
 3,ambase,AVerse001,90e1,wipe_the_table,ARX5,50.0000
-3,ambase,AVerse001,bf87,arrange_fruits,UR5,100.0000
-3,ambase,AVerse001,cb19,item_classification,UR5,30.0000
+3,ambase,AVerse001,bf87,arrange_fruits,UR5,70.0000
+3,ambase,AVerse001,cb19,item_classification,UR5,80.0000
 3,ambase,AVerse001,44df,shred_paper,UR5,30.0000
 4,my16,Tymtbo,6dcb,fold_the_clothes,W1,0.0000
 4,my16,Tymtbo,2b13,hold_the_tray_with_both_hands,W1,10.0000
