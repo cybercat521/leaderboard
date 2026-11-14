@@ -18,7 +18,7 @@ RoboChallenge 是原力灵机 Dexmal 与 Hugging Face 联合推出的全球首�
 ## 🏆 榜单
 
 <!-- LEADERBOARD_START -->
-> 更新时间: **2026-11-14 22:12:20 UTC+8**
+> 更新时间: **2026-11-15 03:13:49 UTC+8**
 
 ### RoboChallenge Table30 V2
 
