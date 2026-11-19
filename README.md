@@ -18,7 +18,7 @@ RoboChallenge, jointly launched by Dexmal and Hugging Face, is the world's first
 ## 🏆 Leaderboard
 
 <!-- LEADERBOARD_START -->
-> Last updated: **2026-11-19 21:17:51 UTC+8**
+> Last updated: **2026-11-20 06:11:34 UTC+8**
 
 ### RoboChallenge Table30 V2
 
@@ -26,14 +26,14 @@ RoboChallenge, jointly launched by Dexmal and Hugging Face, is the world's first
 |:----:|-------|------|------:|-------:|
 | 🥇 | LoopWAM | LoopWAM | 56.80 | 43.33 |
 | 🥈 | VLA-DM0.5 | KDDI Research | 54.42 | 40.67 |
-| 🥉 | test-table30-dm05-open | yanghaitao | 53.45 | 39.33 |
+| 🥉 | ambase | AVerse001 | 45.00 | 33.00 |
 | 4 | my16 | Tymtbo | 41.27 | 30.67 |
-| 5 | ambase | AVerse001 | 39.58 | 25.00 |
-| 6 | DWC-M | DWC | 33.98 | 25.00 |
-| 7 | HSI_TEST | Li Zhu | 36.87 | 23.33 |
-| 8 | DWC-A | DWC | 29.80 | 18.00 |
-| 9 | DM05-W1 | hrt | 20.80 | 17.00 |
-| 10 | JV0 | JIIOV | 27.58 | 16.00 |
+| 5 | JV0 | JIIOV | 27.58 | 16.00 |
+| 6 | mc | mcBrains | 23.63 | 15.33 |
+| 7 | MagicBot | MagicBot | 20.82 | 14.67 |
+| 8 | Baseline Model | RoboChallenge | 31.48 | 14.33 |
+| 9 | holobrain | HRL | 27.93 | 14.33 |
+| 10 | test_01 | VLA | 22.73 | 12.33 |
 
 _Showing the top 10 only. [View the full leaderboard](https://robochallenge.cn/leaderboard)._
 

@@ -76,9 +76,9 @@
 <circle cx="324.65" cy="135.87" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>multiview: 100.00%</title></circle>
 <text x="360.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 40.67%</text>
 </g>
-<g><title>test-table30-dm05-open · yanghaitao</title>
-<text x="600.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">3rd  test-table30-dm05-open</text>
-<text x="600.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">yanghaitao</text>
+<g><title>ambase · AVerse001</title>
+<text x="600.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">3rd  ambase</text>
+<text x="600.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">AVerse001</text>
 <polygon points="600.00,164.25 608.84,167.47 613.54,175.61 611.91,184.88 604.70,190.92 595.30,190.92 588.09,184.88 586.46,175.61 591.16,167.47" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="600.00,150.50 617.68,156.93 627.08,173.22 623.82,191.75 609.41,203.84 590.59,203.84 576.18,191.75 572.92,173.22 582.32,156.93" fill="none" stroke="#8b6caf" stroke-width="1" stroke-dasharray="3 3"/>
 <polygon points="600.00,136.75 626.51,146.40 640.62,170.84 635.72,198.62 614.11,216.76 585.89,216.76 564.28,198.62 559.38,170.84 573.49,146.40" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -101,17 +101,17 @@
 <text x="532.05" y="170.02" font-size="10" text-anchor="end" font-weight="400" class="muted">precise3d</text>
 <path d="M 600 178 L 564.65 135.87" stroke="#e1e0d9" fill="none"/>
 <text x="555.65" y="129.14" font-size="10" text-anchor="end" font-weight="400" class="muted">multiview</text>
-<polygon points="600.00,139.50 607.07,169.57 616.25,175.13 614.29,186.25 604.03,189.07 581.19,229.68 576.98,191.29 581.82,174.79 571.72,144.29" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="600.00" cy="139.50" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>classification: 70.00%</title></circle>
-<circle cx="607.07" cy="169.57" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>bimanual: 20.00%</title></circle>
-<circle cx="616.25" cy="175.13" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>temporal: 30.00%</title></circle>
-<circle cx="614.29" cy="186.25" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>softbody: 30.00%</title></circle>
-<circle cx="604.03" cy="189.07" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>manipulation: 21.43%</title></circle>
-<circle cx="581.19" cy="229.68" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>simple-pick: 100.00%</title></circle>
-<circle cx="576.98" cy="191.29" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>repeated: 48.33%</title></circle>
-<circle cx="581.82" cy="174.79" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>precise3d: 33.57%</title></circle>
-<circle cx="571.72" cy="144.29" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>multiview: 80.00%</title></circle>
-<text x="600.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 39.33%</text>
+<polygon points="600.00,156.00 603.54,173.79 620.76,174.34 610.21,183.89 602.55,185.01 586.83,214.18 579.36,189.92 585.30,175.41 575.25,148.51" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="600.00" cy="156.00" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>classification: 40.00%</title></circle>
+<circle cx="603.54" cy="173.79" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>bimanual: 10.00%</title></circle>
+<circle cx="620.76" cy="174.34" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>temporal: 38.33%</title></circle>
+<circle cx="610.21" cy="183.89" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>softbody: 21.43%</title></circle>
+<circle cx="602.55" cy="185.01" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>manipulation: 13.57%</title></circle>
+<circle cx="586.83" cy="214.18" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>simple-pick: 70.00%</title></circle>
+<circle cx="579.36" cy="189.92" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>repeated: 43.33%</title></circle>
+<circle cx="585.30" cy="175.41" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>precise3d: 27.14%</title></circle>
+<circle cx="575.25" cy="148.51" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>multiview: 70.00%</title></circle>
+<text x="600.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 33.00%</text>
 </g>
 <g><title>my16 · Tymtbo</title>
 <text x="840.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#4  my16</text>
@@ -150,9 +150,9 @@
 <circle cx="804.65" cy="135.87" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>multiview: 100.00%</title></circle>
 <text x="840.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 30.67%</text>
 </g>
-<g><title>ambase · AVerse001</title>
-<text x="1080.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#5  ambase</text>
-<text x="1080.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">AVerse001</text>
+<g><title>JV0 · JIIOV</title>
+<text x="1080.00" y="30.00" font-size="18" text-anchor="middle" font-weight="650" class="">#5  JV0</text>
+<text x="1080.00" y="52.00" font-size="12" text-anchor="middle" font-weight="400" class="muted">JIIOV</text>
 <polygon points="1080.00,164.25 1088.84,167.47 1093.54,175.61 1091.91,184.88 1084.70,190.92 1075.30,190.92 1068.09,184.88 1066.46,175.61 1071.16,167.47" fill="none" stroke="#e1e0d9" stroke-width="1"/>
 <polygon points="1080.00,150.50 1097.68,156.93 1107.08,173.22 1103.82,191.75 1089.41,203.84 1070.59,203.84 1056.18,191.75 1052.92,173.22 1062.32,156.93" fill="none" stroke="#8b6caf" stroke-width="1" stroke-dasharray="3 3"/>
 <polygon points="1080.00,136.75 1106.51,146.40 1120.62,170.84 1115.72,198.62 1094.11,216.76 1065.89,216.76 1044.28,198.62 1039.38,170.84 1053.49,146.40" fill="none" stroke="#e1e0d9" stroke-width="1"/>
@@ -175,16 +175,16 @@
 <text x="1012.05" y="170.02" font-size="10" text-anchor="end" font-weight="400" class="muted">precise3d</text>
 <path d="M 1080 178 L 1044.65 135.87" stroke="#e1e0d9" fill="none"/>
 <text x="1035.65" y="129.14" font-size="10" text-anchor="end" font-weight="400" class="muted">multiview</text>
-<polygon points="1080.00,156.00 1082.99,174.43 1087.22,176.73 1088.85,183.11 1082.28,184.28 1066.83,214.18 1064.52,186.94 1068.39,175.95 1051.72,144.29" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="1080.00" cy="156.00" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>classification: 40.00%</title></circle>
-<circle cx="1082.99" cy="174.43" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>bimanual: 8.46%</title></circle>
-<circle cx="1087.22" cy="176.73" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>temporal: 13.33%</title></circle>
-<circle cx="1088.85" cy="183.11" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>softbody: 18.57%</title></circle>
-<circle cx="1082.28" cy="184.28" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>manipulation: 12.14%</title></circle>
+<polygon points="1080.00,161.50 1081.36,176.38 1085.42,177.04 1080.68,178.39 1081.88,183.17 1066.83,214.18 1067.70,185.10 1070.33,176.29 1051.72,144.29" fill="#2a78d6" fill-opacity="0.10" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1080.00" cy="161.50" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>classification: 30.00%</title></circle>
+<circle cx="1081.36" cy="176.38" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>bimanual: 3.85%</title></circle>
+<circle cx="1085.42" cy="177.04" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>temporal: 10.00%</title></circle>
+<circle cx="1080.68" cy="178.39" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>softbody: 1.43%</title></circle>
+<circle cx="1081.88" cy="183.17" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>manipulation: 10.00%</title></circle>
 <circle cx="1066.83" cy="214.18" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>simple-pick: 70.00%</title></circle>
-<circle cx="1064.52" cy="186.94" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>repeated: 32.50%</title></circle>
-<circle cx="1068.39" cy="175.95" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>precise3d: 21.43%</title></circle>
+<circle cx="1067.70" cy="185.10" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>repeated: 25.83%</title></circle>
+<circle cx="1070.33" cy="176.29" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>precise3d: 17.86%</title></circle>
 <circle cx="1051.72" cy="144.29" r="2" fill="#2a78d6" stroke="#fcfcfb" stroke-width="0.8"><title>multiview: 80.00%</title></circle>
-<text x="1080.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 25.00%</text>
+<text x="1080.00" y="300.00" font-size="15" text-anchor="middle" font-weight="600" class="">SR 16.00%</text>
 </g>
 </svg>
