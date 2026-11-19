@@ -12,17 +12,17 @@
 <text x="472.00" y="26.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">2nd</text>
 <text x="472.00" y="48.00" font-size="12" text-anchor="middle" font-weight="600" class="">VLA-DM0.5</text>
 </g>
-<g><title>ambase · AVerse001</title>
+<g><title>test-table30-dm05-open · yanghaitao</title>
 <text x="580.00" y="26.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">3rd</text>
-<text x="580.00" y="48.00" font-size="12" text-anchor="middle" font-weight="600" class="">ambase</text>
+<text x="580.00" y="48.00" font-size="12" text-anchor="middle" font-weight="600" class="">test-table30-…</text>
 </g>
 <g><title>my16 · Tymtbo</title>
 <text x="688.00" y="26.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#4</text>
 <text x="688.00" y="48.00" font-size="12" text-anchor="middle" font-weight="600" class="">my16</text>
 </g>
-<g><title>JV0 · JIIOV</title>
+<g><title>ambase · AVerse001</title>
 <text x="796.00" y="26.00" font-size="11" text-anchor="middle" font-weight="400" class="muted">#5</text>
-<text x="796.00" y="48.00" font-size="12" text-anchor="middle" font-weight="600" class="">JV0</text>
+<text x="796.00" y="48.00" font-size="12" text-anchor="middle" font-weight="600" class="">ambase</text>
 </g>
 <path d="M 24 62.0 H 850" stroke="#e1e0d9"/>
 <text x="24.00" y="208.00" font-size="12" text-anchor="start" font-weight="600" class="">W1</text>
@@ -34,7 +34,7 @@
 <rect x="419" y="70" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="87" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>fold_the_clothes · ambase: 0.00%</title>
+<g><title>fold_the_clothes · test-table30-dm05-open: 0.00%</title>
 <rect x="527" y="70" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="580.0" y="87" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
@@ -42,7 +42,7 @@
 <rect x="635" y="70" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="688.0" y="87" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>fold_the_clothes · JV0: 0.00%</title>
+<g><title>fold_the_clothes · ambase: 0.00%</title>
 <rect x="743" y="70" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="796.0" y="87" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
@@ -55,17 +55,17 @@
 <rect x="419" y="97" width="106" height="25" rx="3" fill="#94bff1"/>
 <text x="472.0" y="114" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
-<g><title>hold_the_tray_with_both_hands · ambase: 20.00%</title>
-<rect x="527" y="97" width="106" height="25" rx="3" fill="#94bff1"/>
-<text x="580.0" y="114" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
+<g><title>hold_the_tray_with_both_hands · test-table30-dm05-open: 50.00%</title>
+<rect x="527" y="97" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="580.0" y="114" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
 <g><title>hold_the_tray_with_both_hands · my16: 10.00%</title>
 <rect x="635" y="97" width="106" height="25" rx="3" fill="#b1d0f6"/>
 <text x="688.0" y="114" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
 </g>
-<g><title>hold_the_tray_with_both_hands · JV0: 0.00%</title>
-<rect x="743" y="97" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="796.0" y="114" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>hold_the_tray_with_both_hands · ambase: 20.00%</title>
+<rect x="743" y="97" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="796.0" y="114" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
 <text x="94.00" y="141.00" font-size="12" text-anchor="start" font-weight="400" class="">Fill desk drawer</text>
 <g><title>place_objects_into_desk_drawer · LoopWAM: 80.00%</title>
@@ -76,17 +76,17 @@
 <rect x="419" y="124" width="106" height="25" rx="3" fill="#134585"/>
 <text x="472.0" y="141" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
-<g><title>place_objects_into_desk_drawer · ambase: 50.00%</title>
-<rect x="527" y="124" width="106" height="25" rx="3" fill="#3987e5"/>
-<text x="580.0" y="141" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
+<g><title>place_objects_into_desk_drawer · test-table30-dm05-open: 70.00%</title>
+<rect x="527" y="124" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="580.0" y="141" font-size="12" text-anchor="middle" style="fill:#ffffff">70%</text>
 </g>
 <g><title>place_objects_into_desk_drawer · my16: 90.00%</title>
 <rect x="635" y="124" width="106" height="25" rx="3" fill="#134585"/>
 <text x="688.0" y="141" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
-<g><title>place_objects_into_desk_drawer · JV0: 60.00%</title>
-<rect x="743" y="124" width="106" height="25" rx="3" fill="#2d76ce"/>
-<text x="796.0" y="141" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
+<g><title>place_objects_into_desk_drawer · ambase: 50.00%</title>
+<rect x="743" y="124" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="796.0" y="141" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
 <text x="94.00" y="168.00" font-size="12" text-anchor="start" font-weight="400" class="">Fill pen holder</text>
 <g><title>put_in_pen_container · LoopWAM: 40.00%</title>
@@ -97,17 +97,17 @@
 <rect x="419" y="151" width="106" height="25" rx="3" fill="#2d76ce"/>
 <text x="472.0" y="168" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
-<g><title>put_in_pen_container · ambase: 30.00%</title>
-<rect x="527" y="151" width="106" height="25" rx="3" fill="#77aded"/>
-<text x="580.0" y="168" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
+<g><title>put_in_pen_container · test-table30-dm05-open: 50.00%</title>
+<rect x="527" y="151" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="580.0" y="168" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
 <g><title>put_in_pen_container · my16: 40.00%</title>
 <rect x="635" y="151" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="688.0" y="168" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
-<g><title>put_in_pen_container · JV0: 0.00%</title>
-<rect x="743" y="151" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="796.0" y="168" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>put_in_pen_container · ambase: 30.00%</title>
+<rect x="743" y="151" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="796.0" y="168" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
 <text x="94.00" y="195.00" font-size="12" text-anchor="start" font-weight="400" class="">Put shoes back</text>
 <g><title>put_the_shoes_back · LoopWAM: 60.00%</title>
@@ -118,15 +118,16 @@
 <rect x="419" y="178" width="106" height="25" rx="3" fill="#3987e5"/>
 <text x="472.0" y="195" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
-<g><title>put_the_shoes_back · ambase: 60.00%</title>
+<g><title>put_the_shoes_back · test-table30-dm05-open: 60.00%</title>
 <rect x="527" y="178" width="106" height="25" rx="3" fill="#2d76ce"/>
 <text x="580.0" y="195" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
 <g><title>put_the_shoes_back · my16: not evaluated</title>
 <rect x="635" y="178" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>put_the_shoes_back · JV0: not evaluated</title>
-<rect x="743" y="178" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>put_the_shoes_back · ambase: 60.00%</title>
+<rect x="743" y="178" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="796.0" y="195" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
 <text x="94.00" y="222.00" font-size="12" text-anchor="start" font-weight="400" class="">Stack bowls</text>
 <g><title>stack_bowls · LoopWAM: 80.00%</title>
@@ -137,17 +138,17 @@
 <rect x="419" y="205" width="106" height="25" rx="3" fill="#134585"/>
 <text x="472.0" y="222" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
-<g><title>stack_bowls · ambase: 90.00%</title>
-<rect x="527" y="205" width="106" height="25" rx="3" fill="#134585"/>
-<text x="580.0" y="222" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
+<g><title>stack_bowls · test-table30-dm05-open: 80.00%</title>
+<rect x="527" y="205" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="580.0" y="222" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
 <g><title>stack_bowls · my16: 100.00%</title>
 <rect x="635" y="205" width="106" height="25" rx="3" fill="#0d366b"/>
 <text x="688.0" y="222" font-size="12" text-anchor="middle" style="fill:#ffffff">100%</text>
 </g>
-<g><title>stack_bowls · JV0: 100.00%</title>
-<rect x="743" y="205" width="106" height="25" rx="3" fill="#0d366b"/>
-<text x="796.0" y="222" font-size="12" text-anchor="middle" style="fill:#ffffff">100%</text>
+<g><title>stack_bowls · ambase: 30.00%</title>
+<rect x="743" y="205" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="796.0" y="222" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
 <text x="94.00" y="249.00" font-size="12" text-anchor="start" font-weight="400" class="">Sweep trash</text>
 <g><title>sweep_the_trash · LoopWAM: 60.00%</title>
@@ -158,15 +159,16 @@
 <rect x="419" y="232" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="472.0" y="249" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
-<g><title>sweep_the_trash · ambase: 30.00%</title>
-<rect x="527" y="232" width="106" height="25" rx="3" fill="#77aded"/>
-<text x="580.0" y="249" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
+<g><title>sweep_the_trash · test-table30-dm05-open: 40.00%</title>
+<rect x="527" y="232" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="580.0" y="249" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
 <g><title>sweep_the_trash · my16: not evaluated</title>
 <rect x="635" y="232" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>sweep_the_trash · JV0: not evaluated</title>
-<rect x="743" y="232" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>sweep_the_trash · ambase: 30.00%</title>
+<rect x="743" y="232" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="796.0" y="249" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
 <text x="94.00" y="276.00" font-size="12" text-anchor="start" font-weight="400" class="">Tidy makeup table</text>
 <g><title>tidy_up_the_makeup_table · LoopWAM: 40.00%</title>
@@ -177,15 +179,15 @@
 <rect x="419" y="259" width="106" height="25" rx="3" fill="#3987e5"/>
 <text x="472.0" y="276" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
-<g><title>tidy_up_the_makeup_table · ambase: 0.00%</title>
-<rect x="527" y="259" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="580.0" y="276" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>tidy_up_the_makeup_table · test-table30-dm05-open: 50.00%</title>
+<rect x="527" y="259" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="580.0" y="276" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
 <g><title>tidy_up_the_makeup_table · my16: 30.00%</title>
 <rect x="635" y="259" width="106" height="25" rx="3" fill="#77aded"/>
 <text x="688.0" y="276" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
-<g><title>tidy_up_the_makeup_table · JV0: 0.00%</title>
+<g><title>tidy_up_the_makeup_table · ambase: 0.00%</title>
 <rect x="743" y="259" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="796.0" y="276" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
@@ -198,15 +200,16 @@
 <rect x="419" y="286" width="106" height="25" rx="3" fill="#94bff1"/>
 <text x="472.0" y="303" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
-<g><title>tie_a_knot · ambase: 20.00%</title>
-<rect x="527" y="286" width="106" height="25" rx="3" fill="#94bff1"/>
-<text x="580.0" y="303" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
+<g><title>tie_a_knot · test-table30-dm05-open: 60.00%</title>
+<rect x="527" y="286" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="580.0" y="303" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
 <g><title>tie_a_knot · my16: not evaluated</title>
 <rect x="635" y="286" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>tie_a_knot · JV0: not evaluated</title>
-<rect x="743" y="286" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>tie_a_knot · ambase: 20.00%</title>
+<rect x="743" y="286" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="796.0" y="303" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
 <text x="94.00" y="330.00" font-size="12" text-anchor="start" font-weight="400" class="">Untie shoelaces</text>
 <g><title>untie_the_shoelaces · LoopWAM: not evaluated</title>
@@ -216,15 +219,16 @@
 <rect x="419" y="313" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="330" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>untie_the_shoelaces · ambase: 0.00%</title>
+<g><title>untie_the_shoelaces · test-table30-dm05-open: 0.00%</title>
 <rect x="527" y="313" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="580.0" y="330" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <g><title>untie_the_shoelaces · my16: not evaluated</title>
 <rect x="635" y="313" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>untie_the_shoelaces · JV0: not evaluated</title>
-<rect x="743" y="313" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>untie_the_shoelaces · ambase: 0.00%</title>
+<rect x="743" y="313" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="796.0" y="330" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <path d="M 24 346.0 H 850" stroke="#e1e0d9"/>
 <text x="24.00" y="492.00" font-size="12" text-anchor="start" font-weight="600" class="">ALOHA</text>
@@ -237,15 +241,16 @@
 <rect x="419" y="354" width="106" height="25" rx="3" fill="#94bff1"/>
 <text x="472.0" y="371" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
-<g><title>lint_roller_remove_dirt · ambase: 40.00%</title>
+<g><title>lint_roller_remove_dirt · test-table30-dm05-open: 40.00%</title>
 <rect x="527" y="354" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="580.0" y="371" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
 <g><title>lint_roller_remove_dirt · my16: not evaluated</title>
 <rect x="635" y="354" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>lint_roller_remove_dirt · JV0: not evaluated</title>
-<rect x="743" y="354" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>lint_roller_remove_dirt · ambase: 20.00%</title>
+<rect x="743" y="354" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="796.0" y="371" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
 <text x="94.00" y="398.00" font-size="12" text-anchor="start" font-weight="400" class="">Pack items</text>
 <g><title>pack_the_items · LoopWAM: not evaluated</title>
@@ -255,15 +260,16 @@
 <rect x="419" y="381" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="398" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>pack_the_items · ambase: 0.00%</title>
+<g><title>pack_the_items · test-table30-dm05-open: 0.00%</title>
 <rect x="527" y="381" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="580.0" y="398" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <g><title>pack_the_items · my16: not evaluated</title>
 <rect x="635" y="381" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>pack_the_items · JV0: not evaluated</title>
-<rect x="743" y="381" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>pack_the_items · ambase: 0.00%</title>
+<rect x="743" y="381" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="796.0" y="398" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <text x="94.00" y="425.00" font-size="12" text-anchor="start" font-weight="400" class="">Pack toothbrush holder</text>
 <g><title>pack_the_toothbrush_holder · LoopWAM: not evaluated</title>
@@ -273,15 +279,16 @@
 <rect x="419" y="408" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="425" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>pack_the_toothbrush_holder · ambase: 0.00%</title>
+<g><title>pack_the_toothbrush_holder · test-table30-dm05-open: 0.00%</title>
 <rect x="527" y="408" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="580.0" y="425" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <g><title>pack_the_toothbrush_holder · my16: not evaluated</title>
 <rect x="635" y="408" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>pack_the_toothbrush_holder · JV0: not evaluated</title>
-<rect x="743" y="408" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>pack_the_toothbrush_holder · ambase: 0.00%</title>
+<rect x="743" y="408" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="796.0" y="425" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <text x="94.00" y="452.00" font-size="12" text-anchor="start" font-weight="400" class="">Spread jam</text>
 <g><title>paint_jam · LoopWAM: 20.00%</title>
@@ -292,13 +299,13 @@
 <rect x="419" y="435" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="452" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>paint_jam · ambase: not evaluated</title>
+<g><title>paint_jam · test-table30-dm05-open: not evaluated</title>
 <rect x="527" y="435" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
 <g><title>paint_jam · my16: not evaluated</title>
 <rect x="635" y="435" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>paint_jam · JV0: not evaluated</title>
+<g><title>paint_jam · ambase: not evaluated</title>
 <rect x="743" y="435" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
 <text x="94.00" y="479.00" font-size="12" text-anchor="start" font-weight="400" class="">Put books back</text>
@@ -310,15 +317,15 @@
 <rect x="419" y="462" width="106" height="25" rx="3" fill="#94bff1"/>
 <text x="472.0" y="479" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
-<g><title>put_the_books_back · ambase: 0.00%</title>
-<rect x="527" y="462" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="580.0" y="479" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>put_the_books_back · test-table30-dm05-open: 20.00%</title>
+<rect x="527" y="462" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="580.0" y="479" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
 <g><title>put_the_books_back · my16: 60.00%</title>
 <rect x="635" y="462" width="106" height="25" rx="3" fill="#2d76ce"/>
 <text x="688.0" y="479" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
-<g><title>put_the_books_back · JV0: 0.00%</title>
+<g><title>put_the_books_back · ambase: 0.00%</title>
 <rect x="743" y="462" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="796.0" y="479" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
@@ -330,15 +337,16 @@
 <rect x="419" y="489" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="506" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>put_the_pencil_case_into_the_schoolbag · ambase: 0.00%</title>
+<g><title>put_the_pencil_case_into_the_schoolbag · test-table30-dm05-open: 0.00%</title>
 <rect x="527" y="489" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="580.0" y="506" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <g><title>put_the_pencil_case_into_the_schoolbag · my16: not evaluated</title>
 <rect x="635" y="489" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>put_the_pencil_case_into_the_schoolbag · JV0: not evaluated</title>
-<rect x="743" y="489" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>put_the_pencil_case_into_the_schoolbag · ambase: 0.00%</title>
+<rect x="743" y="489" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="796.0" y="506" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <text x="94.00" y="533.00" font-size="12" text-anchor="start" font-weight="400" class="">Scoop with spoon</text>
 <g><title>scoop_with_a_small_spoon · LoopWAM: 90.00%</title>
@@ -349,17 +357,17 @@
 <rect x="419" y="516" width="106" height="25" rx="3" fill="#2d76ce"/>
 <text x="472.0" y="533" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
-<g><title>scoop_with_a_small_spoon · ambase: 10.00%</title>
-<rect x="527" y="516" width="106" height="25" rx="3" fill="#b1d0f6"/>
-<text x="580.0" y="533" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
+<g><title>scoop_with_a_small_spoon · test-table30-dm05-open: 50.00%</title>
+<rect x="527" y="516" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="580.0" y="533" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
 <g><title>scoop_with_a_small_spoon · my16: 40.00%</title>
 <rect x="635" y="516" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="688.0" y="533" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
-<g><title>scoop_with_a_small_spoon · JV0: 30.00%</title>
-<rect x="743" y="516" width="106" height="25" rx="3" fill="#77aded"/>
-<text x="796.0" y="533" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
+<g><title>scoop_with_a_small_spoon · ambase: 10.00%</title>
+<rect x="743" y="516" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="796.0" y="533" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
 </g>
 <text x="94.00" y="560.00" font-size="12" text-anchor="start" font-weight="400" class="">Position a stamp</text>
 <g><title>stamp_positioning · LoopWAM: 20.00%</title>
@@ -370,17 +378,16 @@
 <rect x="419" y="543" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="472.0" y="560" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
-<g><title>stamp_positioning · ambase: 0.00%</title>
-<rect x="527" y="543" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="580.0" y="560" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>stamp_positioning · test-table30-dm05-open: not evaluated</title>
+<rect x="527" y="543" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
 <g><title>stamp_positioning · my16: 20.00%</title>
 <rect x="635" y="543" width="106" height="25" rx="3" fill="#94bff1"/>
 <text x="688.0" y="560" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
-<g><title>stamp_positioning · JV0: 10.00%</title>
-<rect x="743" y="543" width="106" height="25" rx="3" fill="#b1d0f6"/>
-<text x="796.0" y="560" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
+<g><title>stamp_positioning · ambase: 0.00%</title>
+<rect x="743" y="543" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="796.0" y="560" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <text x="94.00" y="587.00" font-size="12" text-anchor="start" font-weight="400" class="">Wipe blackboard</text>
 <g><title>wipe_the_blackboard · LoopWAM: 20.00%</title>
@@ -391,7 +398,7 @@
 <rect x="419" y="570" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="587" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>wipe_the_blackboard · ambase: 0.00%</title>
+<g><title>wipe_the_blackboard · test-table30-dm05-open: 0.00%</title>
 <rect x="527" y="570" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="580.0" y="587" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
@@ -399,9 +406,9 @@
 <rect x="635" y="570" width="106" height="25" rx="3" fill="#b1d0f6"/>
 <text x="688.0" y="587" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
 </g>
-<g><title>wipe_the_blackboard · JV0: 10.00%</title>
-<rect x="743" y="570" width="106" height="25" rx="3" fill="#b1d0f6"/>
-<text x="796.0" y="587" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
+<g><title>wipe_the_blackboard · ambase: 0.00%</title>
+<rect x="743" y="570" width="106" height="25" rx="3" fill="#cde2fb"/>
+<text x="796.0" y="587" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
 <text x="94.00" y="614.00" font-size="12" text-anchor="start" font-weight="400" class="">Wrap with cloth</text>
 <g><title>wrap_with_a_soft_cloth · LoopWAM: 40.00%</title>
@@ -412,15 +419,16 @@
 <rect x="419" y="597" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="472.0" y="614" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
-<g><title>wrap_with_a_soft_cloth · ambase: 10.00%</title>
-<rect x="527" y="597" width="106" height="25" rx="3" fill="#b1d0f6"/>
-<text x="580.0" y="614" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
+<g><title>wrap_with_a_soft_cloth · test-table30-dm05-open: 20.00%</title>
+<rect x="527" y="597" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="580.0" y="614" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
 <g><title>wrap_with_a_soft_cloth · my16: not evaluated</title>
 <rect x="635" y="597" width="106" height="25" rx="3" fill="#fcfcfb"/>
 </g>
-<g><title>wrap_with_a_soft_cloth · JV0: not evaluated</title>
-<rect x="743" y="597" width="106" height="25" rx="3" fill="#fcfcfb"/>
+<g><title>wrap_with_a_soft_cloth · ambase: 10.00%</title>
+<rect x="743" y="597" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="796.0" y="614" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
 </g>
 <path d="M 24 630.0 H 850" stroke="#e1e0d9"/>
 <text x="24.00" y="735.50" font-size="12" text-anchor="start" font-weight="600" class="">ARX5</text>
@@ -433,17 +441,17 @@
 <rect x="419" y="638" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="472.0" y="655" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>arrange_flowers · ambase: 30.00%</title>
-<rect x="527" y="638" width="106" height="25" rx="3" fill="#77aded"/>
-<text x="580.0" y="655" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
+<g><title>arrange_flowers · test-table30-dm05-open: 10.00%</title>
+<rect x="527" y="638" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="580.0" y="655" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
 </g>
 <g><title>arrange_flowers · my16: 10.00%</title>
 <rect x="635" y="638" width="106" height="25" rx="3" fill="#b1d0f6"/>
 <text x="688.0" y="655" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
 </g>
-<g><title>arrange_flowers · JV0: 0.00%</title>
-<rect x="743" y="638" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="796.0" y="655" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>arrange_flowers · ambase: 10.00%</title>
+<rect x="743" y="638" width="106" height="25" rx="3" fill="#b1d0f6"/>
+<text x="796.0" y="655" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
 </g>
 <text x="94.00" y="682.00" font-size="12" text-anchor="start" font-weight="400" class="">Hang a cup</text>
 <g><title>hang_the_cup · LoopWAM: 60.00%</title>
@@ -454,7 +462,7 @@
 <rect x="419" y="665" width="106" height="25" rx="3" fill="#19549e"/>
 <text x="472.0" y="682" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
-<g><title>hang_the_cup · ambase: 90.00%</title>
+<g><title>hang_the_cup · test-table30-dm05-open: 90.00%</title>
 <rect x="527" y="665" width="106" height="25" rx="3" fill="#134585"/>
 <text x="580.0" y="682" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
@@ -462,9 +470,9 @@
 <rect x="635" y="665" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="688.0" y="682" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
-<g><title>hang_the_cup · JV0: 20.00%</title>
-<rect x="743" y="665" width="106" height="25" rx="3" fill="#94bff1"/>
-<text x="796.0" y="682" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
+<g><title>hang_the_cup · ambase: 90.00%</title>
+<rect x="743" y="665" width="106" height="25" rx="3" fill="#134585"/>
+<text x="796.0" y="682" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
 <text x="94.00" y="709.00" font-size="12" text-anchor="start" font-weight="400" class="">Pick green blocks</text>
 <g><title>pick_out_the_green_blocks · LoopWAM: 100.00%</title>
@@ -475,15 +483,15 @@
 <rect x="419" y="692" width="106" height="25" rx="3" fill="#0d366b"/>
 <text x="472.0" y="709" font-size="12" text-anchor="middle" style="fill:#ffffff">100%</text>
 </g>
-<g><title>pick_out_the_green_blocks · ambase: 70.00%</title>
-<rect x="527" y="692" width="106" height="25" rx="3" fill="#2265b7"/>
-<text x="580.0" y="709" font-size="12" text-anchor="middle" style="fill:#ffffff">70%</text>
+<g><title>pick_out_the_green_blocks · test-table30-dm05-open: 80.00%</title>
+<rect x="527" y="692" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="580.0" y="709" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
 <g><title>pick_out_the_green_blocks · my16: 100.00%</title>
 <rect x="635" y="692" width="106" height="25" rx="3" fill="#0d366b"/>
 <text x="688.0" y="709" font-size="12" text-anchor="middle" style="fill:#ffffff">100%</text>
 </g>
-<g><title>pick_out_the_green_blocks · JV0: 80.00%</title>
+<g><title>pick_out_the_green_blocks · ambase: 80.00%</title>
 <rect x="743" y="692" width="106" height="25" rx="3" fill="#19549e"/>
 <text x="796.0" y="709" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
@@ -496,17 +504,17 @@
 <rect x="419" y="719" width="106" height="25" rx="3" fill="#2d76ce"/>
 <text x="472.0" y="736" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
-<g><title>press_the_button · ambase: 90.00%</title>
-<rect x="527" y="719" width="106" height="25" rx="3" fill="#134585"/>
-<text x="580.0" y="736" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
+<g><title>press_the_button · test-table30-dm05-open: 40.00%</title>
+<rect x="527" y="719" width="106" height="25" rx="3" fill="#589ae9"/>
+<text x="580.0" y="736" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
 <g><title>press_the_button · my16: 70.00%</title>
 <rect x="635" y="719" width="106" height="25" rx="3" fill="#2265b7"/>
 <text x="688.0" y="736" font-size="12" text-anchor="middle" style="fill:#ffffff">70%</text>
 </g>
-<g><title>press_the_button · JV0: 0.00%</title>
-<rect x="743" y="719" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="796.0" y="736" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>press_the_button · ambase: 30.00%</title>
+<rect x="743" y="719" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="796.0" y="736" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
 <text x="94.00" y="763.00" font-size="12" text-anchor="start" font-weight="400" class="">Turn on light</text>
 <g><title>turn_on_the_light_switch · LoopWAM: 30.00%</title>
@@ -517,15 +525,15 @@
 <rect x="419" y="746" width="106" height="25" rx="3" fill="#94bff1"/>
 <text x="472.0" y="763" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
-<g><title>turn_on_the_light_switch · ambase: 30.00%</title>
-<rect x="527" y="746" width="106" height="25" rx="3" fill="#77aded"/>
-<text x="580.0" y="763" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
+<g><title>turn_on_the_light_switch · test-table30-dm05-open: 20.00%</title>
+<rect x="527" y="746" width="106" height="25" rx="3" fill="#94bff1"/>
+<text x="580.0" y="763" font-size="12" text-anchor="middle" style="fill:#000000">20%</text>
 </g>
 <g><title>turn_on_the_light_switch · my16: 50.00%</title>
 <rect x="635" y="746" width="106" height="25" rx="3" fill="#3987e5"/>
 <text x="688.0" y="763" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
-<g><title>turn_on_the_light_switch · JV0: 30.00%</title>
+<g><title>turn_on_the_light_switch · ambase: 30.00%</title>
 <rect x="743" y="746" width="106" height="25" rx="3" fill="#77aded"/>
 <text x="796.0" y="763" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
@@ -538,15 +546,15 @@
 <rect x="419" y="773" width="106" height="25" rx="3" fill="#134585"/>
 <text x="472.0" y="790" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
-<g><title>water_the_flowers · ambase: 90.00%</title>
-<rect x="527" y="773" width="106" height="25" rx="3" fill="#134585"/>
-<text x="580.0" y="790" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
+<g><title>water_the_flowers · test-table30-dm05-open: 70.00%</title>
+<rect x="527" y="773" width="106" height="25" rx="3" fill="#2265b7"/>
+<text x="580.0" y="790" font-size="12" text-anchor="middle" style="fill:#ffffff">70%</text>
 </g>
 <g><title>water_the_flowers · my16: 30.00%</title>
 <rect x="635" y="773" width="106" height="25" rx="3" fill="#77aded"/>
 <text x="688.0" y="790" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
-<g><title>water_the_flowers · JV0: 0.00%</title>
+<g><title>water_the_flowers · ambase: 0.00%</title>
 <rect x="743" y="773" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="796.0" y="790" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
@@ -559,17 +567,17 @@
 <rect x="419" y="800" width="106" height="25" rx="3" fill="#2d76ce"/>
 <text x="472.0" y="817" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
-<g><title>wipe_the_table · ambase: 50.00%</title>
-<rect x="527" y="800" width="106" height="25" rx="3" fill="#3987e5"/>
-<text x="580.0" y="817" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
+<g><title>wipe_the_table · test-table30-dm05-open: 60.00%</title>
+<rect x="527" y="800" width="106" height="25" rx="3" fill="#2d76ce"/>
+<text x="580.0" y="817" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
 <g><title>wipe_the_table · my16: 80.00%</title>
 <rect x="635" y="800" width="106" height="25" rx="3" fill="#19549e"/>
 <text x="688.0" y="817" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
-<g><title>wipe_the_table · JV0: 10.00%</title>
-<rect x="743" y="800" width="106" height="25" rx="3" fill="#b1d0f6"/>
-<text x="796.0" y="817" font-size="12" text-anchor="middle" style="fill:#000000">10%</text>
+<g><title>wipe_the_table · ambase: 50.00%</title>
+<rect x="743" y="800" width="106" height="25" rx="3" fill="#3987e5"/>
+<text x="796.0" y="817" font-size="12" text-anchor="middle" style="fill:#000000">50%</text>
 </g>
 <path d="M 24 833.0 H 850" stroke="#e1e0d9"/>
 <text x="24.00" y="884.50" font-size="12" text-anchor="start" font-weight="600" class="">UR5</text>
@@ -582,15 +590,15 @@
 <rect x="419" y="841" width="106" height="25" rx="3" fill="#134585"/>
 <text x="472.0" y="858" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
-<g><title>arrange_fruits · ambase: 70.00%</title>
-<rect x="527" y="841" width="106" height="25" rx="3" fill="#2265b7"/>
-<text x="580.0" y="858" font-size="12" text-anchor="middle" style="fill:#ffffff">70%</text>
+<g><title>arrange_fruits · test-table30-dm05-open: 100.00%</title>
+<rect x="527" y="841" width="106" height="25" rx="3" fill="#0d366b"/>
+<text x="580.0" y="858" font-size="12" text-anchor="middle" style="fill:#ffffff">100%</text>
 </g>
 <g><title>arrange_fruits · my16: 80.00%</title>
 <rect x="635" y="841" width="106" height="25" rx="3" fill="#19549e"/>
 <text x="688.0" y="858" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
-<g><title>arrange_fruits · JV0: 70.00%</title>
+<g><title>arrange_fruits · ambase: 70.00%</title>
 <rect x="743" y="841" width="106" height="25" rx="3" fill="#2265b7"/>
 <text x="796.0" y="858" font-size="12" text-anchor="middle" style="fill:#ffffff">70%</text>
 </g>
@@ -603,17 +611,17 @@
 <rect x="419" y="868" width="106" height="25" rx="3" fill="#19549e"/>
 <text x="472.0" y="885" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
-<g><title>item_classification · ambase: 80.00%</title>
-<rect x="527" y="868" width="106" height="25" rx="3" fill="#19549e"/>
-<text x="580.0" y="885" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
+<g><title>item_classification · test-table30-dm05-open: 90.00%</title>
+<rect x="527" y="868" width="106" height="25" rx="3" fill="#134585"/>
+<text x="580.0" y="885" font-size="12" text-anchor="middle" style="fill:#ffffff">90%</text>
 </g>
 <g><title>item_classification · my16: 60.00%</title>
 <rect x="635" y="868" width="106" height="25" rx="3" fill="#2d76ce"/>
 <text x="688.0" y="885" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
 </g>
-<g><title>item_classification · JV0: 60.00%</title>
-<rect x="743" y="868" width="106" height="25" rx="3" fill="#2d76ce"/>
-<text x="796.0" y="885" font-size="12" text-anchor="middle" style="fill:#000000">60%</text>
+<g><title>item_classification · ambase: 80.00%</title>
+<rect x="743" y="868" width="106" height="25" rx="3" fill="#19549e"/>
+<text x="796.0" y="885" font-size="12" text-anchor="middle" style="fill:#ffffff">80%</text>
 </g>
 <text x="94.00" y="912.00" font-size="12" text-anchor="start" font-weight="400" class="">Shred paper</text>
 <g><title>shred_paper · LoopWAM: 30.00%</title>
@@ -624,7 +632,7 @@
 <rect x="419" y="895" width="106" height="25" rx="3" fill="#589ae9"/>
 <text x="472.0" y="912" font-size="12" text-anchor="middle" style="fill:#000000">40%</text>
 </g>
-<g><title>shred_paper · ambase: 30.00%</title>
+<g><title>shred_paper · test-table30-dm05-open: 30.00%</title>
 <rect x="527" y="895" width="106" height="25" rx="3" fill="#77aded"/>
 <text x="580.0" y="912" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
@@ -632,8 +640,8 @@
 <rect x="635" y="895" width="106" height="25" rx="3" fill="#cde2fb"/>
 <text x="688.0" y="912" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
 </g>
-<g><title>shred_paper · JV0: 0.00%</title>
-<rect x="743" y="895" width="106" height="25" rx="3" fill="#cde2fb"/>
-<text x="796.0" y="912" font-size="12" text-anchor="middle" style="fill:#000000">0%</text>
+<g><title>shred_paper · ambase: 30.00%</title>
+<rect x="743" y="895" width="106" height="25" rx="3" fill="#77aded"/>
+<text x="796.0" y="912" font-size="12" text-anchor="middle" style="fill:#000000">30%</text>
 </g>
 </svg>
